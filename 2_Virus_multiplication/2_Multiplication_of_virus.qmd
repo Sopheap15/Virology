@@ -1,0 +1,255 @@
+---
+title: "Multiplication of Virus"
+format:
+  revealjs
+---
+
+## Objectives
+
+By the end of this session, students will be able to:
+
+- Explain the one-step viral growth curve
+- Summarize infection outcomes (abortive, persistent, latent, lytic)
+- List and briefly describe the steps of animal virus multiplication
+- State where viral proteins are synthesized
+- Describe reverse transcriptase function and replication
+- Explain how enveloped and non-enveloped viruses are released
+
+
+##
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alvc2s92pgi3bz53bww5y8n8v83nn8sy/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+
+## Introduction
+- Host cells supply energy, substrates, and machinery for viral protein synthesis and genome replication
+- **[6-step replication cycle]{.highlight}**: attachment, penetration (entry), uncoating, expression and genome replication (transcription/translation), assembly (maturation), release
+- Each step is a potential **[antiviral target]{.highlight}** (e.g., neuraminidase inhibitors block influenza release)
+- Host **[susceptibility]{.highlight}** and **[permissiveness]{.highlight}** determine tissue tropism and infection outcome
+
+## Introduction (cont.)
+![](images/image1.png){fig-alt="Viral replication cycle overview" width="100%" style="display: block; margin-left: auto; margin-right: auto;"}
+
+
+## One-Step viral growth curve
+
+- **Key factors**:
+  - Susceptibility: ability of a cell to be infected
+  - Permissiveness: ability of a cell to support viral replication
+- **Host range**: the set of susceptible cells a virus can infect
+- **Replication curve**:
+  - **Eclipse period**: from penetration to biosynthesis, ends with the appearance of new virions after assembly
+  - **Latent period**: from penetration to release, no extracellular virions detected
+
+## One-Step viral growth curve (cont.)
+
+::: {.columns}
+::: {.column width="50%"}
+![](images/image2.png){fig-alt="Growth curve 1" width="90%"} 
+:::
+::: {.column width="50%"}
+![](images/image3.png){fig-alt="Growth curve 2" width="100%" .lightbox}
+:::
+:::
+
+::: {.notes}
+Explain the replication curve and its phases. Highlight the importance of the eclipse and latent periods in understanding viral replication dynamics
+:::
+
+## Infection outcomes
+
+**Abortive infection**: no progeny virus produced due to non-permissive cells or defective virus
+- Example: _Influenza virus_ in mosquito cells
+
+**Persistent productive infection**: virus gently released through exocytosis or budding
+- Example: _Hepatitis C virus_ in hepatocytes
+
+**Latent infection**: viral genome persists without progeny production; can reactivate later
+- Example: _Herpes simplex virus_ (HSV) in neurons
+
+**Lytic infection**: host cell death with progeny virus production
+- Example: _Poliovirus_ in motor neurons
+
+## Infection outcomes (cont.)
+![](images/image4.png){width="100%" style="display: block; margin-left: auto; margin-right: auto;"}
+
+::: {.notes}
+Discuss the different infection outcomes and their implications for disease progression and treatment
+:::
+
+## Animal virus multiplication steps
+
+1. **Attachment**: virus binds to target cell receptors
+2. **Penetration (entry)**: virus enters the cell
+3. **Uncoating**: viral genome is released
+4. **Expression and Replication**: viral genome is transcribed and replicated
+5. **Assembly**: viral components are assembled into new virions
+6. **Release**: virions are released from the host cell
+
+## Animal virus multiplication steps (cont.)
+![](images/image5.png){ width="100%" style="display: block; margin-left: auto; margin-right: auto;"}
+
+
+## Virus multiplication steps
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/fH1zS7hlW54" title="Viral Replication Cycle Animation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px;"></iframe>
+
+
+## Attachment
+
+- **Mechanism** interaction between viral structures and host cell receptors:
+  - **Naked viruses**: use capsid proteins to bind host receptors
+  - **Enveloped viruses**: use glycoprotein spikes to bind host receptors
+- **Examples**:
+  - CD4 T cells → *HIV* (gp120)
+  - CD21 B cells → *Epstein-Barr virus*
+  - Sialic acid → *Influenza virus*
+
+![](images/image6.png){ width=500px .absolute right=100 bottom=50 }
+
+
+## Penetration
+
+:::{.columns}
+::: {.column width="70%"}
+- **Mechanisms**:
+  - **Direct fusion**: viral envelope fuses with the host membrane (e.g., *Herpesviridae*)
+  - **Endocytosis**: virus enters via endosomes (e.g., *Orthomyxoviridae*)
+  - **Bacteriophage injection**: tail fibers is injected into the bacterial cytoplasm
+:::
+::: {.column width="30%"}
+![](images/image11.png){ width=100%}
+:::
+:::
+
+## Uncoating
+
+- Uncoating: destabilizing the capsid and releasing the genome 
+  - **DNA viruses**: genome is delivered to the nucleus (except *Poxviridae*)
+  - **RNA viruses**: genome remains in the cytoplasm/nucleus
+- Example:
+  - *Influenza virus*: low pH in endosome triggers uncoating
+
+
+## Viral protein synthesis
+**DNA viruses**:
+
+- Transcription in the nucleus by host RNA polymerase
+- mRNA transported to cytoplasm for translation
+
+**RNA viruses**:
+
+- (+sense)RNA: directly translated by host ribosomes
+- (-sense)RNA: transcribed to +RNA by viral RNA-dependent RNA polymerase
+- dsRNA: transcribed to mRNA by viral enzymes before translation
+
+**Retroviruses**:
+- Reverse transcribed to DNA by viral reverse transcriptase
+- DNA integrates into host genome for transcription and translation
+
+## Viral protein synthesis (cont.)
+![](images/image_pro.png){fig-alt="Viral protein synthesis pathways" width="100%"}
+
+
+## Assembly
+- **Definition**: the process of assembling structural proteins and incorporating the viral genome into the procapsid
+  - Simple self-assembly: structural proteins spontaneously form the capsid
+  - Proteolytic cleavage or conformational changes finalize the virion structure
+
+
+## Virus release mechanisms
+
+- **Mechanisms**:
+  - **Budding**: enveloped viruses acquire their envelope from host membranes
+  - **Cell lysis**: non-enveloped viruses are released by breaking the host cell
+- **Examples**:
+  - *Adenovirus*: release via cell lysis
+  - *Retrovirus*: budding from the plasma membrane
+
+
+## Virus release mechanisms (cont.)
+![](images/image34.png){ width=100% style="display: block; margin-left: auto; margin-right: auto;"}
+
+
+## Example of reverse transcriptase virus
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/PlSvywlLuNw" title="Reverse Transcriptase Mechanism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></iframe>
+
+::: {.notes}
+This video demonstrates how reverse transcriptase converts viral RNA into DNA, a crucial step in retroviral replication that also serves as an important antiviral drug target.
+:::
+
+
+# Quiz
+
+## What is the significance of the eclipse period in the one-step viral growth curve? {.quiz-question}
+
+- It represents the time when extracellular virions are detected
+- [It represents the time from penetration to biosynthesis, ending with the appearance of new virions]{.correct}
+- It represents the time when the host cell is lysed
+- It represents the time when viral proteins are synthesized
+
+## Which infection outcome involves the persistence of the viral genome without progeny production? {.quiz-question}
+
+- Abortive infection
+- Persistent productive infection
+- Latent infection {.correct}
+- Lytic infection
+
+## What is the primary function of reverse transcriptase in retroviruses? {.quiz-question}
+
+- To synthesize RNA from DNA
+- [To synthesize DNA from RNA]{.correct}
+- To degrade DNA in RNA-DNA hybrids
+- To facilitate viral protein synthesis
+
+## Which mechanism is used by enveloped viruses to acquire their envelope?{.quiz-question}
+
+- Cell lysis
+- [Budding from host membranes]{.correct}
+- Endocytosis
+- Fusion with host DNA
+
+## What is the role of RNA-dependent RNA polymerase in viral RNA synthesis?{.quiz-question}
+
+- It synthesizes DNA from RNA
+- It facilitates protein translation
+- [It replicates viral genomic RNA and transcribes mRNA]{.correct}
+- It binds to cellular proteins for replication
+
+## During which step of viral multiplication does the virus bind to specific host cell receptors? {.quiz-question}
+
+- Penetration
+- [Attachment]{.correct}
+- Uncoating
+- Assembly
+
+## Which type of virus typically delivers its genome directly to the host cell nucleus? {.quiz-question}
+
+- All RNA viruses
+- Retroviruses
+- [DNA viruses (except poxviruses)]{.correct}
+- All enveloped viruses
+
+## What is the main difference between lytic and persistent infections? {.quiz-question}
+
+- Location of replication
+- [Host cell survival and release mechanism]{.correct}
+- Genome type
+- Attachment strategy
+
+# Q & A
+##
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alrxz1rk24tpsux1zhvaqpf59zh264dx/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+## Assignment
+
+Describe the replication cycle of the following viruses:
+
+  - *Smallpox virus*
+  - *Human papillomavirus*
+  - *Rotavirus*
+  - *Adenovirus*
+  - *HIV*
+  - *Coronavirus*
+  - *Rhabdovirus*
+
+## References {.smaller}

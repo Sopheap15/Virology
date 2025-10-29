@@ -1,0 +1,55 @@
+/* TODO: CSS for plugin */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+
+#drawingCanvas {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  z-index: 1000;
+  touch-action: none;
+  pointer-events: none;
+}
+#controlsWrapper {
+  position: fixed;
+  top: 10px; left: 10px;
+  z-index: 1001;
+}
+#controls {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background: #b3b3ff;
+  padding: 5px;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+#controls input, #controls button {
+  width: 40px; height: 40px;
+}
+#toggleControls {
+  background: none; border: none; width: 40px; height: 40px; font-size: 23px;
+}
+#eraserCursor {
+  position: fixed; pointer-events: none;
+  border: 2px solid red; border-radius: 50%;
+  display: none; z-index: 1002;
+}
+
+#bgColorLabel, #penColorLabel, #penTool, #eraserTool, #resetBg, #undo, #clear, #downloadCanvas {
+  cursor: pointer;
+  font-size: 1.4em;
+  padding: 6px;
+  border-radius: 6px;
+  background-color: #ccccff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+#penSize, #eraserSize { accent-color: green; }
+
+#penColorLabel i {
+  transition: color 0.3s;
+}
+

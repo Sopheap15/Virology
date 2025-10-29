@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="1_Virus_structure_and_classification_files/libs/clipboard/clipboard.min.js"></script>
+<script src="1_Virus_structure_and_classification_files/libs/quarto-html/tabby.min.js"></script>
+<script src="1_Virus_structure_and_classification_files/libs/quarto-html/popper.min.js"></script>
+<script src="1_Virus_structure_and_classification_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="1_Virus_structure_and_classification_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="1_Virus_structure_and_classification_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="1_Virus_structure_and_classification_files/libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="1_Virus_structure_and_classification_files/libs/quarto-contrib/roughnotation-0.5.1/rough-notation.iife.js"></script>
+<script src="1_Virus_structure_and_classification_files/libs/quarto-contrib/roughnotation-init-1.0.0/rough.js"></script><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
+
+  <meta name="dcterms.date" content="2025-10-29">
+  <title>Structure and classification of Viruses</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="1_Virus_structure_and_classification_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="1_Virus_structure_and_classification_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="1_Virus_structure_and_classification_files/libs/revealjs/dist/theme/quarto-0fde88a82f0356838740f155f1088782.css">
+  <link rel="stylesheet" href="../styles.css">
+  <link href="1_Virus_structure_and_classification_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="1_Virus_structure_and_classification_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="1_Virus_structure_and_classification_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="1_Virus_structure_and_classification_files/libs/revealjs/plugin/reveal-quiz/quiz.css" rel="stylesheet">
+  <link href="1_Virus_structure_and_classification_files/libs/revealjs/plugin/appearance/appearance.css" rel="stylesheet">
+  <link href="1_Virus_structure_and_classification_files/libs/revealjs/plugin/verticator/verticator.css" rel="stylesheet">
+  <link href="1_Virus_structure_and_classification_files/libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
+  <link href="1_Virus_structure_and_classification_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <!-- Cursor tail extension: inline CSS + JS (red tail) -->
+  <style>
+  /* Cursor tail styles (red) */
+  .ct-overlay{ position:absolute; inset:0; pointer-events:none; z-index:99999; }
+  .ct-dot{ position: absolute; width:12px; height:12px; border-radius:50%; background: rgba(255,50,50,0.95); transform: translate(-50%, -50%); pointer-events:none; mix-blend-mode:normal; will-change:transform,opacity; opacity:0.95; transition: opacity 120ms linear, transform 120ms linear; }
+  @media (hover: none){ .ct-dot{ display:none !important; } }
+  @media (prefers-reduced-motion: reduce){ .ct-dot{ transition:none !important; } }
+  </style>
+
+  <script>
+  // Cursor-tail extension script (red tail). Guarded to avoid duplicates.
+  (function(){
+    if (typeof window === 'undefined') return;
+    if (window.__cursorTailExtensionIncluded) return; window.__cursorTailExtensionIncluded = true;
+    try{
+      if (window.matchMedia && window.matchMedia('(hover: none)').matches) return;
+      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+      function init(){
+        try{
+          var reveal = document.querySelector('.reveal');
+          var container = document.body;
+          var overlay = null;
+          if (reveal){
+            if (getComputedStyle(reveal).position === 'static') reveal.style.position = 'relative';
+            overlay = document.createElement('div'); overlay.className = 'ct-overlay'; reveal.appendChild(overlay); container = overlay;
+          }
+
+          var NUM = 14, dots = [], mouseX=-1000, mouseY=-1000;
+          for(var i=0;i<NUM;i++){
+            var el = document.createElement('div'); el.className = 'ct-dot';
+            var size = Math.max(6, 14 - i*0.6); el.style.width = el.style.height = size + 'px';
+            el.style.opacity = String(1 - i/(NUM+2)); el.style.position = (container===document.body)?'fixed':'absolute';
+            container.appendChild(el); dots.push({el:el,x:mouseX,y:mouseY});
+          }
+
+          window.addEventListener('mousemove', function(e){ mouseX = e.clientX; mouseY = e.clientY; }, {passive:true});
+
+          function animate(){
+            var x=mouseX,y=mouseY;
+            for(var i=0;i<dots.length;i++){
+              var d=dots[i]; var easing=0.18 + (i/(dots.length*6)); d.x += (x-d.x)*easing; d.y += (y-d.y)*easing;
+              var localX = d.x - (container===document.body?0:container.getBoundingClientRect().left);
+              var localY = d.y - (container===document.body?0:container.getBoundingClientRect().top);
+              d.el.style.transform = 'translate3d('+localX+'px,'+localY+'px,0) translate(-50%, -50%)'; x=d.x;y=d.y;
+            }
+            requestAnimationFrame(animate);
+          }
+          requestAnimationFrame(animate);
+        }catch(e){ console.error('cursor-tail extension init error', e); }
+      }
+      if (document.readyState === 'complete' || document.readyState === 'interactive') init(); else document.addEventListener('DOMContentLoaded', init);
+    }catch(e){ console.error('cursor-tail extension error', e); }
+  })();
+  </script>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-color="#2c3e50" data-background-opacity="0.3" class="quarto-title-block center">
+  <h1 class="title">Structure and classification of <span class="animate__slideInDown animate__faster">Viruses</span></h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Sopheap Oeng 
+</div>
+<div class="quarto-title-author-email">
+<a href="mailto:sopheap15@gmail.com">sopheap15@gmail.com</a>
+</div>
+</div>
+</div>
+
+  <p class="date">29 Oct 2025</p>
+</section>
+<section id="objectives" class="slide level2">
+<h2>Objectives</h2>
+<p>After this session, students should be able to:</p>
+<ul>
+<li>Describe the history of the discovery of the virus<br>
+</li>
+<li>Define what a virus is<br>
+</li>
+<li>Define capsomer, capsid, genome, nucleocapsid, and envelope<br>
+</li>
+<li>Differentiate the 3 structural components of viruses<br>
+</li>
+<li>Mention 3 types of capsid symmetry<br>
+</li>
+<li>Describe the nature of the viral envelope<br>
+</li>
+<li>Explain the epidemiological consequences of having an envelope<br>
+</li>
+<li>List the main criteria for classifying viruses</li>
+</ul>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;">
+<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="315" src="https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
+</iframe>
+</div>
+</section>
+<section id="introduction-what-is-a-virus" class="slide level2">
+<h2>Introduction: What is a Virus?</h2>
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/lADC0C_WeH0" title="https://www.youtube.com/embed/lADC0C_WeH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="display:block;margin:0 auto;max-width:100%;">
+</iframe>
+</section>
+<section id="introduction-cont." class="slide level2">
+<h2>Introduction (cont.)</h2>
+<ul>
+<li>Viruses cause a wide range of diseases in humans, animals, and plants</li>
+<li>Many virus: responsible for subclinical or mild infections (e.g, <em>Adenovirus</em>, <em>Rhinovirus</em>)</li>
+<li>Other viruses: cause severe diseases (e.g., <em>HIV</em>, <em>Ebola</em>, <em>SARS-CoV-2</em>)</li>
+</ul>
+</section>
+<section id="virus-vs-cells" class="slide level2">
+<h2>Virus vs Cells</h2>
+
+<img data-src="images/virus_cell.png" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:100.0%" class="r-stretch"></section>
+<section id="discovery-of-viruses" class="slide level2">
+<h2>Discovery of viruses</h2>
+<ul>
+<li>First virus discovered: <strong>Tobacco mosaic virus <br> (1892)</strong> by Ivanovsky</li>
+<li>Beijerinck confirmed the concept of “filterable agents”</li>
+<li>Discovery of bacteriophage and animal viruses followed</li>
+</ul>
+<p><img data-src="images/tabacco_mosaic_virus_infection.jpg" class="absolute" style="top: 5px; right: 5px; width: 200px; height: 200px; "></p>
+<p><img data-src="images/tabacco_mosaic_virus.png"></p>
+</section>
+<section id="discovery-of-viruses-cont." class="slide level2">
+<h2>Discovery of viruses (cont.)</h2>
+<p><img data-src="images/image4.png" class="absolute" style="bottom: 50px; right: 0px; width: 900px; height: auto; "></p>
+<p><img data-src="images/image3.jpeg" class="absolute" style="left: 0px; bottom: 5px; width: 180px; height: auto; "></p>
+</section>
+<section id="definition-of-virus" class="slide level2">
+<h2>Definition of virus</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<ul>
+<li>Intracellular parasites<br>
+</li>
+<li>Contain <strong>either DNA or RNA</strong> (never both)<br>
+</li>
+<li>Unable to reproduce independently — require a host cell<br>
+</li>
+<li>Too small to be seen under a light microscope range from <strong>20-300 nm</strong></li>
+</ul>
+</div><div class="column" style="width:30%;">
+<p><img data-src="images/1200px-Ebola_virus_em.jpg" style="border-radius:10px;;width:50.0%"></p>
+<p><img data-src="images/virus_size.png" style="border-radius:10px;;width:100.0%"></p>
+</div></div>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+
+<img data-src="images/image13.png" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:100.0%" class="r-stretch"></section>
+<section id="general-structure-of-viruses" class="slide level2">
+<h2>General structure of viruses</h2>
+<ul>
+<li><strong>Core (Genome)</strong> — genetic material</li>
+<li><strong>Capsid</strong> — protein coat surrounding the genome</li>
+<li><strong>Envelope (optional)</strong> — lipid membrane derived from host</li>
+</ul>
+
+<img data-src="images/gen_str.jpg" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:100.0%" class="r-stretch"></section>
+<section id="genome" class="slide level2">
+<h2>Genome</h2>
+<ul>
+<li>Made of <strong>DNA or RNA</strong></li>
+<li>May be <strong>single-stranded (ss)</strong> or <strong>double-stranded (ds)</strong><br>
+</li>
+<li>Can be <strong>linear, circular, or segmented</strong></li>
+</ul>
+
+<img data-src="images/virus_genome.png" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="capsomer-capsid" class="slide level2 smaller">
+<h2>Capsomer &amp; Capsid</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Capsomer</strong></p>
+<ul>
+<li>Made of one or more <strong>polypeptides</strong><br>
+</li>
+<li>Combine to form the <strong>capsid</strong></li>
+</ul>
+<p><strong>Capsid</strong></p>
+<ul>
+<li>Protein coat made of capsomers</li>
+<li>Protects the viral genome</li>
+<li>Determines <strong>shape and symmetry</strong> of the virus</li>
+</ul>
+<p><strong>Nucleocapsid</strong></p>
+<ul>
+<li>Combination of <strong>capsid + genome</strong></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/virus_str1.png" style="display:block; margin-left:auto; margin-right:100px; border-radius:10px;;width:80.0%"></p>
+<p><img data-src="images/virus_str.png" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:100.0%"></p>
+</div></div>
+</section>
+<section id="envelope" class="slide level2">
+<h2>Envelope</h2>
+<div class="columns">
+<div class="column" style="width:75%;">
+<ul>
+<li><p><strong>Lipid membrane</strong> derived from host cell -&gt; “hide from immune system”</p></li>
+<li><p>Contains viral glycoproteins (e.g., hemagglutinin, neuraminidase) for attachment and entry</p></li>
+<li><p>Not all viruses have envelopes</p></li>
+<li><p><strong>Enveloped</strong>: e.g., <em>Influenza virus</em>, <em>HIV</em>, <em>Herpes simplex virus (HSV)</em></p></li>
+<li><p><strong>Non-enveloped or Naked</strong>: e.g., <em>Adenovirus</em>, <em>Poliovirus</em></p></li>
+</ul>
+</div><div class="column" style="width:25%;">
+<p><img data-src="images/image11.png" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:100.0%"></p>
+</div></div>
+</section>
+<section id="consequences-of-envelope" class="slide level2">
+<h2>Consequences of Envelope</h2>
+<p><strong>Envelop</strong></p>
+<ul>
+<li><strong>Sensitive to heat, acid, and detergents</strong><br>
+</li>
+<li><strong>Spread by direct contact or droplets (HSV, HIV)</strong><br>
+</li>
+<li>Easily inactivated outside host</li>
+</ul>
+<p><strong>Non-enveloped or naked</strong></p>
+<ul>
+<li>More resistant and stable (e.g., drying, detergents, acid)</li>
+<li>Transmission through fomites (contaminated surfaces) via fecal-oral route</li>
+<li>Can survive longer outside the host. E.g., <em>Adenovirus</em>, <em>Poliovirus</em></li>
+</ul>
+<p><img data-src="images/detergent.jpg" class="absolute" style="top: 25px; right: 10px; width: 150px; height: auto; "></p>
+<p><img data-src="images/detergent_virus.jpg" class="absolute" style="top: 260px; right: 20px; width: 100px; height: auto; "></p>
+</section>
+<section id="e.g-enveloped-vs-non-enveloped-viruses-cont." class="slide level2">
+<h2>E.g Enveloped vs Non-Enveloped Viruses (cont.)</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th><strong>Enveloped viruses</strong></th>
+<th><strong>Non-Enveloped viruses</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Herpesviridae</em></td>
+<td><em>Adenoviridae</em></td>
+</tr>
+<tr class="even">
+<td><em>Retroviridae</em></td>
+<td><em>Picornaviridae</em></td>
+</tr>
+<tr class="odd">
+<td><em>Coronaviridae</em></td>
+<td><em>Parvoviridae</em></td>
+</tr>
+<tr class="even">
+<td><em>Orthomyxoviridae</em></td>
+<td><em>Caliciviridae</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="symmetry-of-capsid" class="slide level2">
+<h2>Symmetry of Capsid</h2>
+<ul>
+<li><strong>Helical</strong> – rod-like spiral<br>
+</li>
+<li><strong>Icosahedral</strong> – spherical, 20 faces<br>
+</li>
+<li><strong>Complex</strong> – irregular (e.g., bacteriophages)</li>
+</ul>
+
+<img data-src="images/morpho_virus.png" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:100.0%" class="r-stretch"></section>
+<section id="helical-symmetry" class="slide level2">
+<h2>Helical symmetry</h2>
+<ul>
+<li>Genome coiled within capsid proteins<br>
+</li>
+<li>Found in RNA viruses like <strong>Influenza</strong> or <strong>Tobacco mosaic virus</strong></li>
+</ul>
+
+<img data-src="images/tabacco_mosaic_virus.png" class="r-stretch"></section>
+<section id="icosahedral-symmetry" class="slide level2">
+<h2>Icosahedral symmetry</h2>
+<ul>
+<li>Efficient, stable, and common in many animal viruses<br>
+</li>
+<li>Example: <em>Adenovirus</em>, <em>Poliovirus</em></li>
+</ul>
+
+<img data-src="images/adenovirus.jpg" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:100.0%" class="r-stretch"><p><a href="https://sketchfab.com/search?q=virus&amp;type=models" target="_blank" rel="noopener noreferrer" style="font-size:16px; color:blue;">Click to find 3D models in Sketchfab</a></p>
+</section>
+<section id="complex-symmetry" class="slide level2">
+<h2>Complex symmetry</h2>
+<ul>
+<li>Not purely helical or icosahedral<br>
+</li>
+<li>Seen in large viruses like <strong><em>Poxvirus</em></strong> and <strong>Bacteriophage</strong></li>
+</ul>
+
+<img data-src="images/phage.jpg" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:100.0%" class="r-stretch"></section>
+<section id="shape-size" class="slide level2">
+<h2>Shape &amp; size</h2>
+<ul>
+<li>Spherical, rod-shaped, bullet-shaped, or complex<br>
+<img data-src="images/virus_size.png" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:60.0%"></li>
+</ul>
+</section>
+<section id="baltimore-classification" class="slide level2">
+<h2>Baltimore classification</h2>
+<ul>
+<li><strong>Type of nucleic acid</strong> (DNA or RNA)<br>
+</li>
+<li><strong>Strandedness</strong> (single or double)<br>
+</li>
+<li><strong>Mode of replication</strong></li>
+</ul>
+
+<img data-src="images/baltimore.png" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:100.0%" class="r-stretch"></section>
+<section id="baltimore-classification-cont." class="slide level2 smaller">
+<h2>Baltimore classification (cont.)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Group</th>
+<th>Type</th>
+<th>Mnemonic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>I</td>
+<td>dsDNA</td>
+<td>HAPPY*</td>
+</tr>
+<tr class="even">
+<td>II</td>
+<td>ssDNA</td>
+<td><em>Parvovirus</em></td>
+</tr>
+<tr class="odd">
+<td>III</td>
+<td>dsRNA</td>
+<td><em>Rotavirus</em></td>
+</tr>
+<tr class="even">
+<td>IV</td>
+<td>(+) ssRNA</td>
+<td>+RNA*</td>
+</tr>
+<tr class="odd">
+<td>V</td>
+<td>(–) ssRNA</td>
+<td><em>Influenza</em></td>
+</tr>
+<tr class="even">
+<td>VI</td>
+<td>ssRNA-RT</td>
+<td><em>HIV</em></td>
+</tr>
+<tr class="odd">
+<td>VII</td>
+<td>dsDNA-RT</td>
+<td><em>Hepatitis B</em></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>HAPPY</strong> (Herpes, Adeno, Papova, Pox, Y)</li>
+<li><strong>+RNA(TOGA party I drink FLAVored CORONA and eat small PICORNA CALI soup.)</strong> (Toga, Flavi, Corona, Picorna, Calici)</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/image15.jpeg" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:70.0%"></p>
+</div></div>
+</section>
+<section id="virus-causing-disease-in-humans" class="slide level2">
+<h2>Virus causing disease in humans</h2>
+
+<img data-src="images/human_RNA.png" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:100.0%" class="r-stretch"></section>
+<section id="virus-causing-disease-in-humans-cont." class="slide level2">
+<h2>Virus causing disease in humans (cont.)</h2>
+
+<img data-src="images/human_DNA.png" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;;width:70.0%" class="r-stretch"></section>
+<section id="other-classification" class="slide level2">
+<h2>Other classification</h2>
+<ul>
+<li>Since 1975, the <strong>International Committee on Taxonomy of Viruses (ICTV)</strong> has developed a universal virus classification system:
+<ul>
+<li>Order (-virales) e.g.&nbsp;<em>Herpesvirales</em></li>
+<li>Family (-viridae) e.g.&nbsp;<em>Herpesviridae</em></li>
+<li>Subfamily (-virinae) e.g.&nbsp;<em>Alphaherpesvirinae</em></li>
+<li>Genus (-virus) e.g.&nbsp;<em>Simplexvirus</em></li>
+<li>Species (common name) e.g.&nbsp;<em>Human herpesvirus 1</em></li>
+</ul></li>
+</ul>
+</section>
+<section id="writing-virus-names" class="slide level2 smaller">
+<h2>Writing virus names</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 53%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Level</th>
+<th>Example</th>
+<th>Ending / Style</th>
+<th>Writing Style</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Order</strong></td>
+<td><em>Amarillovirales</em></td>
+<td>–virales</td>
+<td><em>Italicized, Capitalize first letter</em></td>
+</tr>
+<tr class="even">
+<td><strong>Family</strong></td>
+<td><em>Flaviviridae</em></td>
+<td>–viridae</td>
+<td><em>Italicized, Capitalize first letter</em></td>
+</tr>
+<tr class="odd">
+<td><strong>Genus</strong></td>
+<td><em>Flavivirus</em></td>
+<td>–virus</td>
+<td><em>Italicized, Capitalize first letter</em></td>
+</tr>
+<tr class="even">
+<td><strong>Species</strong></td>
+<td><em>Dengue virus</em></td>
+<td>(no fixed ending)</td>
+<td><em>Italicized, Capitalize first letter only of first word</em></td>
+</tr>
+<tr class="odd">
+<td><strong>Common name</strong></td>
+<td>dengue virus</td>
+<td>(descriptive)</td>
+<td><em>Not italicized; lowercase</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<section id="quiz" class="title-slide slide level1 center">
+<h1>Quiz</h1>
+
+</section>
+<section id="which-of-the-following-best-defines-a-virus" class="slide level2 quiz-question scrollable">
+<h2>Which of the following best defines a virus?</h2>
+<ol type="A">
+<li>A living organism that can reproduce independently<br>
+</li>
+<li><span class="correct">An intracellular parasite containing either DNA or RNA that requires a host cell to reproduce</span></li>
+<li>A type of bacteria that causes disease<br>
+</li>
+<li>A protein structure that can self-replicate</li>
+</ol>
+</section>
+<section id="what-are-the-three-main-types-of-capsid-symmetry-found-in-viruses" class="slide level2 quiz-question scrollable">
+<h2>What are the three main types of capsid symmetry found in viruses?</h2>
+<ol type="A">
+<li>Circular, linear, and segmented<br>
+</li>
+<li>Small, medium, and large<br>
+</li>
+<li><span class="correct">Helical, icosahedral, and complex</span><br>
+</li>
+<li>DNA, RNA, and protein</li>
+</ol>
+</section>
+<section id="which-statement-about-enveloped-viruses-is-correct" class="slide level2 quiz-question scrollable">
+<h2>Which statement about enveloped viruses is CORRECT?</h2>
+<ol type="A">
+<li>They are more stable in the environment than non-enveloped viruses<br>
+</li>
+<li><span class="correct">They are sensitive to heat, acid, and detergents</span><br>
+</li>
+<li>They can only infect bacterial cells<br>
+</li>
+<li>They always contain DNA genomes</li>
+</ol>
+</section>
+<section id="in-the-baltimore-classification-system-group-iv-viruses-are-characterized-by" class="slide level2 quiz-question scrollable">
+<h2>In the Baltimore Classification System, Group IV viruses are characterized by:</h2>
+<ol type="A">
+<li>Double-stranded DNA<br>
+</li>
+<li>Single-stranded DNA<br>
+</li>
+<li><span class="correct">Positive-sense single-stranded RNA (+ssRNA)</span><br>
+</li>
+<li>Double-stranded RNA</li>
+</ol>
+</section>
+<section id="who-discovered-the-first-virus-tobacco-mosaic-virus-and-in-what-year" class="slide level2 quiz-question scrollable">
+<h2>Who discovered the first virus (Tobacco mosaic virus) and in what year?</h2>
+<ol type="A">
+<li>Louis Pasteur in 1885<br>
+</li>
+<li><span class="correct">Dimitri Ivanovsky in 1892</span><br>
+</li>
+<li>Frederick Towrt in 1915<br>
+</li>
+<li>Felix d’Herrelle in 1917</li>
+</ol>
+</section>
+<section id="which-virus-family-does-hiv-belong-to-and-what-type-of-genetic-material-does-it-contain" class="slide level2 quiz-question scrollable">
+<h2>Which virus family does HIV belong to, and what type of genetic material does it contain?</h2>
+<ol type="A">
+<li>Herpesviridae; DNA<br>
+</li>
+<li><span class="correct">Retroviridae; RNA</span><br>
+</li>
+<li>Adenoviridae; DNA<br>
+</li>
+<li>Picornaviridae; RNA</li>
+</ol>
+</section>
+<section id="what-is-the-characteristic-feature-of-coronaviridae-family-viruses" class="slide level2 quiz-question scrollable">
+<h2>What is the characteristic feature of Coronaviridae family viruses?</h2>
+<ol type="A">
+<li>Icosahedral capsid without envelope<br>
+</li>
+<li><span class="correct">Crown-like spike proteins on envelope surface</span><br>
+</li>
+<li>Complex symmetry with tail fibers<br>
+</li>
+<li>Helical nucleocapsid without envelope</li>
+</ol>
+</section>
+<section id="according-to-baltimore-classification-which-group-does-hepatitis-b-virus-belong-to" class="slide level2 quiz-question scrollable">
+<h2>According to Baltimore Classification, which group does Hepatitis B virus belong to?</h2>
+<ol type="A">
+<li>Group I (dsDNA)<br>
+</li>
+<li>Group VI (ssRNA-RT)<br>
+</li>
+<li><span class="correct">Group VII (dsDNA-RT)</span><br>
+</li>
+<li>Group IV (+ssRNA)</li>
+</ol>
+</section>
+<section id="which-of-the-following-viruses-is-non-enveloped" class="slide level2 quiz-question scrollable">
+<h2>Which of the following viruses is NON-ENVELOPED?</h2>
+<ol type="A">
+<li>Influenza virus<br>
+</li>
+<li>Herpes simplex virus<br>
+</li>
+<li><span class="correct">Rotavirus</span><br>
+</li>
+<li>SARS-CoV-2</li>
+</ol>
+</section>
+<section id="what-makes-parvovirus-unique-among-dna-viruses" class="slide level2 quiz-question scrollable">
+<h2>What makes Parvovirus unique among DNA viruses?</h2>
+<ol type="A">
+<li>It has the largest genome<br>
+</li>
+<li><span class="correct">It contains single-stranded DNA</span><br>
+</li>
+<li>It only infects bacteria<br>
+</li>
+<li>It has complex symmetry</li>
+</ol>
+</section>
+<section id="how-can-we-classify-viruses-which-are-the-main-classification-criteria" class="slide level2 quiz-question scrollable">
+<h2>How can we classify viruses? Which are the main classification criteria?</h2>
+<ol type="A">
+<li>Size and color only<br>
+</li>
+<li><span class="correct">Type of nucleic acid, capsid symmetry, and presence/absence of envelope</span><br>
+</li>
+<li>Host species and transmission route only<br>
+</li>
+<li>Geographic location and discovery date</li>
+</ol>
+</section>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<div style="text-align:center;">
+<p><video width="1200" height="400" controls="" style="max-width:100%; height:auto;"> <source src="images/media.MP4" type="video/mp4"> </video></p>
+</div>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+<ul>
+<li>Adapted from training material: Chhay Sokdalis (PharmD).</li>
+<li>Flint SJ, Enquist LW, Racaniello VR, Skalka AM. Principles of Virology. 5th ed.&nbsp;ASM Press.</li>
+<li>International Committee on Taxonomy of Viruses (ICTV). Virus Taxonomy: 2024 Release. https://ictv.global/ (accessed 2025-10-20).</li>
+<li>ICTV discussion forum. https://talk.ictvonline.org/ (accessed 2025-10-20).</li>
+<li>Images: Wikimedia Commons and Google (individual image pages for license/attribution). Wikimedia Commons: https://commons.wikimedia.org/ (accessed 2025-10-20).</li>
+</ul>
+
+<script> window._input_file = "---\n" + "title: \"Structure and classification of [Viruses]{.animate__slideInDown .animate__faster}\"\n" + "\n" + "format:\n" + "  revealjs\n" + "---\n" + "\n" + "\n" + "## Objectives\n" + "\n" + "After this session, students should be able to:\n" + "\n" + "- Describe the history of the discovery of the virus  \n" + "- Define what a virus is  \n" + "- Define capsomer, capsid, genome, nucleocapsid, and envelope  \n" + "- Differentiate the 3 structural components of viruses  \n" + "- Mention 3 types of capsid symmetry  \n" + "- Describe the nature of the viral envelope  \n" + "- Explain the epidemiological consequences of having an envelope  \n" + "- List the main criteria for classifying viruses  \n" + "\n" + "##\n" + "<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>\n" + "\n" + "\n" + "## Introduction: What is a Virus?\n" + "\n" + "<iframe width=\"1200\" height=\"650\" src=\"https://www.youtube.com/embed/lADC0C_WeH0\" title=\"https://www.youtube.com/embed/lADC0C_WeH0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen style=\"display:block;margin:0 auto;max-width:100%;\"></iframe>\n" + "\n" + "## Introduction (cont.)\n" + "- Viruses cause a wide range of diseases in humans, animals, and plants\n" + "- Many virus: responsible for subclinical or mild infections (e.g, *Adenovirus*, *Rhinovirus*)\n" + "- Other viruses: cause severe diseases (e.g., *HIV*, *Ebola*, *SARS-CoV-2*)\n" + "\n" + "## Virus vs Cells\n" + "![](images/virus_cell.png){width=\"100%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + "\n" + "## Discovery of viruses\n" + "\n" + "- First virus discovered: **Tobacco mosaic virus <br> (1892)** by Ivanovsky\n" + "- Beijerinck confirmed the concept of “filterable agents”\n" + "- Discovery of bacteriophage and animal viruses followed\n" + "\n" + "\n" + "![](images/tabacco_mosaic_virus_infection.jpg){.absolute top=5px right=5px width=\"200\" height=\"200\"}\n" + "\n" + "![](images/tabacco_mosaic_virus.png)\n" + "\n" + "\n" + "## Discovery of viruses (cont.)\n" + "\n" + "![](images/image4.png){.absolute right=0 bottom=\"50px\" width=\"900\" height=\"auto\"}\n" + "\n" + "![](images/image3.jpeg){.absolute bottom=5px left=0 width=\"180\" height=\"auto\"}\n" + "\n" + "## Definition of virus\n" + ":::: {.columns}\n" + "::: {.column width=\"70%\"}\n" + "- Intracellular parasites  \n" + "- Contain **either DNA or RNA** (never both)  \n" + "- Unable to reproduce independently — require a host cell  \n" + "- Too small to be seen under a light microscope range from **20-300 nm**\n" + ":::\n" + "\n" + "::: {.column width=\"30%\"}\n" + "\n" + "![](images/1200px-Ebola_virus_em.jpg){width=\"50%\" style=\"border-radius:10px;\"}\n" + "\n" + "![](images/virus_size.png){width=\"100%\" style=\"border-radius:10px;\"}\n" + ":::\n" + "\n" + "::::\n" + "\n" + "## \n" + "![](images/image13.png){width=\"100%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + "\n" + "## General structure of viruses\n" + "\n" + "- **Core (Genome)** — genetic material\n" + "- **Capsid** — protein coat surrounding the genome\n" + "- **Envelope (optional)** — lipid membrane derived from host\n" + "\n" + "![](images/gen_str.jpg){width=\"100%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + "\n" + "\n" + "## Genome\n" + "\n" + "- Made of **DNA or RNA**\n" + "- May be **single-stranded (ss)** or **double-stranded (ds)**  \n" + "- Can be **linear, circular, or segmented**\n" + "\n" + "![](images/virus_genome.png){width=\"70%\" fig-align=\"center\"}\n" + "\n" + "\n" + "## Capsomer & Capsid {.smaller}\n" + "::::{.columns}\n" + "::: {.column width=\"60%\"}\n" + "**Capsomer**\n" + "\n" + "- Made of one or more **polypeptides**  \n" + "- Combine to form the **capsid**\n" + "\n" + "**Capsid**\n" + "\n" + "- Protein coat made of capsomers\n" + "- Protects the viral genome\n" + "- Determines **shape and symmetry** of the virus\n" + "\n" + "**Nucleocapsid**\n" + "\n" + "- Combination of **capsid + genome**\n" + ":::\n" + "\n" + "::: {.column width=\"40%\"}\n" + "\n" + "![](images/virus_str1.png){width=\"80%\" style=\"display:block; margin-left:auto; margin-right:100px; border-radius:10px;\"}\n" + "\n" + "![](images/virus_str.png){width=\"100%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + ":::\n" + "::::\n" + "\n" + "\n" + "## Envelope\n" + "::::{.columns}\n" + "::: {.column width=\"75%\"}\n" + "- **Lipid membrane** derived from host cell -> \"hide from immune system\" \n" + "- Contains viral glycoproteins (e.g., hemagglutinin, neuraminidase) for attachment and entry \n" + "- Not all viruses have envelopes\n" + "\n" + "- **Enveloped**: e.g., *Influenza virus*, *HIV*, *Herpes simplex virus (HSV)*\n" + "- **Non-enveloped or Naked**: e.g., *Adenovirus*, *Poliovirus*\n" + ":::\n" + "\n" + "::: {.column width=\"25%\"}\n" + "![](images/image11.png){width=\"100%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + ":::\n" + "::::\n" + "\n" + "## Consequences of Envelope\n" + "**Envelop**\n" + "\n" + "- **Sensitive to heat, acid, and detergents**  \n" + "- **Spread by direct contact or droplets (HSV, HIV)**  \n" + "- Easily inactivated outside host  \n" + "\n" + "**Non-enveloped or naked**\n" + "\n" + "- More resistant and stable (e.g., drying, detergents, acid) \n" + "- Transmission through fomites (contaminated surfaces) via fecal-oral route \n" + "- Can survive longer outside the host. E.g., *Adenovirus*, *Poliovirus*\n" + "\n" + "![](images/detergent.jpg){.absolute right=\"10\" top=\"25\" width=\"150\" height=\"auto\"}\n" + "\n" + "![](images/detergent_virus.jpg){.absolute top=\"260\" right=\"20\" width=\"100\" height=\"auto\"}\n" + "\n" + "## E.g Enveloped vs Non-Enveloped Viruses (cont.)\n" + "\n" + "| **Enveloped viruses**  | **Non-Enveloped viruses**  |\n" + "|------------------------|----------------------------|\n" + "| *Herpesviridae*        | *Adenoviridae*             |\n" + "| *Retroviridae*         | *Picornaviridae*           |\n" + "| *Coronaviridae*        | *Parvoviridae*             |\n" + "| *Orthomyxoviridae*     | *Caliciviridae*            |\n" + "\n" + "\n" + "## Symmetry of Capsid\n" + "\n" + "- **Helical** – rod-like spiral  \n" + "- **Icosahedral** – spherical, 20 faces  \n" + "- **Complex** – irregular (e.g., bacteriophages)\n" + "\n" + "![](images/morpho_virus.png){width=\"100%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + "\n" + "## Helical symmetry\n" + "\n" + "- Genome coiled within capsid proteins  \n" + "- Found in RNA viruses like **Influenza** or **Tobacco mosaic virus**\n" + "\n" + "![](images/tabacco_mosaic_virus.png)\n" + "\n" + "## Icosahedral symmetry\n" + "\n" + "- Efficient, stable, and common in many animal viruses  \n" + "- Example: *Adenovirus*, *Poliovirus*\n" + "\n" + "![](images/adenovirus.jpg){width=\"100%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + "\n" + "[Click to find 3D models in Sketchfab](https://sketchfab.com/search?q=virus&type=models){target=\"_blank\" rel=\"noopener noreferrer\" style=\"font-size:16px; color:blue;\"}\n" + "\n" + "## Complex symmetry\n" + "\n" + "- Not purely helical or icosahedral  \n" + "- Seen in large viruses like **_Poxvirus_** and **Bacteriophage**\n" + "\n" + "![](images/phage.jpg){width=\"100%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + "\n" + "## Shape & size\n" + "\n" + "- Spherical, rod-shaped, bullet-shaped, or complex  \n" + "![](images/virus_size.png){width=\"60%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + "\n" + "## Baltimore classification\n" + "\n" + "- **Type of nucleic acid** (DNA or RNA)  \n" + "- **Strandedness** (single or double)  \n" + "- **Mode of replication**\n" + "\n" + "![](images/baltimore.png){width=\"100%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + "\n" + "## Baltimore classification (cont.){.smaller}\n" + ":::: {.columns}\n" + "::: {.column width=\"50%\"}\n" + "| Group | Type |Mnemonic |\n" + "|-------|------|---------|\n" + "| I | dsDNA | HAPPY* |\n" + "| II | ssDNA | *Parvovirus* |\n" + "| III | dsRNA | *Rotavirus* |\n" + "| IV | (+) ssRNA | +RNA* |\n" + "| V | (–) ssRNA | *Influenza* |\n" + "| VI | ssRNA-RT | *HIV* |\n" + "| VII | dsDNA-RT | *Hepatitis B* |\n" + "\n" + "- **HAPPY** (Herpes, Adeno, Papova, Pox, Y)\n" + "- **+RNA(TOGA party I drink FLAVored CORONA and eat small PICORNA CALI soup.)** (Toga, Flavi, Corona, Picorna, Calici)\n" + "\n" + ":::\n" + "::: {.column width=\"50%\"}\n" + "![](images/image15.jpeg){width=\"70%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + ":::\n" + "::::\n" + "\n" + "## Virus causing disease in humans\n" + "![](images/human_RNA.png){width=\"100%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + "\n" + "## Virus causing disease in humans (cont.)\n" + "![](images/human_DNA.png){width=\"70%\" style=\"display:block; margin-left:auto; margin-right:auto; border-radius:10px;\"}\n" + "\n" + "\n" + "## Other classification\n" + "- Since 1975, the **International Committee on Taxonomy of Viruses (ICTV)** has developed a universal virus classification system:\n" + "  - Order (-virales)  e.g. *Herpesvirales*\n" + "  - Family (-viridae)  e.g. *Herpesviridae*\n" + "  - Subfamily (-virinae)  e.g. *Alphaherpesvirinae*\n" + "  - Genus (-virus)  e.g. *Simplexvirus*\n" + "  - Species (common name)  e.g. *Human herpesvirus 1*\n" + "\n" + "## Writing virus names{.smaller}\n" + "\n" + "| Level           | Example           | Ending / Style    | Writing Style                                            |\n" + "| --------------- | ----------------- | ----------------- | -------------------------------------------------------- |\n" + "| **Order**       | *Amarillovirales* | –virales          | *Italicized, Capitalize first letter*                    |\n" + "| **Family**      | *Flaviviridae*    | –viridae          | *Italicized, Capitalize first letter*                    |\n" + "| **Genus**       | *Flavivirus*      | –virus            | *Italicized, Capitalize first letter*                    |\n" + "| **Species**     | *Dengue virus*    | (no fixed ending) | *Italicized, Capitalize first letter only of first word* |\n" + "| **Common name** | dengue virus      | (descriptive)     | *Not italicized; lowercase*                              |\n" + "\n" + "\n" + "# Quiz\n" + "\n" + "## Which of the following best defines a virus?{.quiz-question}\n" + "\n" + "A) A living organism that can reproduce independently  \n" + "B) [An intracellular parasite containing either DNA or RNA that requires a host cell to reproduce]{.correct}\n" + "C) A type of bacteria that causes disease  \n" + "D) A protein structure that can self-replicate  \n" + "\n" + "\n" + "## What are the three main types of capsid symmetry found in viruses?{.quiz-question}\n" + "\n" + "A) Circular, linear, and segmented  \n" + "B) Small, medium, and large  \n" + "C) [Helical, icosahedral, and complex]{.correct}  \n" + "D) DNA, RNA, and protein  \n" + "\n" + "## Which statement about enveloped viruses is CORRECT?{.quiz-question}\n" + "\n" + "A) They are more stable in the environment than non-enveloped viruses  \n" + "B) [They are sensitive to heat, acid, and detergents]{.correct}  \n" + "C) They can only infect bacterial cells  \n" + "D) They always contain DNA genomes  \n" + "\n" + "\n" + "## In the Baltimore Classification System, Group IV viruses are characterized by:{.quiz-question}\n" + "\n" + "A) Double-stranded DNA  \n" + "B) Single-stranded DNA  \n" + "C) [Positive-sense single-stranded RNA (+ssRNA)]{.correct}  \n" + "D) Double-stranded RNA  \n" + "\n" + "## Who discovered the first virus (Tobacco mosaic virus) and in what year?{.quiz-question}\n" + "\n" + "A) Louis Pasteur in 1885  \n" + "B) [Dimitri Ivanovsky in 1892]{.correct}  \n" + "C) Frederick Towrt in 1915  \n" + "D) Felix d'Herrelle in 1917  \n" + "\n" + "## Which virus family does HIV belong to, and what type of genetic material does it contain?{.quiz-question}\n" + "\n" + "A) Herpesviridae; DNA  \n" + "B) [Retroviridae; RNA]{.correct}  \n" + "C) Adenoviridae; DNA  \n" + "D) Picornaviridae; RNA  \n" + "\n" + "## What is the characteristic feature of Coronaviridae family viruses?{.quiz-question}\n" + "\n" + "A) Icosahedral capsid without envelope  \n" + "B) [Crown-like spike proteins on envelope surface]{.correct}  \n" + "C) Complex symmetry with tail fibers  \n" + "D) Helical nucleocapsid without envelope  \n" + "\n" + "## According to Baltimore Classification, which group does Hepatitis B virus belong to?{.quiz-question}\n" + "\n" + "A) Group I (dsDNA)  \n" + "B) Group VI (ssRNA-RT)  \n" + "C) [Group VII (dsDNA-RT)]{.correct}  \n" + "D) Group IV (+ssRNA)  \n" + "\n" + "## Which of the following viruses is NON-ENVELOPED?{.quiz-question}\n" + "\n" + "A) Influenza virus  \n" + "B) Herpes simplex virus  \n" + "C) [Rotavirus]{.correct}  \n" + "D) SARS-CoV-2  \n" + "\n" + "## What makes Parvovirus unique among DNA viruses?{.quiz-question}\n" + "\n" + "A) It has the largest genome  \n" + "B) [It contains single-stranded DNA]{.correct}  \n" + "C) It only infects bacteria  \n" + "D) It has complex symmetry  \n" + "\n" + "## How can we classify viruses? Which are the main classification criteria?{.quiz-question}\n" + "\n" + "A) Size and color only  \n" + "B) [Type of nucleic acid, capsid symmetry, and presence/absence of envelope]{.correct}  \n" + "C) Host species and transmission route only  \n" + "D) Geographic location and discovery date  \n" + "\n" + "\n" + "## Summary\n" + "\n" + "<div style=\"text-align:center;\">\n" + "  <video width=\"1200\" height=\"400\" controls style=\"max-width:100%; height:auto;\">\n" + "    <source src=\"images/media.MP4\" type=\"video/mp4\">\n" + "  </video>\n" + "</div>\n" + "\n" + "## References\n" + "\n" + "- Adapted from training material: Chhay Sokdalis (PharmD).\n" + "- Flint SJ, Enquist LW, Racaniello VR, Skalka AM. Principles of Virology. 5th ed. ASM Press.\n" + "- International Committee on Taxonomy of Viruses (ICTV). Virus Taxonomy: 2024 Release. https://ictv.global/ (accessed 2025-10-20).\n" + "- ICTV discussion forum. https://talk.ictvonline.org/ (accessed 2025-10-20).\n" + "- Images: Wikimedia Commons and Google (individual image pages for license/attribution). Wikimedia Commons: https://commons.wikimedia.org/ (accessed 2025-10-20).\n" + "\n" + "\n" + ""</script>
+<script> window._input_filename = '/Users/sopheap/Desktop/UP/Virology/1_Virus_structure_and_classification/1_Virus_structure_and_classification.qmd'</script>
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-ChhaySodalis2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Sokdalis C. Virology training materials. 2024. </div>
+</div>
+<div id="ref-ViralZone" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Hulo C, Masson P, de Castro E, Le Mercier P. Vol. 39, Nucleic Acids Research. 2011 [cited 2025 Oct 24]. p. D708–13 ViralZone: A knowledge resource to understand virus diversity. Available from: <a href="https://viralzone.expasy.org/">https://viralzone.expasy.org/</a></div>
+</div>
+<div id="ref-Louten2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Louten J. Essential human virology. London, UK; San Diego, CA, USA; Cambridge, MA, USA; Oxford, UK: Elsevier (Academic Press); 2016. </div>
+</div>
+<div id="ref-ShuklaSaha" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Das S, Saha R. Microbiology practical manual, third edition. New Delhi, India: CBS Publishers &amp; Distributors Pvt Ltd; n.d. </div>
+</div>
+<div id="ref-Mishra2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Mishra B. Textbook of medical virology, second edition. New Delhi, India: CBS Publishers &amp; Distributors Pvt. Ltd.; 2022. </div>
+</div>
+<div id="ref-Patricia2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Tille PM. Bailey &amp; scott’s diagnostic microbiology, 14th edition. 14th ed. St. Louis, Missouri, USA: Elsevier; 2017. </div>
+</div>
+<div id="ref-Kudesia2009" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Kudesia G, Wreghitt T. Clinical and diagnostic virology. Cambridge, UK; New York, USA; Melbourne, Australia; Madrid, Spain; Cape Town, South Africa; Singapore; São Paulo, Brazil: Cambridge University Press; 2009. </div>
+</div>
+<div id="ref-Knipe2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Knipe DM, Howley PM. Fields virology: Emerging viruses. 7th ed. Vol. 1. Wolters Kluwer; 2022. </div>
+</div>
+</div>
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/reveal-quiz/quiz.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/appearance/appearance.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/reveal-confetti/confetti.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/verticator/verticator.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/revealeditable/editable.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="1_Virus_structure_and_classification_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'pdfMaxPagesPerSlide': 1,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'quiz': {"checkKey":"c","resetKey":"q","shuffleKey":"t","allowNumberKeys":true,"disableOnCheck":false,"shuffleOptions":true,"defaultCorrect":"","defaultIncorrect":"","includeScore":false,"disableReset":false},
+'appearance': {"hideagain":true,"delay":300,"debug":false,"appearevent":"slidetransitionend","autoappear":false,"autoelements":false,"appearparents":false,"theme":"simple","darktheme":"black"},
+'confetti': {"particleCount":150,"angle":90,"spread":360,"startVelocity":25,"decay":0.9,"gravity":0.65,"drift":0,"ticks":400,"colors":["#0366fc","#f54281","#1fd14f"],"shapes":null,"scalar":0.7,"zIndex":100,"disableForReducedMotion":false},
+'verticator': {"themetag":"h1","color":"","inversecolor":"","skipuncounted":false,"clickable":true,"position":"auto","offset":"3vmin","autogenerate":true,"tooltip":false,"scale":1,"debug":true},
+'pointer': {"key":"q","color":"#ff0000","pointerSize":12,"alwaysVisible":false,"tailLength":15},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1280,
+
+        height: 720,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 0.2,
+
+        maxScale: 1.5,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealQuiz, Appearance, RevealConfetti, Verticator, Revealeditable, RevealPointer, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Create toggle button immediately
+      const toggleBtn = document.createElement('button');
+      toggleBtn.id = 'night-mode-toggle';
+      toggleBtn.innerHTML = '🌙';
+      toggleBtn.title = 'Toggle Night Mode';
+      toggleBtn.style.cssText = `
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #007bff;
+        color: white;
+        border: 1px solid white;
+        font-size: 15px;
+        cursor: pointer;
+        z-index: 10000;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+      `;
+
+      // Add hover effect
+      toggleBtn.onmouseover = function() {
+        this.style.background = '#0056b3';
+        this.style.transform = 'scale(1.1)';
+      };
+      toggleBtn.onmouseout = function() {
+        this.style.background = '#007bff';
+        this.style.transform = 'scale(1)';
+      };
+
+      // Add click handler
+      toggleBtn.onclick = function() {
+        document.body.classList.toggle('night-mode');
+        
+        // Update button icon based on current mode
+        setTimeout(function() {
+          if (document.body.classList.contains('night-mode')) {
+            toggleBtn.innerHTML = '☀️';
+            toggleBtn.title = 'Switch to Light Mode';
+          } else {
+            toggleBtn.innerHTML = '🌙';
+            toggleBtn.title = 'Switch to Night Mode';
+          }
+        }, 100);
+      };
+
+      // Add to page
+      document.body.appendChild(toggleBtn);
+      console.log('Button added to body');
+      
+    });
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

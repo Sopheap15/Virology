@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="4_Diagnostic_method_in_virology_files/libs/clipboard/clipboard.min.js"></script>
+<script src="4_Diagnostic_method_in_virology_files/libs/quarto-html/tabby.min.js"></script>
+<script src="4_Diagnostic_method_in_virology_files/libs/quarto-html/popper.min.js"></script>
+<script src="4_Diagnostic_method_in_virology_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="4_Diagnostic_method_in_virology_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="4_Diagnostic_method_in_virology_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="4_Diagnostic_method_in_virology_files/libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="4_Diagnostic_method_in_virology_files/libs/quarto-contrib/roughnotation-0.5.1/rough-notation.iife.js"></script>
+<script src="4_Diagnostic_method_in_virology_files/libs/quarto-contrib/roughnotation-init-1.0.0/rough.js"></script><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
+
+  <meta name="dcterms.date" content="2025-10-29">
+  <title>Diagnostic Methods in Virology</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="4_Diagnostic_method_in_virology_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="4_Diagnostic_method_in_virology_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="4_Diagnostic_method_in_virology_files/libs/revealjs/dist/theme/quarto-0fde88a82f0356838740f155f1088782.css">
+  <link rel="stylesheet" href="../styles.css">
+  <link href="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/reveal-quiz/quiz.css" rel="stylesheet">
+  <link href="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/appearance/appearance.css" rel="stylesheet">
+  <link href="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/verticator/verticator.css" rel="stylesheet">
+  <link href="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
+  <link href="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <!-- Cursor tail extension: inline CSS + JS (red tail) -->
+  <style>
+  /* Cursor tail styles (red) */
+  .ct-overlay{ position:absolute; inset:0; pointer-events:none; z-index:99999; }
+  .ct-dot{ position: absolute; width:12px; height:12px; border-radius:50%; background: rgba(255,50,50,0.95); transform: translate(-50%, -50%); pointer-events:none; mix-blend-mode:normal; will-change:transform,opacity; opacity:0.95; transition: opacity 120ms linear, transform 120ms linear; }
+  @media (hover: none){ .ct-dot{ display:none !important; } }
+  @media (prefers-reduced-motion: reduce){ .ct-dot{ transition:none !important; } }
+  </style>
+
+  <script>
+  // Cursor-tail extension script (red tail). Guarded to avoid duplicates.
+  (function(){
+    if (typeof window === 'undefined') return;
+    if (window.__cursorTailExtensionIncluded) return; window.__cursorTailExtensionIncluded = true;
+    try{
+      if (window.matchMedia && window.matchMedia('(hover: none)').matches) return;
+      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+      function init(){
+        try{
+          var reveal = document.querySelector('.reveal');
+          var container = document.body;
+          var overlay = null;
+          if (reveal){
+            if (getComputedStyle(reveal).position === 'static') reveal.style.position = 'relative';
+            overlay = document.createElement('div'); overlay.className = 'ct-overlay'; reveal.appendChild(overlay); container = overlay;
+          }
+
+          var NUM = 14, dots = [], mouseX=-1000, mouseY=-1000;
+          for(var i=0;i<NUM;i++){
+            var el = document.createElement('div'); el.className = 'ct-dot';
+            var size = Math.max(6, 14 - i*0.6); el.style.width = el.style.height = size + 'px';
+            el.style.opacity = String(1 - i/(NUM+2)); el.style.position = (container===document.body)?'fixed':'absolute';
+            container.appendChild(el); dots.push({el:el,x:mouseX,y:mouseY});
+          }
+
+          window.addEventListener('mousemove', function(e){ mouseX = e.clientX; mouseY = e.clientY; }, {passive:true});
+
+          function animate(){
+            var x=mouseX,y=mouseY;
+            for(var i=0;i<dots.length;i++){
+              var d=dots[i]; var easing=0.18 + (i/(dots.length*6)); d.x += (x-d.x)*easing; d.y += (y-d.y)*easing;
+              var localX = d.x - (container===document.body?0:container.getBoundingClientRect().left);
+              var localY = d.y - (container===document.body?0:container.getBoundingClientRect().top);
+              d.el.style.transform = 'translate3d('+localX+'px,'+localY+'px,0) translate(-50%, -50%)'; x=d.x;y=d.y;
+            }
+            requestAnimationFrame(animate);
+          }
+          requestAnimationFrame(animate);
+        }catch(e){ console.error('cursor-tail extension init error', e); }
+      }
+      if (document.readyState === 'complete' || document.readyState === 'interactive') init(); else document.addEventListener('DOMContentLoaded', init);
+    }catch(e){ console.error('cursor-tail extension error', e); }
+  })();
+  </script>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-color="#2c3e50" data-background-opacity="0.3" class="quarto-title-block center">
+  <h1 class="title">Diagnostic Methods in Virology</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Sopheap Oeng 
+</div>
+<div class="quarto-title-author-email">
+<a href="mailto:sopheap15@gmail.com">sopheap15@gmail.com</a>
+</div>
+</div>
+</div>
+
+  <p class="date">29 Oct 2025</p>
+</section>
+<section id="objectives" class="slide level2">
+<h2>Objectives</h2>
+<p>After this session the students should be able to:</p>
+<ul>
+<li>Demonstrate the importance of diagnosis in virology</li>
+<li>Identify the laboratory procedure for diagnosis in virology</li>
+<li>Explain the cell culture to identify virus in medical laboratory</li>
+<li>Describe the techniques that detect viral protein to identify virus in medical laboratory</li>
+<li>Illustrate the principle of ELISA and PCR technique</li>
+</ul>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;">
+<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="315" src="https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
+</iframe>
+</div>
+</section>
+<section id="case-vignette" class="slide level2">
+<h2>Case Vignette</h2>
+<p>A 28-year-old woman presents with fever, fatigue, and a rash. She recently returned from a tropical vacation. What diagnostic tests would you consider?</p>
+<aside class="notes">
+<p>Prompt discussion on differential diagnosis: Ask students to consider possible viral causes (e.g., dengue, measles, Zika, chikungunya, rubella). Guide them to think about which laboratory tests would be most appropriate based on symptoms, travel history, and timing—such as PCR for viral genome detection, serology for antibody response, and antigen detection assays. Emphasize the importance of specimen collection timing and clinical context in selecting diagnostic methods.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="introduction" class="slide level2 smaller">
+<h2>Introduction</h2>
+<ul>
+<li>Why diagnostics matter:
+<ul>
+<li>Enable timely, targeted treatment and infection control</li>
+<li>Inform public-health responses, surveillance, and outbreak investigation</li>
+</ul></li>
+<li>What diagnostic methods can do:
+<ul>
+<li>Detect virus directly (particles, antigens, genomes)</li>
+<li>Isolate and grow virus for characterization (culture)</li>
+<li>Measure host response (antibodies) for retrospective diagnosis or immunity assessment</li>
+<li>Quantify viral load and identify variants (qPCR, sequencing)</li>
+</ul></li>
+</ul>
+</section>
+<section id="introduction-cont." class="slide level2">
+<h2>Introduction (cont.)</h2>
+<ul>
+<li>Key challenges in viral diagnosis:
+<ul>
+<li>Timing of specimen collection and specimen quality affect sensitivity</li>
+<li>Viral diversity and low loads can reduce detection rates</li>
+</ul></li>
+</ul>
+</section>
+<section id="specimen-collection" class="slide level2">
+<h2>Specimen collection:</h2>
+<ul>
+<li>Choose specimens based on suspected virus and clinical presentation</li>
+<li>Collect samples early in the acute phase for highest viral yield</li>
+<li>Antibody response may interfere with virus detection—timing is critical</li>
+<li>Use proper transport media with antibiotics and proteins to preserve sample integrity</li>
+<li>Keep specimens cold (usually 2-8°C) and process promptly to ensure accurate results</li>
+</ul>
+<aside class="notes">
+<p>Proper specimen collection is the first critical step in viral diagnostics. Emphasize the importance of timing and handling to maintain sample viability.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="specimen-collection-1" class="slide level2">
+<h2>Specimen collection</h2>
+
+<img data-src="images/image8.png" style="display: block; margin-left: auto; margin-right: auto;;width:100.0%" class="r-stretch"><aside class="notes">
+<p>This image illustrates proper specimen collection techniques. Discuss the types of samples and transport requirements.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="diagnosis-technique-cont." class="slide level2">
+<h2>Diagnosis technique (cont.)</h2>
+
+<img data-src="images/image9.png" style="display: block; margin-left: auto; margin-right: auto;;width:100.0%" class="r-stretch"><aside class="notes">
+<p>Here we see the four main groups of diagnostic techniques: morphological, immunological, molecular, and serological. Each has its strengths for different viruses.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="diagnosis-technique-cont.-1" class="slide level2">
+<h2>Diagnosis technique (cont.)</h2>
+<p>Key laboratory procedures:</p>
+<ul>
+<li>Cytologic examination</li>
+<li>Electron microscopy</li>
+<li>Virus isolation and culture</li>
+<li>Antigen/protein detection (immunoassays)</li>
+<li>Genome detection (PCR / sequencing)</li>
+<li>Serology (antibodies / antigens)</li>
+</ul>
+<aside class="notes">
+<p>Introduce the four broad approaches—morphology, culture, immunologic and molecular—then mention trade-offs (speed vs sensitivity vs specificity) and when each is preferred.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="electron-microscopy" class="slide level2">
+<h2>Electron microscopy</h2>
+<ul>
+<li>Direct visualization of viral particles using negative staining</li>
+<li>Useful for detecting non-culturable viruses (e.g., <em>Rotavirus</em>)</li>
+<li>Sensitivity increased with virus-specific antibodies</li>
+<li>Limited routine use; mainly for rapid identification</li>
+</ul>
+<div style="display: flex; gap: 10px; justify-content: center;">
+<p><img src="images/image10.jpeg" style="width: 18%;"> <img src="images/image11.jpeg" style="width: 18%;"> <img src="images/image12.jpeg" style="width: 18%;"> <img src="images/image13.jpeg" style="width: 18%;"> <img src="images/image14.jpeg" style="width: 18%;"></p>
+</div>
+<aside class="notes">
+<p>Electron microscopy provides direct visualization of viruses. It’s particularly useful for viruses that can’t be cultured, like Rotavirus. The images show different viral morphologies.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="electron-microscopy-cont." class="slide level2">
+<h2>Electron microscopy (cont.)</h2>
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/9DnnxvS6BBQ" title="https://www.youtube.com/embed/9DnnxvS6BBQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="display:block;margin:0 auto;max-width:100%;">
+</iframe>
+</section>
+<section id="cell-culture" class="slide level2 smaller">
+<h2>Cell culture</h2>
+<ul>
+<li>To grow and isolate virus from clinical specimens</li>
+<li>To observer cytopathic effects (CPE)</li>
+<li>To identify, quantify, and characterize viruses</li>
+<li>To produce live attenuated vaccines</li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 46%">
+<col style="width: 20%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Type</strong></th>
+<th style="text-align: left;"><strong>Source &amp; Characteristics</strong></th>
+<th style="text-align: left;"><strong>Typical Uses</strong></th>
+<th style="text-align: left;"><strong>Lifespan</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Primary Cell Culture</strong></td>
+<td style="text-align: left;">Directly isolated from animal or human tissue; closely resemble normal cells</td>
+<td style="text-align: left;">Virus isolation, vaccine production</td>
+<td style="text-align: left;">Short (few divisions)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Diploid Cell Line</strong></td>
+<td style="text-align: left;">Derived from normal cells; maintain diploid chromosome number; limited subcultures</td>
+<td style="text-align: left;">Diagnostic assays, research</td>
+<td style="text-align: left;">Moderate (20–50 divisions)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Continuous / Tumor Cell Line</strong></td>
+<td style="text-align: left;">Transformed or cancer-derived; immortalized; easy to maintain; may have abnormal features</td>
+<td style="text-align: left;">Routine virus culture, genetic studies</td>
+<td style="text-align: left;">Long / Infinite</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>Cell culture involves growing viruses in living cells. Different cell types are used depending on the virus. CPE is a key indicator of viral infection.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside class="notes">
+<p>Speaker tip: When discussing CPE, show 1–2 example images and explain how time-to-CPE and cell tropism help narrow down the virus. Mention biosafety considerations briefly.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="cell-culture-1" class="slide level2 smaller">
+<h2>Cell culture</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<ul>
+<li>Detect viruses by observing CPE, immunofluorescence, or genome analysis</li>
+<li>Identify viruses by cell type, and growth speed</li>
+<li>Quantify virus using:</li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 33%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Method</strong></th>
+<th><strong>Measures</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>TCD₅₀</strong></td>
+<td>Infectious virus concentration</td>
+<td>Dilution causing CPE in 50% of cultures.</td>
+</tr>
+<tr class="even">
+<td><strong>LD₅₀</strong></td>
+<td>Virus lethality</td>
+<td>Dilution lethal to 50% of animals.</td>
+</tr>
+<tr class="odd">
+<td><strong>ID₅₀</strong></td>
+<td>Infectivity in vivo</td>
+<td>Dilution infecting 50% of animals.</td>
+</tr>
+<tr class="even">
+<td><strong>Plaque Assay</strong></td>
+<td>Infectious units (PFU/mL)</td>
+<td>Count plaques for virus quantification.</td>
+</tr>
+</tbody>
+</table>
+</div><div class="column" style="width:30%;">
+<p><img data-src="images/image19.png" style="display: block; margin-left: auto; margin-right: auto;;width:100.0%"></p>
+</div></div>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/R2SOETtw9YA" title="https://www.youtube.com/embed/R2SOETtw9YA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="display:block;margin:0 auto;max-width:100%;">
+</iframe>
+</section>
+<section id="detection-of-viral-proteins" class="slide level2">
+<h2>Detection of viral proteins</h2>
+<ul>
+<li><p>Enzymes and other proteins -&gt; detected by biochemical, immunologic, and molecular biology</p></li>
+<li><p>Viral proteins -&gt; separated by electrophoresis -&gt; identify and distinguish different viruses</p></li>
+<li><p>Monoclonal or monospecific antibodies -&gt; distinguishing viruses (antigens on cell surface or within cell) -&gt; detected by immunofluorescence and enzyme immunoassay (EIA).</p></li>
+<li><p>Virus or antigen released from infected cells -&gt; detected by enzyme-linked immunosorbent assay (ELISA), and latex agglutination (LA).</p></li>
+</ul>
+<aside class="notes">
+<p>Viral proteins can be detected through various immunological and biochemical methods. Antibodies play a key role in these assays.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="detection-of-viral-proteins-1" class="slide level2">
+<h2>Detection of viral proteins</h2>
+<p>Technique:</p>
+<ul>
+<li>Protein patterns (electrophoresis)</li>
+<li>Enzyme activities (e.g., reverse transcriptase)</li>
+<li>Hemagglutination and hemadsorption</li>
+<li>Antigen detection (e.g., direct and indirect immunofluorescence, enzyme-linked immunosorbent assay)</li>
+</ul>
+<aside class="notes">
+<p>Specific techniques for protein detection include electrophoresis for patterns and assays like ELISA for antigens.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="detection-of-viral-genetic-material" class="slide level2">
+<h2>Detection of viral genetic material</h2>
+<p>Modern molecular techniques for detecting viral genetic material:</p>
+<ul>
+<li><strong>PCR &amp; RT-PCR:</strong> amplify and detect viral DNA/RNA</li>
+<li><strong>qPCR:</strong> quantifies viral load</li>
+<li><strong>Electrophoresis:</strong> analyzes RNA/DNA size and segments</li>
+<li><strong>Blotting (Southern/Northern):</strong> identifies specific viral genes</li>
+<li><strong>Genome sequencing:</strong> comprehensive virus identification</li>
+</ul>
+<aside class="notes">
+<p>Speaker note: Emphasize that molecular methods are frontline for many viruses—fast and sensitive—but require strict controls to avoid contamination. Mention clinical uses: diagnosis, viral load monitoring, and variant detection.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="electrophoresis" class="slide level2">
+<h2>Electrophoresis</h2>
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/IeNcg9uK17M" title="Electrophoresis Animation" frameborder="0" allowfullscreen="">
+</iframe>
+<aside class="notes">
+<p>Note: Use this short animation to explain how molecules separate by size and why that’s useful for identifying viral proteins or genome segments.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="pcr-video" class="slide level2">
+<h2>PCR Video</h2>
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/8GOKaZ8MRyM" title="PCR Animation" frameborder="0" allowfullscreen="">
+</iframe>
+<aside class="notes">
+<p>Note: Pause on the denaturation/annealing/extension steps to explain primer design and the importance of controls.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="western-blot-video" class="slide level2">
+<h2>Western Blot Video</h2>
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/qT_AqI-MKJc" title="Western Blot Animation" frameborder="0" allowfullscreen="">
+</iframe>
+<aside class="notes">
+<p>Note: Point out how Western blot confirms protein identity and is often used to validate ELISA results.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="serology-testing" class="slide level2">
+<h2>Serology testing</h2>
+<ul>
+<li>Identify viruses: hard to culture or cause long-lasting diseases</li>
+<li>Helps distinguish between acute, chronic, primary, or recurrent infections by measuring antibody levels</li>
+<li>Detects antibodies against viral proteins, especially later in infection</li>
+<li>Common serologic tests include neutralization, hemagglutination inhibition (HI), indirect fluorescent antibody, latex agglutination, ELISA, and Western blot</li>
+</ul>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/rudWavg0eRg" title="Immunofluorescence Animation" frameborder="0" allowfullscreen="">
+</iframe>
+<aside class="notes">
+<p>Serology detects the host’s immune response to viruses. It’s useful for retrospective diagnosis and monitoring immunity.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="elisa" class="slide level2">
+<h2>ELISA</h2>
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/ERk0hwqhyDw" title="Immunofluorescence Animation" frameborder="0" allowfullscreen="">
+</iframe>
+<aside class="notes">
+<p>Note: Clarify direct vs indirect ELISA briefly and when ELISA is preferred (high-throughput antigen/antibody screening).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="hemagglutination" class="slide level2">
+<h2>Hemagglutination</h2>
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/su49ibJhdmw" title="Hemagglutination" frameborder="0" allowfullscreen="">
+</iframe>
+<aside class="notes">
+<p>Note: Explain hemagglutination as a simple, low-cost assay for certain viruses (e.g., influenza); mention limitations in sensitivity.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="genome-sequencing" class="slide level2">
+<h2>Genome sequencing</h2>
+<ul>
+<li>Comprehensive identification and characterization of viruses</li>
+<li>Determines viral genome structure, mutations, and variants</li>
+<li>Essential for outbreak investigation, epidemiology, and vaccine development</li>
+</ul>
+<aside class="notes">
+<p>Genome sequencing provides detailed information about viral genetic material, enabling detection of new strains and guiding public health responses.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="genome-sequencing-1" class="slide level2">
+<h2>Genome sequencing</h2>
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/EDVKxSNdSic" title="https://www.youtube.com/embed/EDVKxSNdSic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="display:block;margin:0 auto;max-width:100%;">
+</iframe>
+<!-- ## Molecular Techniques
+
+![](images/image30.png){ width=70% }
+
+## Selected Immunologic Techniques
+
+![](images/image31.png){ width=70% } -->
+</section>
+<section>
+<section id="quiz" class="title-slide slide level1 center">
+<h1>Quiz</h1>
+
+</section>
+<section id="which-laboratory-technique-is-most-useful-for-detecting-non-culturable-viruses-such-as-rotavirus-rv" class="slide level2 quiz-question scrollable">
+<h2>Which laboratory technique is most useful for detecting non-culturable viruses such as <em>Rotavirus</em> (RV)?</h2>
+<ol type="A">
+<li>Cell culture</li>
+<li><span class="correct">Electron microscopy</span></li>
+<li>ELISA</li>
+<li>PCR</li>
+</ol>
+</section>
+<section id="what-is-the-primary-purpose-of-collecting-specimens-early-in-the-acute-phase-of-infection" class="slide level2 quiz-question scrollable">
+<h2>What is the primary purpose of collecting specimens early in the acute phase of infection?</h2>
+<ol type="A">
+<li>To prevent contamination</li>
+<li><span class="correct">To maximize viral yield</span></li>
+<li>To reduce antibody interference</li>
+<li>To simplify transport</li>
+</ol>
+</section>
+<section id="which-method-is-commonly-used-to-detect-viral-proteins-by-separating-them-based-on-size" class="slide level2 quiz-question scrollable">
+<h2>Which method is commonly used to detect viral proteins by separating them based on size?</h2>
+<ol type="A">
+<li>PCR</li>
+<li><span class="correct">Electrophoresis</span></li>
+<li>Genome sequencing</li>
+<li>Hemagglutination</li>
+</ol>
+</section>
+<section id="which-serologic-test-is-used-to-measure-antibody-levels-and-distinguish-between-acute-and-chronic-infections" class="slide level2 quiz-question scrollable">
+<h2>Which serologic test is used to measure antibody levels and distinguish between acute and chronic infections?</h2>
+<ol type="A">
+<li><span class="correct">ELISA</span></li>
+<li>Electron microscopy</li>
+<li>Plaque assay</li>
+<li>Cell culture</li>
+</ol>
+</section>
+<section id="what-does-tcd50-measure-in-cell-culture-based-virus-quantification" class="slide level2 quiz-question scrollable">
+<h2>What does TCD50 measure in cell culture-based virus quantification?</h2>
+<ol type="A">
+<li><span class="correct">The dilution causing CPE in 50% of cultures</span></li>
+<li>The dilution lethal to 50% of animals</li>
+<li>The number of viral genomes</li>
+<li>The amount of antibody produced</li>
+</ol>
+</section>
+<section id="assignment" class="slide level2">
+<h2>Assignment</h2>
+<p>Diagnostic of:</p>
+<ul>
+<li><em>Smallpox virus</em> (SPV)</li>
+<li><em>Human papillomavirus</em> (HPV)</li>
+<li><em>Rotavirus</em> (RV)</li>
+<li><em>Adenovirus</em></li>
+<li><em>Human immunodeficiency virus</em> (HIV)</li>
+<li><em>Coronavirus</em> (SARS-CoV-2)</li>
+<li><em>Rhabdovirus</em></li>
+</ul>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+
+<script> window._input_file = "---\n" + "title: \"Diagnostic Methods in Virology\"\n" + "format:\n" + "  revealjs\n" + "---\n" + "\n" + "## Objectives\n" + "\n" + "After this session the students should be able to:\n" + "\n" + "- Demonstrate the importance of diagnosis in virology\n" + "- Identify the laboratory procedure for diagnosis in virology\n" + "- Explain the cell culture to identify virus in medical laboratory\n" + "- Describe the techniques that detect viral protein to identify virus in medical laboratory\n" + "- Illustrate the principle of ELISA and PCR technique\n" + "\n" + "##\n" + "<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>\n" + "\n" + "## Case Vignette\n" + "A 28-year-old woman presents with fever, fatigue, and a rash. \n" + "She recently returned from a tropical vacation. What diagnostic tests would you consider?\n" + "\n" + "::: {.notes}\n" + "Prompt discussion on differential diagnosis: Ask students to consider possible viral causes (e.g., dengue, measles, Zika, chikungunya, rubella). Guide them to think about which laboratory tests would be most appropriate based on symptoms, travel history, and timing—such as PCR for viral genome detection, serology for antibody response, and antigen detection assays. Emphasize the importance of specimen collection timing and clinical context in selecting diagnostic methods.\n" + ":::\n" + "\n" + "## Introduction {.smaller}\n" + "\n" + "- Why diagnostics matter:\n" + "  - Enable timely, targeted treatment and infection control\n" + "  - Inform public-health responses, surveillance, and outbreak investigation\n" + "\n" + "- What diagnostic methods can do:\n" + "  - Detect virus directly (particles, antigens, genomes)\n" + "  - Isolate and grow virus for characterization (culture)\n" + "  - Measure host response (antibodies) for retrospective diagnosis or immunity assessment\n" + "  - Quantify viral load and identify variants (qPCR, sequencing)\n" + "\n" + "## Introduction (cont.)\n" + "- Key challenges in viral diagnosis:\n" + "  - Timing of specimen collection and specimen quality affect sensitivity\n" + "  - Viral diversity and low loads can reduce detection rates\n" + "\n" + "## Specimen collection:\n" + "\n" + "- Choose specimens based on suspected virus and clinical presentation\n" + "- Collect samples early in the acute phase for highest viral yield\n" + "- Antibody response may interfere with virus detection—timing is critical\n" + "- Use proper transport media with antibiotics and proteins to preserve sample integrity\n" + "- Keep specimens cold (usually 2-8°C) and process promptly to ensure accurate results\n" + "\n" + "::: {.notes}\n" + "Proper specimen collection is the first critical step in viral diagnostics. Emphasize the importance of timing and handling to maintain sample viability.\n" + ":::\n" + "\n" + "## Specimen collection\n" + "\n" + "![](images/image8.png){ width=100% style=\"display: block; margin-left: auto; margin-right: auto;\" }\n" + "\n" + "::: {.notes}\n" + "This image illustrates proper specimen collection techniques. Discuss the types of samples and transport requirements.\n" + ":::\n" + "\n" + "## Diagnosis technique (cont.)\n" + "\n" + "![](images/image9.png){ width=100% style=\"display: block; margin-left: auto; margin-right: auto;\"}\n" + "\n" + "::: {.notes}\n" + "Here we see the four main groups of diagnostic techniques: morphological, immunological, molecular, and serological. Each has its strengths for different viruses.\n" + ":::\n" + "\n" + "## Diagnosis technique (cont.)\n" + "\n" + "Key laboratory procedures:\n" + "\n" + "- Cytologic examination\n" + "- Electron microscopy\n" + "- Virus isolation and culture\n" + "- Antigen/protein detection (immunoassays)\n" + "- Genome detection (PCR / sequencing)\n" + "- Serology (antibodies / antigens)\n" + "\n" + "::: {.notes}\n" + "Introduce the four broad approaches—morphology, culture, immunologic and molecular—then mention trade-offs (speed vs sensitivity vs specificity) and when each is preferred.\n" + ":::\n" + "\n" + "## Electron microscopy\n" + "\n" + "- Direct visualization of viral particles using negative staining\n" + "- Useful for detecting non-culturable viruses (e.g., _Rotavirus_)\n" + "- Sensitivity increased with virus-specific antibodies\n" + "- Limited routine use; mainly for rapid identification\n" + "\n" + "<div style=\"display: flex; gap: 10px; justify-content: center;\">\n" + "  <img src=\"images/image10.jpeg\" style=\"width: 18%;\" />\n" + "  <img src=\"images/image11.jpeg\" style=\"width: 18%;\" />\n" + "  <img src=\"images/image12.jpeg\" style=\"width: 18%;\" />\n" + "  <img src=\"images/image13.jpeg\" style=\"width: 18%;\" />\n" + "  <img src=\"images/image14.jpeg\" style=\"width: 18%;\" />\n" + "</div>\n" + "\n" + "::: {.notes}\n" + "Electron microscopy provides direct visualization of viruses. It's particularly useful for viruses that can't be cultured, like Rotavirus. The images show different viral morphologies.\n" + ":::\n" + "\n" + "## Electron microscopy (cont.)\n" + "<iframe width=\"1200\" height=\"650\" src=\"https://www.youtube.com/embed/9DnnxvS6BBQ\" title=\"https://www.youtube.com/embed/9DnnxvS6BBQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen style=\"display:block;margin:0 auto;max-width:100%;\"></iframe>\n" + "\n" + "## Cell culture {.smaller}\n" + "\n" + "- To grow and isolate virus from clinical specimens\n" + "- To observer cytopathic effects (CPE)\n" + "- To identify, quantify, and characterize viruses\n" + "- To produce live attenuated vaccines\n" + "\n" + "| **Type**                         | **Source & Characteristics**                                                                 | **Typical Uses**                        | **Lifespan**               |\n" + "|:----------------------------------|:-------------------------------------------------------------------------------------------|:----------------------------------------|:---------------------------|\n" + "| **Primary Cell Culture**          | Directly isolated from animal or human tissue; closely resemble normal cells                | Virus isolation, vaccine production      | Short (few divisions)      |\n" + "| **Diploid Cell Line**             | Derived from normal cells; maintain diploid chromosome number; limited subcultures          | Diagnostic assays, research              | Moderate (20–50 divisions) |\n" + "| **Continuous / Tumor Cell Line**  | Transformed or cancer-derived; immortalized; easy to maintain; may have abnormal features   | Routine virus culture, genetic studies   | Long / Infinite            |\n" + "\n" + "\n" + "::: {.notes}\n" + "Cell culture involves growing viruses in living cells. Different cell types are used depending on the virus. CPE is a key indicator of viral infection.\n" + ":::\n" + "\n" + "::: {.notes}\n" + "Speaker tip: When discussing CPE, show 1–2 example images and explain how time-to-CPE and cell tropism help narrow down the virus. Mention biosafety considerations briefly.\n" + ":::\n" + "\n" + "## Cell culture {.smaller}\n" + "::::{.columns}\n" + "::: {.column width=\"70%\"}\n" + "- Detect viruses by observing CPE, immunofluorescence, or genome analysis\n" + "- Identify viruses by cell type, and growth speed\n" + "- Quantify virus using:\n" + "\n" + "| **Method**      | **Measures**                  | **Description**                          |\n" + "|-----------------|------------------------------|------------------------------------------|\n" + "| **TCD₅₀**       | Infectious virus concentration| Dilution causing CPE in 50% of cultures. |\n" + "| **LD₅₀**        | Virus lethality              | Dilution lethal to 50% of animals.       |\n" + "| **ID₅₀**        | Infectivity in vivo          | Dilution infecting 50% of animals.       |\n" + "| **Plaque Assay**| Infectious units (PFU/mL)    | Count plaques for virus quantification.   |\n" + "\n" + ":::\n" + "::: {.column width=\"30%\"}\n" + "![](images/image19.png){ width=100%  style=\"display: block; margin-left: auto; margin-right: auto;\"}\n" + ":::\n" + "::::\n" + "\n" + "##\n" + "<iframe width=\"1200\" height=\"650\" src=\"https://www.youtube.com/embed/R2SOETtw9YA\" title=\"https://www.youtube.com/embed/R2SOETtw9YA\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen style=\"display:block;margin:0 auto;max-width:100%;\"></iframe>\n" + "\n" + "\n" + "## Detection of viral proteins\n" + "\n" + "- Enzymes and other proteins -> detected by biochemical, immunologic, and molecular biology\n" + "- Viral proteins -> separated by electrophoresis -> identify and distinguish different viruses\n" + "\n" + "- Monoclonal or monospecific antibodies -> distinguishing viruses (antigens on cell surface or within cell) -> detected by immunofluorescence and enzyme immunoassay (EIA).\n" + "\n" + "- Virus or antigen released from infected cells -> detected by enzyme-linked immunosorbent assay (ELISA), and latex agglutination (LA).\n" + "\n" + "::: {.notes}\n" + "Viral proteins can be detected through various immunological and biochemical methods. Antibodies play a key role in these assays.\n" + ":::\n" + "\n" + "## Detection of viral proteins\n" + "\n" + "Technique:\n" + "\n" + "- Protein patterns (electrophoresis)\n" + "- Enzyme activities (e.g., reverse transcriptase)\n" + "- Hemagglutination and hemadsorption\n" + "- Antigen detection (e.g., direct and indirect immunofluorescence, enzyme-linked immunosorbent assay)\n" + "\n" + "::: {.notes}\n" + "Specific techniques for protein detection include electrophoresis for patterns and assays like ELISA for antigens.\n" + ":::\n" + "\n" + "## Detection of viral genetic material\n" + "\n" + "Modern molecular techniques for detecting viral genetic material:\n" + "\n" + "- **PCR & RT-PCR:** amplify and detect viral DNA/RNA\n" + "- **qPCR:** quantifies viral load\n" + "- **Electrophoresis:** analyzes RNA/DNA size and segments\n" + "- **Blotting (Southern/Northern):** identifies specific viral genes\n" + "- **Genome sequencing:** comprehensive virus identification\n" + "\n" + "::: {.notes}\n" + "Speaker note: Emphasize that molecular methods are frontline for many viruses—fast and sensitive—but require strict controls to avoid contamination. Mention clinical uses: diagnosis, viral load monitoring, and variant detection.\n" + ":::\n" + "\n" + "## Electrophoresis\n" + "<iframe width=\"1200\" height=\"650\" src=\"https://www.youtube.com/embed/IeNcg9uK17M\" title=\"Electrophoresis Animation\" frameborder=\"0\" allowfullscreen></iframe>\n" + "\n" + "::: {.notes}\n" + "Note: Use this short animation to explain how molecules separate by size and why that's useful for identifying viral proteins or genome segments.\n" + ":::\n" + "\n" + "## PCR Video\n" + "<iframe width=\"1200\" height=\"650\" src=\"https://www.youtube.com/embed/8GOKaZ8MRyM\" title=\"PCR Animation\" frameborder=\"0\" allowfullscreen></iframe>\n" + "\n" + "::: {.notes}\n" + "Note: Pause on the denaturation/annealing/extension steps to explain primer design and the importance of controls.\n" + ":::\n" + "\n" + "## Western Blot Video\n" + "<iframe width=\"1200\" height=\"650\" src=\"https://www.youtube.com/embed/qT_AqI-MKJc\" title=\"Western Blot Animation\" frameborder=\"0\" allowfullscreen></iframe>\n" + "\n" + "::: {.notes}\n" + "Note: Point out how Western blot confirms protein identity and is often used to validate ELISA results.\n" + ":::\n" + "\n" + "## Serology testing\n" + "\n" + "- Identify viruses: hard to culture or cause long-lasting diseases\n" + "- Helps distinguish between acute, chronic, primary, or recurrent infections by measuring antibody levels\n" + "- Detects antibodies against viral proteins, especially later in infection\n" + "- Common serologic tests include neutralization, hemagglutination inhibition (HI),\n" + "indirect fluorescent antibody, latex agglutination, ELISA, and Western blot\n" + "\n" + "## \n" + "<iframe width=\"1200\" height=\"650\" src=\"https://www.youtube.com/embed/rudWavg0eRg\" title=\"Immunofluorescence Animation\" frameborder=\"0\" allowfullscreen></iframe>\n" + "\n" + "::: {.notes}\n" + "Serology detects the host's immune response to viruses. It's useful for retrospective diagnosis and monitoring immunity.\n" + ":::\n" + "\n" + "## ELISA\n" + "\n" + "<iframe width=\"1200\" height=\"650\" src=\"https://www.youtube.com/embed/ERk0hwqhyDw\" title=\"Immunofluorescence Animation\" frameborder=\"0\" allowfullscreen></iframe>\n" + "\n" + "::: {.notes}\n" + "Note: Clarify direct vs indirect ELISA briefly and when ELISA is preferred (high-throughput antigen/antibody screening).\n" + ":::\n" + "\n" + "## Hemagglutination\n" + "\n" + "<iframe width=\"1200\" height=\"650\" src=\"https://www.youtube.com/embed/su49ibJhdmw\" title=\"Hemagglutination\" frameborder=\"0\" allowfullscreen></iframe>\n" + "\n" + "::: {.notes}\n" + "Note: Explain hemagglutination as a simple, low-cost assay for certain viruses (e.g., influenza); mention limitations in sensitivity.\n" + ":::\n" + "\n" + "\n" + "## Genome sequencing\n" + "\n" + "- Comprehensive identification and characterization of viruses\n" + "- Determines viral genome structure, mutations, and variants\n" + "- Essential for outbreak investigation, epidemiology, and vaccine development\n" + "\n" + "::: {.notes}\n" + "Genome sequencing provides detailed information about viral genetic material, enabling detection of new strains and guiding public health responses.\n" + ":::\n" + "\n" + "\n" + "## Genome sequencing\n" + "\n" + "<iframe width=\"1200\" height=\"650\" src=\"https://www.youtube.com/embed/EDVKxSNdSic\" title=\"https://www.youtube.com/embed/EDVKxSNdSic\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen style=\"display:block;margin:0 auto;max-width:100%;\"></iframe>\n" + "\n" + "<!-- ## Molecular Techniques\n" + "\n" + "![](images/image30.png){ width=70% }\n" + "\n" + "## Selected Immunologic Techniques\n" + "\n" + "![](images/image31.png){ width=70% } -->\n" + "\n" + "# Quiz\n" + "## Which laboratory technique is most useful for detecting non-culturable viruses such as *Rotavirus* (RV)?{.quiz-question}\n" + "  A) Cell culture\n" + "  B) [Electron microscopy]{.correct}\n" + "  C) ELISA\n" + "  D) PCR\n" + "\n" + "## What is the primary purpose of collecting specimens early in the acute phase of infection?{.quiz-question}\n" + "  A) To prevent contamination\n" + "  B) [To maximize viral yield]{.correct}\n" + "  C) To reduce antibody interference\n" + "  D) To simplify transport\n" + "\n" + "## Which method is commonly used to detect viral proteins by separating them based on size?{.quiz-question}\n" + "  A) PCR\n" + "  B) [Electrophoresis]{.correct}\n" + "  C) Genome sequencing\n" + "  D) Hemagglutination\n" + "\n" + "## Which serologic test is used to measure antibody levels and distinguish between acute and chronic infections?{.quiz-question}\n" + "  A) [ELISA]{.correct}\n" + "  B) Electron microscopy\n" + "  C) Plaque assay\n" + "  D) Cell culture\n" + "\n" + "## What does TCD50 measure in cell culture-based virus quantification?{.quiz-question}\n" + "  A) [The dilution causing CPE in 50% of cultures]{.correct}\n" + "  B) The dilution lethal to 50% of animals\n" + "  C) The number of viral genomes\n" + "  D) The amount of antibody produced\n" + "\n" + "\n" + "## Assignment\n" + "\n" + "Diagnostic of:\n" + "\n" + "- *Smallpox virus* (SPV)\n" + "- *Human papillomavirus* (HPV)\n" + "- *Rotavirus* (RV)\n" + "- *Adenovirus*\n" + "- *Human immunodeficiency virus* (HIV)\n" + "- *Coronavirus* (SARS-CoV-2)\n" + "- *Rhabdovirus*\n" + "\n" + "## References\n" + ""</script>
+<script> window._input_filename = '/Users/sopheap/Desktop/UP/Virology/4_Diagnsotic_methods_in_virology/4_Diagnostic_method_in_virology.qmd'</script>
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-ChhaySodalis2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Sokdalis C. Virology training materials. 2024. </div>
+</div>
+<div id="ref-ViralZone" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Hulo C, Masson P, de Castro E, Le Mercier P. Vol. 39, Nucleic Acids Research. 2011 [cited 2025 Oct 24]. p. D708–13 ViralZone: A knowledge resource to understand virus diversity. Available from: <a href="https://viralzone.expasy.org/">https://viralzone.expasy.org/</a></div>
+</div>
+<div id="ref-Louten2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Louten J. Essential human virology. London, UK; San Diego, CA, USA; Cambridge, MA, USA; Oxford, UK: Elsevier (Academic Press); 2016. </div>
+</div>
+<div id="ref-ShuklaSaha" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Das S, Saha R. Microbiology practical manual, third edition. New Delhi, India: CBS Publishers &amp; Distributors Pvt Ltd; n.d. </div>
+</div>
+<div id="ref-Mishra2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Mishra B. Textbook of medical virology, second edition. New Delhi, India: CBS Publishers &amp; Distributors Pvt. Ltd.; 2022. </div>
+</div>
+<div id="ref-Patricia2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Tille PM. Bailey &amp; scott’s diagnostic microbiology, 14th edition. 14th ed. St. Louis, Missouri, USA: Elsevier; 2017. </div>
+</div>
+<div id="ref-Kudesia2009" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Kudesia G, Wreghitt T. Clinical and diagnostic virology. Cambridge, UK; New York, USA; Melbourne, Australia; Madrid, Spain; Cape Town, South Africa; Singapore; São Paulo, Brazil: Cambridge University Press; 2009. </div>
+</div>
+<div id="ref-Knipe2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Knipe DM, Howley PM. Fields virology: Emerging viruses. 7th ed. Vol. 1. Wolters Kluwer; 2022. </div>
+</div>
+</div>
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/reveal-quiz/quiz.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/appearance/appearance.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/reveal-confetti/confetti.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/verticator/verticator.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/revealeditable/editable.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="4_Diagnostic_method_in_virology_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'pdfMaxPagesPerSlide': 1,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'quiz': {"checkKey":"c","resetKey":"q","shuffleKey":"t","allowNumberKeys":true,"disableOnCheck":false,"shuffleOptions":true,"defaultCorrect":"","defaultIncorrect":"","includeScore":false,"disableReset":false},
+'appearance': {"hideagain":true,"delay":300,"debug":false,"appearevent":"slidetransitionend","autoappear":false,"autoelements":false,"appearparents":false,"theme":"simple","darktheme":"black"},
+'confetti': {"particleCount":150,"angle":90,"spread":360,"startVelocity":25,"decay":0.9,"gravity":0.65,"drift":0,"ticks":400,"colors":["#0366fc","#f54281","#1fd14f"],"shapes":null,"scalar":0.7,"zIndex":100,"disableForReducedMotion":false},
+'verticator': {"themetag":"h1","color":"","inversecolor":"","skipuncounted":false,"clickable":true,"position":"auto","offset":"3vmin","autogenerate":true,"tooltip":false,"scale":1,"debug":true},
+'pointer': {"key":"q","color":"#ff0000","pointerSize":12,"alwaysVisible":false,"tailLength":15},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1280,
+
+        height: 720,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 0.2,
+
+        maxScale: 1.5,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealQuiz, Appearance, RevealConfetti, Verticator, Revealeditable, RevealPointer, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Create toggle button immediately
+      const toggleBtn = document.createElement('button');
+      toggleBtn.id = 'night-mode-toggle';
+      toggleBtn.innerHTML = '🌙';
+      toggleBtn.title = 'Toggle Night Mode';
+      toggleBtn.style.cssText = `
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #007bff;
+        color: white;
+        border: 1px solid white;
+        font-size: 15px;
+        cursor: pointer;
+        z-index: 10000;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+      `;
+
+      // Add hover effect
+      toggleBtn.onmouseover = function() {
+        this.style.background = '#0056b3';
+        this.style.transform = 'scale(1.1)';
+      };
+      toggleBtn.onmouseout = function() {
+        this.style.background = '#007bff';
+        this.style.transform = 'scale(1)';
+      };
+
+      // Add click handler
+      toggleBtn.onclick = function() {
+        document.body.classList.toggle('night-mode');
+        
+        // Update button icon based on current mode
+        setTimeout(function() {
+          if (document.body.classList.contains('night-mode')) {
+            toggleBtn.innerHTML = '☀️';
+            toggleBtn.title = 'Switch to Light Mode';
+          } else {
+            toggleBtn.innerHTML = '🌙';
+            toggleBtn.title = 'Switch to Night Mode';
+          }
+        }, 100);
+      };
+
+      // Add to page
+      document.body.appendChild(toggleBtn);
+      console.log('Button added to body');
+      
+    });
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

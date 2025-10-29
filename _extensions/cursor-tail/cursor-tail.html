@@ -1,0 +1,55 @@
+<!-- Cursor tail extension: inline CSS + JS (red tail) -->
+<style>
+/* Cursor tail styles (red) */
+.ct-overlay{ position:absolute; inset:0; pointer-events:none; z-index:99999; }
+.ct-dot{ position: absolute; width:12px; height:12px; border-radius:50%; background: rgba(255,50,50,0.95); transform: translate(-50%, -50%); pointer-events:none; mix-blend-mode:normal; will-change:transform,opacity; opacity:0.95; transition: opacity 120ms linear, transform 120ms linear; }
+@media (hover: none){ .ct-dot{ display:none !important; } }
+@media (prefers-reduced-motion: reduce){ .ct-dot{ transition:none !important; } }
+</style>
+
+<script>
+// Cursor-tail extension script (red tail). Guarded to avoid duplicates.
+(function(){
+  if (typeof window === 'undefined') return;
+  if (window.__cursorTailExtensionIncluded) return; window.__cursorTailExtensionIncluded = true;
+  try{
+    if (window.matchMedia && window.matchMedia('(hover: none)').matches) return;
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    function init(){
+      try{
+        var reveal = document.querySelector('.reveal');
+        var container = document.body;
+        var overlay = null;
+        if (reveal){
+          if (getComputedStyle(reveal).position === 'static') reveal.style.position = 'relative';
+          overlay = document.createElement('div'); overlay.className = 'ct-overlay'; reveal.appendChild(overlay); container = overlay;
+        }
+
+        var NUM = 14, dots = [], mouseX=-1000, mouseY=-1000;
+        for(var i=0;i<NUM;i++){
+          var el = document.createElement('div'); el.className = 'ct-dot';
+          var size = Math.max(6, 14 - i*0.6); el.style.width = el.style.height = size + 'px';
+          el.style.opacity = String(1 - i/(NUM+2)); el.style.position = (container===document.body)?'fixed':'absolute';
+          container.appendChild(el); dots.push({el:el,x:mouseX,y:mouseY});
+        }
+
+        window.addEventListener('mousemove', function(e){ mouseX = e.clientX; mouseY = e.clientY; }, {passive:true});
+
+        function animate(){
+          var x=mouseX,y=mouseY;
+          for(var i=0;i<dots.length;i++){
+            var d=dots[i]; var easing=0.18 + (i/(dots.length*6)); d.x += (x-d.x)*easing; d.y += (y-d.y)*easing;
+            var localX = d.x - (container===document.body?0:container.getBoundingClientRect().left);
+            var localY = d.y - (container===document.body?0:container.getBoundingClientRect().top);
+            d.el.style.transform = 'translate3d('+localX+'px,'+localY+'px,0) translate(-50%, -50%)'; x=d.x;y=d.y;
+          }
+          requestAnimationFrame(animate);
+        }
+        requestAnimationFrame(animate);
+      }catch(e){ console.error('cursor-tail extension init error', e); }
+    }
+    if (document.readyState === 'complete' || document.readyState === 'interactive') init(); else document.addEventListener('DOMContentLoaded', init);
+  }catch(e){ console.error('cursor-tail extension error', e); }
+})();
+</script>

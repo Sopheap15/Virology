@@ -1,0 +1,1 @@
+.cursor-dot,.cursor-dot-outline{pointer-events:none;position:absolute;top:0;left:0;border-radius:50%;opacity:0;transform:translate(-50%,-50%);transition:opacity 0.2s ease-out,transform 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);}.cursor-dot{width:16px;height:16px;background-color:red;z-index:99;}.no-cursor{cursor:none;}.no-cursor a,.no-cursor div,.no-cursor span{cursor:none;}

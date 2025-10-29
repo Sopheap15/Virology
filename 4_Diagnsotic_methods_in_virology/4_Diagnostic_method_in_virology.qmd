@@ -1,0 +1,316 @@
+---
+title: "Diagnostic Methods in Virology"
+format:
+  revealjs
+---
+
+## Objectives
+
+After this session the students should be able to:
+
+- Demonstrate the importance of diagnosis in virology
+- Identify the laboratory procedure for diagnosis in virology
+- Explain the cell culture to identify virus in medical laboratory
+- Describe the techniques that detect viral protein to identify virus in medical laboratory
+- Illustrate the principle of ELISA and PCR technique
+
+##
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+## Case Vignette
+A 28-year-old woman presents with fever, fatigue, and a rash. 
+She recently returned from a tropical vacation. What diagnostic tests would you consider?
+
+::: {.notes}
+Prompt discussion on differential diagnosis: Ask students to consider possible viral causes (e.g., dengue, measles, Zika, chikungunya, rubella). Guide them to think about which laboratory tests would be most appropriate based on symptoms, travel history, and timing—such as PCR for viral genome detection, serology for antibody response, and antigen detection assays. Emphasize the importance of specimen collection timing and clinical context in selecting diagnostic methods.
+:::
+
+## Introduction {.smaller}
+
+- Why diagnostics matter:
+  - Enable timely, targeted treatment and infection control
+  - Inform public-health responses, surveillance, and outbreak investigation
+
+- What diagnostic methods can do:
+  - Detect virus directly (particles, antigens, genomes)
+  - Isolate and grow virus for characterization (culture)
+  - Measure host response (antibodies) for retrospective diagnosis or immunity assessment
+  - Quantify viral load and identify variants (qPCR, sequencing)
+
+## Introduction (cont.)
+- Key challenges in viral diagnosis:
+  - Timing of specimen collection and specimen quality affect sensitivity
+  - Viral diversity and low loads can reduce detection rates
+
+## Specimen collection:
+
+- Choose specimens based on suspected virus and clinical presentation
+- Collect samples early in the acute phase for highest viral yield
+- Antibody response may interfere with virus detection—timing is critical
+- Use proper transport media with antibiotics and proteins to preserve sample integrity
+- Keep specimens cold (usually 2-8°C) and process promptly to ensure accurate results
+
+::: {.notes}
+Proper specimen collection is the first critical step in viral diagnostics. Emphasize the importance of timing and handling to maintain sample viability.
+:::
+
+## Specimen collection
+
+![](images/image8.png){ width=100% style="display: block; margin-left: auto; margin-right: auto;" }
+
+::: {.notes}
+This image illustrates proper specimen collection techniques. Discuss the types of samples and transport requirements.
+:::
+
+## Diagnosis technique (cont.)
+
+![](images/image9.png){ width=100% style="display: block; margin-left: auto; margin-right: auto;"}
+
+::: {.notes}
+Here we see the four main groups of diagnostic techniques: morphological, immunological, molecular, and serological. Each has its strengths for different viruses.
+:::
+
+## Diagnosis technique (cont.)
+
+Key laboratory procedures:
+
+- Cytologic examination
+- Electron microscopy
+- Virus isolation and culture
+- Antigen/protein detection (immunoassays)
+- Genome detection (PCR / sequencing)
+- Serology (antibodies / antigens)
+
+::: {.notes}
+Introduce the four broad approaches—morphology, culture, immunologic and molecular—then mention trade-offs (speed vs sensitivity vs specificity) and when each is preferred.
+:::
+
+## Electron microscopy
+
+- Direct visualization of viral particles using negative staining
+- Useful for detecting non-culturable viruses (e.g., _Rotavirus_)
+- Sensitivity increased with virus-specific antibodies
+- Limited routine use; mainly for rapid identification
+
+<div style="display: flex; gap: 10px; justify-content: center;">
+  <img src="images/image10.jpeg" style="width: 18%;" />
+  <img src="images/image11.jpeg" style="width: 18%;" />
+  <img src="images/image12.jpeg" style="width: 18%;" />
+  <img src="images/image13.jpeg" style="width: 18%;" />
+  <img src="images/image14.jpeg" style="width: 18%;" />
+</div>
+
+::: {.notes}
+Electron microscopy provides direct visualization of viruses. It's particularly useful for viruses that can't be cultured, like Rotavirus. The images show different viral morphologies.
+:::
+
+## Electron microscopy (cont.)
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/9DnnxvS6BBQ" title="https://www.youtube.com/embed/9DnnxvS6BBQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:block;margin:0 auto;max-width:100%;"></iframe>
+
+## Cell culture {.smaller}
+
+- To grow and isolate virus from clinical specimens
+- To observer cytopathic effects (CPE)
+- To identify, quantify, and characterize viruses
+- To produce live attenuated vaccines
+
+| **Type**                         | **Source & Characteristics**                                                                 | **Typical Uses**                        | **Lifespan**               |
+|:----------------------------------|:-------------------------------------------------------------------------------------------|:----------------------------------------|:---------------------------|
+| **Primary Cell Culture**          | Directly isolated from animal or human tissue; closely resemble normal cells                | Virus isolation, vaccine production      | Short (few divisions)      |
+| **Diploid Cell Line**             | Derived from normal cells; maintain diploid chromosome number; limited subcultures          | Diagnostic assays, research              | Moderate (20–50 divisions) |
+| **Continuous / Tumor Cell Line**  | Transformed or cancer-derived; immortalized; easy to maintain; may have abnormal features   | Routine virus culture, genetic studies   | Long / Infinite            |
+
+
+::: {.notes}
+Cell culture involves growing viruses in living cells. Different cell types are used depending on the virus. CPE is a key indicator of viral infection.
+:::
+
+::: {.notes}
+Speaker tip: When discussing CPE, show 1–2 example images and explain how time-to-CPE and cell tropism help narrow down the virus. Mention biosafety considerations briefly.
+:::
+
+## Cell culture {.smaller}
+::::{.columns}
+::: {.column width="70%"}
+- Detect viruses by observing CPE, immunofluorescence, or genome analysis
+- Identify viruses by cell type, and growth speed
+- Quantify virus using:
+
+| **Method**      | **Measures**                  | **Description**                          |
+|-----------------|------------------------------|------------------------------------------|
+| **TCD₅₀**       | Infectious virus concentration| Dilution causing CPE in 50% of cultures. |
+| **LD₅₀**        | Virus lethality              | Dilution lethal to 50% of animals.       |
+| **ID₅₀**        | Infectivity in vivo          | Dilution infecting 50% of animals.       |
+| **Plaque Assay**| Infectious units (PFU/mL)    | Count plaques for virus quantification.   |
+
+:::
+::: {.column width="30%"}
+![](images/image19.png){ width=100%  style="display: block; margin-left: auto; margin-right: auto;"}
+:::
+::::
+
+##
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/R2SOETtw9YA" title="https://www.youtube.com/embed/R2SOETtw9YA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:block;margin:0 auto;max-width:100%;"></iframe>
+
+
+## Detection of viral proteins
+
+- Enzymes and other proteins -> detected by biochemical, immunologic, and molecular biology
+- Viral proteins -> separated by electrophoresis -> identify and distinguish different viruses
+
+- Monoclonal or monospecific antibodies -> distinguishing viruses (antigens on cell surface or within cell) -> detected by immunofluorescence and enzyme immunoassay (EIA).
+
+- Virus or antigen released from infected cells -> detected by enzyme-linked immunosorbent assay (ELISA), and latex agglutination (LA).
+
+::: {.notes}
+Viral proteins can be detected through various immunological and biochemical methods. Antibodies play a key role in these assays.
+:::
+
+## Detection of viral proteins
+
+Technique:
+
+- Protein patterns (electrophoresis)
+- Enzyme activities (e.g., reverse transcriptase)
+- Hemagglutination and hemadsorption
+- Antigen detection (e.g., direct and indirect immunofluorescence, enzyme-linked immunosorbent assay)
+
+::: {.notes}
+Specific techniques for protein detection include electrophoresis for patterns and assays like ELISA for antigens.
+:::
+
+## Detection of viral genetic material
+
+Modern molecular techniques for detecting viral genetic material:
+
+- **PCR & RT-PCR:** amplify and detect viral DNA/RNA
+- **qPCR:** quantifies viral load
+- **Electrophoresis:** analyzes RNA/DNA size and segments
+- **Blotting (Southern/Northern):** identifies specific viral genes
+- **Genome sequencing:** comprehensive virus identification
+
+::: {.notes}
+Speaker note: Emphasize that molecular methods are frontline for many viruses—fast and sensitive—but require strict controls to avoid contamination. Mention clinical uses: diagnosis, viral load monitoring, and variant detection.
+:::
+
+## Electrophoresis
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/IeNcg9uK17M" title="Electrophoresis Animation" frameborder="0" allowfullscreen></iframe>
+
+::: {.notes}
+Note: Use this short animation to explain how molecules separate by size and why that's useful for identifying viral proteins or genome segments.
+:::
+
+## PCR Video
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/8GOKaZ8MRyM" title="PCR Animation" frameborder="0" allowfullscreen></iframe>
+
+::: {.notes}
+Note: Pause on the denaturation/annealing/extension steps to explain primer design and the importance of controls.
+:::
+
+## Western Blot Video
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/qT_AqI-MKJc" title="Western Blot Animation" frameborder="0" allowfullscreen></iframe>
+
+::: {.notes}
+Note: Point out how Western blot confirms protein identity and is often used to validate ELISA results.
+:::
+
+## Serology testing
+
+- Identify viruses: hard to culture or cause long-lasting diseases
+- Helps distinguish between acute, chronic, primary, or recurrent infections by measuring antibody levels
+- Detects antibodies against viral proteins, especially later in infection
+- Common serologic tests include neutralization, hemagglutination inhibition (HI),
+indirect fluorescent antibody, latex agglutination, ELISA, and Western blot
+
+## 
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/rudWavg0eRg" title="Immunofluorescence Animation" frameborder="0" allowfullscreen></iframe>
+
+::: {.notes}
+Serology detects the host's immune response to viruses. It's useful for retrospective diagnosis and monitoring immunity.
+:::
+
+## ELISA
+
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/ERk0hwqhyDw" title="Immunofluorescence Animation" frameborder="0" allowfullscreen></iframe>
+
+::: {.notes}
+Note: Clarify direct vs indirect ELISA briefly and when ELISA is preferred (high-throughput antigen/antibody screening).
+:::
+
+## Hemagglutination
+
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/su49ibJhdmw" title="Hemagglutination" frameborder="0" allowfullscreen></iframe>
+
+::: {.notes}
+Note: Explain hemagglutination as a simple, low-cost assay for certain viruses (e.g., influenza); mention limitations in sensitivity.
+:::
+
+
+## Genome sequencing
+
+- Comprehensive identification and characterization of viruses
+- Determines viral genome structure, mutations, and variants
+- Essential for outbreak investigation, epidemiology, and vaccine development
+
+::: {.notes}
+Genome sequencing provides detailed information about viral genetic material, enabling detection of new strains and guiding public health responses.
+:::
+
+
+## Genome sequencing
+
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/EDVKxSNdSic" title="https://www.youtube.com/embed/EDVKxSNdSic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:block;margin:0 auto;max-width:100%;"></iframe>
+
+<!-- ## Molecular Techniques
+
+![](images/image30.png){ width=70% }
+
+## Selected Immunologic Techniques
+
+![](images/image31.png){ width=70% } -->
+
+# Quiz
+## Which laboratory technique is most useful for detecting non-culturable viruses such as *Rotavirus* (RV)?{.quiz-question}
+  A) Cell culture
+  B) [Electron microscopy]{.correct}
+  C) ELISA
+  D) PCR
+
+## What is the primary purpose of collecting specimens early in the acute phase of infection?{.quiz-question}
+  A) To prevent contamination
+  B) [To maximize viral yield]{.correct}
+  C) To reduce antibody interference
+  D) To simplify transport
+
+## Which method is commonly used to detect viral proteins by separating them based on size?{.quiz-question}
+  A) PCR
+  B) [Electrophoresis]{.correct}
+  C) Genome sequencing
+  D) Hemagglutination
+
+## Which serologic test is used to measure antibody levels and distinguish between acute and chronic infections?{.quiz-question}
+  A) [ELISA]{.correct}
+  B) Electron microscopy
+  C) Plaque assay
+  D) Cell culture
+
+## What does TCD50 measure in cell culture-based virus quantification?{.quiz-question}
+  A) [The dilution causing CPE in 50% of cultures]{.correct}
+  B) The dilution lethal to 50% of animals
+  C) The number of viral genomes
+  D) The amount of antibody produced
+
+
+## Assignment
+
+Diagnostic of:
+
+- *Smallpox virus* (SPV)
+- *Human papillomavirus* (HPV)
+- *Rotavirus* (RV)
+- *Adenovirus*
+- *Human immunodeficiency virus* (HIV)
+- *Coronavirus* (SARS-CoV-2)
+- *Rhabdovirus*
+
+## References

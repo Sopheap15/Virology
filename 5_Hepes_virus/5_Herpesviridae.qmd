@@ -1,0 +1,275 @@
+---
+title: "Herpes Simplex Virus (HSV)"
+
+format:
+  revealjs
+---
+
+## Objectives
+
+After this session the students should be able to:
+
+- List the main characteristics and morphology of HSV
+- Describe the stages of HSV multiplication
+- Explain the routes of HSV transmission
+- Identify target organs and types of HSV infection
+- Summarize the clinical manifestations of HSV infection
+- Outline diagnostic techniques and treatment options for HSV
+
+
+## Characteristics of HSV
+
+- Icosahedral capsid (162 capsomers, 6 proteins) 
+- Envelope with glycoproteins
+- The genome: large, linear, double-stranded DNA (~152 kbp, high GC content), encoding ~80 proteins
+- Ubiquitous but sensitive to acid, solvents, detergents, and drying
+- Family: Herpesviridae, subfamily: Alphaherpesvirinae, genus: Simplexvirus
+- HSV-1 (oral, above the waist) and HSV-2 (genital, below the waist)
+
+## Characteristics of HSV
+
+![](images/image2.png){ width=30% .absolute left=10}
+![](images/image3.png){ width=40% .absolute left=500}
+
+## Multiplication
+
+- In vitro: HSV infects permissive cells (human diploid, monkey kidney, amniotic fluid)
+- In vivo: lytic infection in fibroblasts/epithelial cells; latent infection in neurons
+- Entry: Glycoproteins bind glycosaminoglycans, fuse membranes, uncoat at nuclear pore
+- Viral gene expression occurs in 3 phases:
+  - Immediate early (α): gene regulation
+  - Early (β): replication proteins
+  - Late (γ): structural proteins
+
+<!-- ## Multiplication (cont.)
+![](images/image4.png){ width=70% }
+
+## Multiplication
+
+- Assembly and release
+
+![](images/image5.png){ width=70% }
+
+![](images/image6.png){ width=70% } -->
+
+## HSV multiplication 
+
+<iframe width="1200" height="600" src="https://www.youtube.com/embed/7RBRKQzOle8" title="HSV Multiplication" frameborder="0" allowfullscreen></iframe>
+
+## Epidemiology {.smaller}
+
+- **Reservoir:** humans are the only natural host
+- **Disease/viral factors:**
+  - HSV establishes lifelong latency after initial infection
+  - Reactivation leads to recurrent disease and continued transmission
+  - Asymptomatic viral shedding is common and contributes to spread
+- **Transmission:**
+  - Direct contact with mucosal surfaces or broken skin
+  - Spread via saliva, genital secretions, or contact with lesion fluid
+  - Transmission occurs through oral, genital, ocular routes, and skin abrasions
+  - HSV-1 is primarily transmitted orally; HSV-2 is mainly transmitted sexually, but both can infect either site
+
+## Epidemiology
+
+- **Who is at risk?**
+  - Children: primary HSV-1 infection (oral, mucosal, ocular)
+  - Sexually active adults: primary HSV-2 infection (genital)
+  - Healthcare workers (physicians, nurses, dentists): risk of herpetic whitlow from contact with oral/genital secretions
+  - Immunocompromised individuals and neonates: increased risk for severe, disseminated, or life-threatening HSV disease
+
+## Pathogenesis
+
+- **Acute Infection:**  
+  - HSV infects mucoepithelial cells, causing local lytic infection and inflammation
+  - Virus spreads to sensory neurons and ganglia (trigeminal for HSV-1, sacral for HSV-2)
+
+- **Latent Infection:**  
+  - HSV remains dormant in sensory ganglia
+  - Reactivation (triggered by stress, immunosuppression, etc.) causes recurrent lesions at the original site
+
+## Pathogenesis (cont.)
+
+:::: {.columns}
+::: {.column width="60%"}
+- **Sites of Latency:**
+  - HSV-1: trigeminal ganglion
+  - HSV-2: sacral ganglion
+
+![](images/image9.png){ width=30% .absolute right=10}
+:::
+::: {.column width="40%"}
+![](images/image8.png){ width=20% .absolute right=10}
+:::
+::::
+
+## Pathogenesis (cont.)
+
+![](images/image10.png){ width=100%  style="display: block; margin-left: auto; margin-right: auto;"}
+
+## Immunity
+
+**Innate immunity:** interferons and natural killer (NK) cells help control early HSV infection  
+**Cell-mediated immunity:** T helper 1 (TH1) and cytotoxic T cells (CD8+) destroy infected cells and are essential for recovery  
+**Antibody response:** antibodies neutralize free virus and limit its spread, but do not eliminate latent virus  
+**Immunopathology:** immune response causes inflammation and symptoms  
+**Immunodeficiency:** people with weak immune systems may have severe, recurrent, or widespread HSV infections
+
+## Clinical manifestations: HSV-1 {.smaller}
+:::: {.columns}
+::: {.column width="70%"}
+- **Young children:** gingivostomatitis (painful oral ulcers, fever, feeding difficulties)
+- **Adults:** pharyngitis or tonsillitis
+- **Skin lesions:** vesicular eruptions that progress to ulcers, commonly around mouth and face
+- **Systemic symptoms:** fever, malaise, myalgia
+- **Other findings:** cervical lymphadenopathy
+
+:::
+::: {.column width="30%"}
+![](images/image11.png){ width=80% }
+![](images/image12.png){ width=80% }
+:::
+::::
+
+:::: {.columns}
+
+![](images/image13.jpeg){ width=15% .absolute left=25 bottom=10}
+![](images/image14.png){ width=33% .absolute left=300 bottom=10}
+::::
+
+
+## Clinical manifestations: HSV-2
+:::: {.columns}
+::: {.column width="60%"}
+- **Genital herpes:** painful vesiculo-ulcerative lesions on external genitalia, perineum, or anus
+- **Lesion progression:** vesicles → pustules → ulcers
+- **Systemic symptoms:** fever, malaise, myalgia
+- **Other findings:** dysuria, inguinal lymphadenopathy
+
+:::
+::: {.column width="40%"}
+![](images/image16.png){ width=70% }
+![](images/image15.jpeg){ width=70% }
+:::
+::::
+
+## Clinical manifestations: Ocular {.smaller}
+:::: {.columns}
+::: {.column width="60%"}
+- **Ocular infection:**  
+  - Primarily caused by HSV-1 (except in neonates, where HSV-2 may be involved)
+  - Keratoconjunctivitis: infection of the cornea and conjunctiva
+  - Symptoms: pre-auricular lymphadenopathy, photophobia, eyelid edema, tearing (lacrimation)
+  - Retinitis: may develop years after initial infection
+  - HSV is a leading cause of infectious blindness due to corneal or retinal involvement
+:::
+::: {.column width="40%"}
+![](images/image17.jpeg){ width=100% }
+:::
+::::
+
+## Clinical manifestations: CNS Involvement
+:::: {.columns}
+::: {.column width="60%"}
+- **Central nervous system (CNS):**  
+  - HSV encephalitis: severe, potentially fatal if untreated
+  - Presents with fever, altered mental status, seizures, and focal neurological deficits
+:::
+::: {.column width="40%"}
+![](images/image18.jpeg){ width=100% }
+:::
+::::
+
+
+## Clinical manifestations
+
+![](images/image19.png){ width=70% }
+
+
+## Diagnostic virus isolation
+
+- **Virus isolation (cell culture):** gold standard for HSV diagnosis
+- **Sample:** collect from active lesions (vesicle fluid, swab)
+- **Cell lines:** Vero cells, human fibroblasts
+- **Cytopathic effects:** syncytia, ballooning cytoplasm, Cowdry type A inclusions
+- **Limitations:** needs specialized lab and viable virus
+
+## Additional diagnostic methods {.smaller}
+
+- **Immunological tests:** detect viral antigens (immunofluorescence, EIA); rapid but less sensitive than PCR
+- **Serology:** detects IgM (recent) and IgG (past) antibodies; differentiates HSV-1/HSV-2; useful for primary infection and epidemiology
+- **PCR:** highly sensitive for HSV DNA; preferred for neurological cases; does not confirm infectivity
+
+## Diagnostic virology
+
+![](images/image24.png){ width=70% }
+
+## Diagnostic virology summary {.smaller}
+
+- **Primary infection:** viral isolation or serology (IgM/IgG)
+- **Encephalitis:** PCR of CSF (most sensitive)
+- **Retinitis:** PCR of ocular fluids
+- **Pregnancy:** viral culture if no HSV history
+- **Neonates:** culture or PCR from lesions/blood/CSF
+
+*PCR is preferred for neurological/ocular cases; serology helps differentiate HSV-1 vs. HSV-2.*
+
+## Treatment
+
+- **Acyclovir (acycloguanosine):** a guanine analog that selectively inhibits HSV DNA synthesis
+- **Other antivirals:** valacyclovir and famciclovir are oral prodrugs with improved bioavailability, used for HSV infections
+- **Mechanism:** these drugs block viral DNA polymerase, preventing viral replication and spread
+- **Resistance:** may occur in immunocompromised patients due to mutations in thymidine kinase or DNA polymerase
+
+![](images/image25.png){ width=70% }
+
+## Treatment guidelines
+
+- **Initial episode (genital herpes):** oral acyclovir, valacyclovir, or famciclovir for 7–10 days
+- **Recurrent episodes:** short-course therapy (1–5 days) at symptom onset
+- **Severe or disseminated infection:** intravenous acyclovir
+- **Ocular or CNS involvement:** prompt IV acyclovir is essential
+- **Neonatal HSV:** IV acyclovir for 14–21 days
+
+*Treatment duration may be extended if healing is incomplete after 10 days.*
+
+## Prevention
+
+- No vaccine available
+- Avoid contact with active lesions or secretions
+- Practice safe sex (condoms)
+- Do not share personal items
+- Screen pregnant women; give antivirals if needed
+- Treat at-risk newborns with acyclovir
+
+# Quiz
+## What type of genome does Herpes Simplex Virus (HSV) have?{.quiz-question}
+   - (+)ssRNA
+   - dsRNA
+   - [dsDNA]{.correct}
+   - ssDNA
+
+## What is the most common route of transmission for HSV-1?{.quiz-question}
+  - Sexual contact
+  - Blood transfusion
+  - [Oral contact (saliva)]{.correct}
+  - Fecal-oral
+
+## What is the primary site of latency for HSV-1?{.quiz-question}
+   - Sacral ganglia
+   - Dorsal root ganglia
+   - [Trigeminal ganglia]{.correct}
+   - Cervical ganglia 
+
+## Which antiviral drug is commonly used to treat HSV infections?{.quiz-question}
+   - Zidovudine
+   - Oseltamivir
+   - [Acyclovir]{.correct}
+   - Ribavirin   
+
+## Which diagnostic method is considered the gold standard for HSV detection?{.quiz-question}
+   - PCR
+   - Serology
+   - [Virus isolation in cell culture]{.correct}
+   - Immunofluorescence
+
+## References

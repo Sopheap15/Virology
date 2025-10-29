@@ -1,0 +1,356 @@
+---
+title: "Structure and classification of [Viruses]{.animate__slideInDown .animate__faster}"
+
+format:
+  revealjs
+---
+
+
+## Objectives
+
+After this session, students should be able to:
+
+- Describe the history of the discovery of the virus  
+- Define what a virus is  
+- Define capsomer, capsid, genome, nucleocapsid, and envelope  
+- Differentiate the 3 structural components of viruses  
+- Mention 3 types of capsid symmetry  
+- Describe the nature of the viral envelope  
+- Explain the epidemiological consequences of having an envelope  
+- List the main criteria for classifying viruses  
+
+##
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+
+## Introduction: What is a Virus?
+
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/lADC0C_WeH0" title="https://www.youtube.com/embed/lADC0C_WeH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:block;margin:0 auto;max-width:100%;"></iframe>
+
+## Introduction (cont.)
+- Viruses cause a wide range of diseases in humans, animals, and plants
+- Many virus: responsible for subclinical or mild infections (e.g, *Adenovirus*, *Rhinovirus*)
+- Other viruses: cause severe diseases (e.g., *HIV*, *Ebola*, *SARS-CoV-2*)
+
+## Virus vs Cells
+![](images/virus_cell.png){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+
+## Discovery of viruses
+
+- First virus discovered: **Tobacco mosaic virus <br> (1892)** by Ivanovsky
+- Beijerinck confirmed the concept of “filterable agents”
+- Discovery of bacteriophage and animal viruses followed
+
+
+![](images/tabacco_mosaic_virus_infection.jpg){.absolute top=5px right=5px width="200" height="200"}
+
+![](images/tabacco_mosaic_virus.png)
+
+
+## Discovery of viruses (cont.)
+
+![](images/image4.png){.absolute right=0 bottom="50px" width="900" height="auto"}
+
+![](images/image3.jpeg){.absolute bottom=5px left=0 width="180" height="auto"}
+
+## Definition of virus
+:::: {.columns}
+::: {.column width="70%"}
+- Intracellular parasites  
+- Contain **either DNA or RNA** (never both)  
+- Unable to reproduce independently — require a host cell  
+- Too small to be seen under a light microscope range from **20-300 nm**
+:::
+
+::: {.column width="30%"}
+
+![](images/1200px-Ebola_virus_em.jpg){width="50%" style="border-radius:10px;"}
+
+![](images/virus_size.png){width="100%" style="border-radius:10px;"}
+:::
+
+::::
+
+## 
+![](images/image13.png){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+
+## General structure of viruses
+
+- **Core (Genome)** — genetic material
+- **Capsid** — protein coat surrounding the genome
+- **Envelope (optional)** — lipid membrane derived from host
+
+![](images/gen_str.jpg){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+
+
+## Genome
+
+- Made of **DNA or RNA**
+- May be **single-stranded (ss)** or **double-stranded (ds)**  
+- Can be **linear, circular, or segmented**
+
+![](images/virus_genome.png){width="70%" fig-align="center"}
+
+
+## Capsomer & Capsid {.smaller}
+::::{.columns}
+::: {.column width="60%"}
+**Capsomer**
+
+- Made of one or more **polypeptides**  
+- Combine to form the **capsid**
+
+**Capsid**
+
+- Protein coat made of capsomers
+- Protects the viral genome
+- Determines **shape and symmetry** of the virus
+
+**Nucleocapsid**
+
+- Combination of **capsid + genome**
+:::
+
+::: {.column width="40%"}
+
+![](images/virus_str1.png){width="80%" style="display:block; margin-left:auto; margin-right:100px; border-radius:10px;"}
+
+![](images/virus_str.png){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+:::
+::::
+
+
+## Envelope
+::::{.columns}
+::: {.column width="75%"}
+- **Lipid membrane** derived from host cell -> "hide from immune system" 
+- Contains viral glycoproteins (e.g., hemagglutinin, neuraminidase) for attachment and entry 
+- Not all viruses have envelopes
+
+- **Enveloped**: e.g., *Influenza virus*, *HIV*, *Herpes simplex virus (HSV)*
+- **Non-enveloped or Naked**: e.g., *Adenovirus*, *Poliovirus*
+:::
+
+::: {.column width="25%"}
+![](images/image11.png){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+:::
+::::
+
+## Consequences of Envelope
+**Envelop**
+
+- **Sensitive to heat, acid, and detergents**  
+- **Spread by direct contact or droplets (HSV, HIV)**  
+- Easily inactivated outside host  
+
+**Non-enveloped or naked**
+
+- More resistant and stable (e.g., drying, detergents, acid) 
+- Transmission through fomites (contaminated surfaces) via fecal-oral route 
+- Can survive longer outside the host. E.g., *Adenovirus*, *Poliovirus*
+
+![](images/detergent.jpg){.absolute right="10" top="25" width="150" height="auto"}
+
+![](images/detergent_virus.jpg){.absolute top="260" right="20" width="100" height="auto"}
+
+## E.g Enveloped vs Non-Enveloped Viruses (cont.)
+
+| **Enveloped viruses**  | **Non-Enveloped viruses**  |
+|------------------------|----------------------------|
+| *Herpesviridae*        | *Adenoviridae*             |
+| *Retroviridae*         | *Picornaviridae*           |
+| *Coronaviridae*        | *Parvoviridae*             |
+| *Orthomyxoviridae*     | *Caliciviridae*            |
+
+
+## Symmetry of Capsid
+
+- **Helical** – rod-like spiral  
+- **Icosahedral** – spherical, 20 faces  
+- **Complex** – irregular (e.g., bacteriophages)
+
+![](images/morpho_virus.png){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+
+## Helical symmetry
+
+- Genome coiled within capsid proteins  
+- Found in RNA viruses like **Influenza** or **Tobacco mosaic virus**
+
+![](images/tabacco_mosaic_virus.png)
+
+## Icosahedral symmetry
+
+- Efficient, stable, and common in many animal viruses  
+- Example: *Adenovirus*, *Poliovirus*
+
+![](images/adenovirus.jpg){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+
+[Click to find 3D models in Sketchfab](https://sketchfab.com/search?q=virus&type=models){target="_blank" rel="noopener noreferrer" style="font-size:16px; color:blue;"}
+
+## Complex symmetry
+
+- Not purely helical or icosahedral  
+- Seen in large viruses like **_Poxvirus_** and **Bacteriophage**
+
+![](images/phage.jpg){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+
+## Shape & size
+
+- Spherical, rod-shaped, bullet-shaped, or complex  
+![](images/virus_size.png){width="60%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+
+## Baltimore classification
+
+- **Type of nucleic acid** (DNA or RNA)  
+- **Strandedness** (single or double)  
+- **Mode of replication**
+
+![](images/baltimore.png){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+
+## Baltimore classification (cont.){.smaller}
+:::: {.columns}
+::: {.column width="50%"}
+| Group | Type |Mnemonic |
+|-------|------|---------|
+| I | dsDNA | HAPPY* |
+| II | ssDNA | *Parvovirus* |
+| III | dsRNA | *Rotavirus* |
+| IV | (+) ssRNA | +RNA* |
+| V | (–) ssRNA | *Influenza* |
+| VI | ssRNA-RT | *HIV* |
+| VII | dsDNA-RT | *Hepatitis B* |
+
+- **HAPPY** (Herpes, Adeno, Papova, Pox, Y)
+- **+RNA(TOGA party I drink FLAVored CORONA and eat small PICORNA CALI soup.)** (Toga, Flavi, Corona, Picorna, Calici)
+
+:::
+::: {.column width="50%"}
+![](images/image15.jpeg){width="70%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+:::
+::::
+
+## Virus causing disease in humans
+![](images/human_RNA.png){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+
+## Virus causing disease in humans (cont.)
+![](images/human_DNA.png){width="70%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+
+
+## Other classification
+- Since 1975, the **International Committee on Taxonomy of Viruses (ICTV)** has developed a universal virus classification system:
+  - Order (-virales)  e.g. *Herpesvirales*
+  - Family (-viridae)  e.g. *Herpesviridae*
+  - Subfamily (-virinae)  e.g. *Alphaherpesvirinae*
+  - Genus (-virus)  e.g. *Simplexvirus*
+  - Species (common name)  e.g. *Human herpesvirus 1*
+
+## Writing virus names{.smaller}
+
+| Level           | Example           | Ending / Style    | Writing Style                                            |
+| --------------- | ----------------- | ----------------- | -------------------------------------------------------- |
+| **Order**       | *Amarillovirales* | –virales          | *Italicized, Capitalize first letter*                    |
+| **Family**      | *Flaviviridae*    | –viridae          | *Italicized, Capitalize first letter*                    |
+| **Genus**       | *Flavivirus*      | –virus            | *Italicized, Capitalize first letter*                    |
+| **Species**     | *Dengue virus*    | (no fixed ending) | *Italicized, Capitalize first letter only of first word* |
+| **Common name** | dengue virus      | (descriptive)     | *Not italicized; lowercase*                              |
+
+
+# Quiz
+
+## Which of the following best defines a virus?{.quiz-question}
+
+A) A living organism that can reproduce independently  
+B) [An intracellular parasite containing either DNA or RNA that requires a host cell to reproduce]{.correct}
+C) A type of bacteria that causes disease  
+D) A protein structure that can self-replicate  
+
+
+## What are the three main types of capsid symmetry found in viruses?{.quiz-question}
+
+A) Circular, linear, and segmented  
+B) Small, medium, and large  
+C) [Helical, icosahedral, and complex]{.correct}  
+D) DNA, RNA, and protein  
+
+## Which statement about enveloped viruses is CORRECT?{.quiz-question}
+
+A) They are more stable in the environment than non-enveloped viruses  
+B) [They are sensitive to heat, acid, and detergents]{.correct}  
+C) They can only infect bacterial cells  
+D) They always contain DNA genomes  
+
+
+## In the Baltimore Classification System, Group IV viruses are characterized by:{.quiz-question}
+
+A) Double-stranded DNA  
+B) Single-stranded DNA  
+C) [Positive-sense single-stranded RNA (+ssRNA)]{.correct}  
+D) Double-stranded RNA  
+
+## Who discovered the first virus (Tobacco mosaic virus) and in what year?{.quiz-question}
+
+A) Louis Pasteur in 1885  
+B) [Dimitri Ivanovsky in 1892]{.correct}  
+C) Frederick Towrt in 1915  
+D) Felix d'Herrelle in 1917  
+
+## Which virus family does HIV belong to, and what type of genetic material does it contain?{.quiz-question}
+
+A) Herpesviridae; DNA  
+B) [Retroviridae; RNA]{.correct}  
+C) Adenoviridae; DNA  
+D) Picornaviridae; RNA  
+
+## What is the characteristic feature of Coronaviridae family viruses?{.quiz-question}
+
+A) Icosahedral capsid without envelope  
+B) [Crown-like spike proteins on envelope surface]{.correct}  
+C) Complex symmetry with tail fibers  
+D) Helical nucleocapsid without envelope  
+
+## According to Baltimore Classification, which group does Hepatitis B virus belong to?{.quiz-question}
+
+A) Group I (dsDNA)  
+B) Group VI (ssRNA-RT)  
+C) [Group VII (dsDNA-RT)]{.correct}  
+D) Group IV (+ssRNA)  
+
+## Which of the following viruses is NON-ENVELOPED?{.quiz-question}
+
+A) Influenza virus  
+B) Herpes simplex virus  
+C) [Rotavirus]{.correct}  
+D) SARS-CoV-2  
+
+## What makes Parvovirus unique among DNA viruses?{.quiz-question}
+
+A) It has the largest genome  
+B) [It contains single-stranded DNA]{.correct}  
+C) It only infects bacteria  
+D) It has complex symmetry  
+
+## How can we classify viruses? Which are the main classification criteria?{.quiz-question}
+
+A) Size and color only  
+B) [Type of nucleic acid, capsid symmetry, and presence/absence of envelope]{.correct}  
+C) Host species and transmission route only  
+D) Geographic location and discovery date  
+
+
+## Summary
+
+<div style="text-align:center;">
+  <video width="1200" height="400" controls style="max-width:100%; height:auto;">
+    <source src="images/media.MP4" type="video/mp4">
+  </video>
+</div>
+
+## References
+
+- Adapted from training material: Chhay Sokdalis (PharmD).
+- Flint SJ, Enquist LW, Racaniello VR, Skalka AM. Principles of Virology. 5th ed. ASM Press.
+- International Committee on Taxonomy of Viruses (ICTV). Virus Taxonomy: 2024 Release. https://ictv.global/ (accessed 2025-10-20).
+- ICTV discussion forum. https://talk.ictvonline.org/ (accessed 2025-10-20).
+- Images: Wikimedia Commons and Google (individual image pages for license/attribution). Wikimedia Commons: https://commons.wikimedia.org/ (accessed 2025-10-20).
+
+

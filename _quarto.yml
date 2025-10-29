@@ -1,0 +1,93 @@
+authors:
+  - name: "Sopheap Oeng"
+    email: "sopheap15@gmail.com"
+
+title-slide-attributes: 
+  data-background-color: "#2c3e50"
+  data-background-opacity: "0.3"
+
+date:
+  value: today
+  format: "DD MMM YYYY"
+
+bibliography: reference.bib
+nocite: '@*'
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/vancouver.csl
+
+format:
+  revealjs:
+    theme: simple
+    transition: fade
+    width: 1280
+    height: 720
+    margin: 0.1
+    minScale: 0.2
+    maxScale: 1.5
+    jump-to-slide: true
+    slideNumber: true
+    scrollable: true
+    highlight-style: github
+    show-notes: false
+    pdf-max-pages-per-slide: 1
+    pdf-page-format: a4
+    pdf-separate-fragments: false
+    preview-links: auto
+
+    appearance:
+      theme: simple
+      darktheme: black
+
+    confetti:
+      particleCount: 150
+      angle: 90
+      spread: 360
+      startVelocity: 25
+      gravity: 0.65
+      drift: 0
+      ticks: 400
+      colors: ["#0366fc", "#f54281", "#1fd14f"]
+      scalar: 0.7
+
+    verticator:
+      themetag: 'h1'
+      color: ''
+      inversecolor: ''
+      skipuncounted: false
+      clickable: true
+      position: 'auto'
+      offset: '3vmin'
+      autogenerate: true
+      tooltip: false
+      scale: 1
+
+    pointer:
+      key: 'q'
+      color: '#ff0000'
+      pointerSize: 12
+      alwaysVisible: false
+      tailLength: 15
+
+    css: ["styles.css"]
+    include-after-body: ["scripts.js"]
+  # include-in-header was moved to project-level to ensure global inclusion across formats
+
+# Ensure project-level resources are discoverable by Quarto (helps preview/server)
+resources:
+  - styles.css
+  - scripts.js
+
+# Global header includes (inserted into every page head)
+include-in-header: "_extensions/cursor-tail/cursor-tail.html"
+
+revealjs-plugins:
+  - quiz
+  - appearance
+  - confetti
+  #- speech
+  - verticator
+  - editable
+  - pointer
+
+filters:
+   - roughnotation
+   - editable

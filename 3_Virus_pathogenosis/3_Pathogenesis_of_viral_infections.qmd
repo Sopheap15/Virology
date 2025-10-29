@@ -1,0 +1,576 @@
+---
+title: "Pathogenesis of viral infections"
+format:
+  revealjs
+---
+
+## Objectives
+
+After this session the students should be able to:
+
+- Describe the interaction between virus and host
+- Explain how the virus can be transmitted by different routes in the body
+- Illustrate the path of virus spread
+- List the target organs of viral infection
+- Show the pathogenicity factors (virus & host)
+- Describe the host defense system
+
+##
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alemd3a3andpwho19varc928ymp9gnz2/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+
+## What is viral pathogenesis?
+
+**Viral pathogenesis** is the process by which viruses cause disease in their hosts through complex interactions
+
+- **Pathogenic virus**: virus that can infect and cause disease in a host
+- **Disease outcome**: result of virus-host interaction
+- **Tissue damage**: can be direct (viral) or indirect (immune response)
+
+::: {.notes}
+"What do we mean when we talk about how viruses cause disease?" Define viral pathogenesis as the study of how viruses interact with their hosts to cause disease. Emphasize that it's not just about the virus, but the complex interplay between viral factors and host responses. Point out the three key concepts: pathogenic viruses, disease outcomes, and tissue damage (both direct viral damage and indirect immune-mediated damage). Use this as a foundation for understanding the subsequent slides.
+:::
+
+## Viral pathogenesis
+
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/VURzDTCEovE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Virus-Host interaction outcomes {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Abortive infection**
+
+- Virus fails to replicate
+- No disease symptoms
+
+**Localized infection**
+
+- Virus replicates at entry site only
+- Limited tissue damage
+- Examples: Common cold, skin warts
+
+**Systemic infection**
+
+- Virus spreads throughout body
+- Multiple organ involvement
+- Examples: *Measles virus* (MV)
+:::
+
+::: {.column width="50%"}
+**Latent infection**
+
+- Virus remains dormant
+- Can reactivate later
+- Examples: *Herpes simplex virus* (HSV), *Varicella-zoster virus* (VZV), *Epstein–Barr virus* (EBV)
+
+**Fatal infection**
+
+- Overwhelming viral replication
+- Severe tissue damage
+- Examples: *Rabies virus*, *Influenza virus*
+:::
+
+::::
+
+::: {.notes}
+This slide shows the spectrum of possible outcomes when viruses interact with hosts. Start with the left column: Abortive infection is when the virus tries to infect but fails - the host wins completely. Localized infection is contained to the entry site, like a cold that stays in your nose. Systemic infection spreads throughout the body, affecting multiple organs.
+
+Then move to the right column: Latent infections are like sleeping viruses that can wake up later - herpes viruses are classic examples. Fatal infections are when the virus overwhelms the host completely. Use real-world examples to make this relatable and emphasize that the outcome depends on both viral and host factors.
+:::
+
+## Routes of viral entry into the body{.smaller}
+
+**Respiratory route** (most common)
+
+- **Inhalation of droplets/aerosols**
+- **Barriers**: nasal cilia, mucus, secretory IgA
+- **Examples**: *Influenza virus*, *Severe Acute Respiratory Syndrome Coronavirus 2* (SARS-CoV-2), *Respiratory Syncytial Virus* (RSV), *Rhinovirus*
+- **Factors**: droplet size, air circulation, exposure time
+
+**Digestive route**
+
+- **Ingestion of contaminated food/water**
+- **Barriers**: stomach acid, bile, intestinal immunity
+- **Examples**: *Rotavirus*, *Norovirus*, *Hepatitis A virus*, *Poliovirus*
+- **Factors**: viral stability in acidic conditions
+
+::: {.notes}
+Start by emphasizing that the respiratory route is the most common way viruses enter the body. Explain how droplets and aerosols work - larger droplets fall quickly, smaller aerosols can stay airborne longer. Discuss the natural barriers: cilia that sweep mucus up, IgA antibodies in secretions, and how viruses have evolved to overcome these.
+
+For the digestive route, highlight the challenges viruses face: stomach acid is extremely hostile (pH 1-2), so viruses need special stability. Mention that contaminated food and water are major transmission routes globally, especially in developing countries. Point out that some viruses like poliovirus can survive the stomach acid journey.
+:::
+
+## Routes of viral entry into the body (cont.){.smaller}
+**Parenteral route**
+
+- **Direct injection into blood/tissues**
+- **Barriers**: skin (bypasses natural barriers)
+- **Types**: 
+    - Medical: transfusions, needles, organ transplants
+    - Non-medical: IV drug use, tattoos, animal bites
+- **Examples**: HIV, *Hepatitis B virus* (HBV), *Hepatitis C virus* (HCV), *Rabies virus*
+
+**Ocular route**
+
+- **Mechanism**: direct contact with conjunctiva
+- **Examples**: *Adenovirus*, HSV
+- **Sources**: contaminated hands, eye drops
+
+::: {.notes}
+The parenteral route bypasses all natural barriers by going directly into the bloodstream. Discuss both medical (healthcare-associated) and non-medical (drug use, tattoos) transmission. Emphasize how important universal precautions are in healthcare settings. Mention that rabies virus enters through animal bites, which is why post-exposure prophylaxis is critical.
+
+For ocular transmission, explain that the eye is particularly vulnerable because the conjunctiva is a mucous membrane with rich blood supply. Viruses can enter through contaminated hands, shared eye drops, or swimming in contaminated water. Adenoviruses are notorious for causing epidemics in schools and military settings.
+:::
+
+## Routes of viral entry into the body (cont.){.smaller}
+**Vertical transmission**
+
+- **Transplacental**: during pregnancy (*Rubella virus*, *Zika virus*)
+- **Perinatal**: during birth (HIV, HBV, HSV)
+- **Postnatal**: through breast milk (HIV, *Human T-lymphotropic virus* (HTLV))
+
+**Sexual transmission**
+
+- **Examples**: HIV, HSV, *Human papillomavirus* (HPV), HBV
+- **Factors**: viral load, presence of other STIs, immune status
+
+**Vector-Borne transmission**
+
+- **Examples**: 
+  - Mosquitoes: *Yellow fever virus*, *Dengue virus*, *Zika virus*, *Chikungunya virus*
+  - Ticks: *Tick-borne encephalitis virus*
+
+## Routes of viral entry into the body (cont.) 
+![](images/image2.jpeg){ width=100%  style="display: block; margin-left: auto; 
+margin-right: auto; max-width: none;" }
+
+::: {.notes}
+Vertical transmission is mother-to-child and has three subtypes. Transplacental means crossing the placenta during pregnancy - rubella can cause congenital defects, Zika affects brain development. Perinatal is during birth - HIV and HBV can be transmitted this way. Postnatal through breast milk is controversial for HIV but can happen with HTLV.
+
+Sexual transmission depends on viral load (higher = more infectious), concurrent STIs that can cause breaks in mucosal barriers, and immune status. HPV is almost exclusively sexually transmitted and causes cervical cancer.
+
+Vector-borne transmission involves arthropods. Mosquitoes are the most important vectors globally - they transmit viruses like dengue, Zika, yellow fever. Emphasize that climate change is expanding mosquito ranges, bringing these viruses to new areas. Mention that ticks transmit encephalitis viruses in certain regions.
+:::
+
+## Steps of viral disease development
+
+1. **Acquisition** – virus enters host, overcomes barriers  
+2. **Primary infection** – replicates at entry site, local invasion  
+3. **Spread** – moves from entry site via blood/lymph (if applicable)  
+4. **Target organ infection** – reaches preferred tissues, major symptoms  
+5. **Resolution or persistence** – immune clearance or chronic infection
+
+## Steps of viral disease development (cont.)
+![](images/image1.png){ width=100% style="display: block; margin-left: auto; margin-right: auto; max-width: none;" }
+
+::: {.notes}
+This slide shows the typical progression of viral disease in 5 phases. Walk through each phase systematically. Phase 1 is acquisition - the virus has to get past physical and immune barriers. Phase 2 is primary infection at the entry site. Phase 3 involves spread - not all viruses do this, but when they do, they use viremia or lymphatic routes.
+
+Phase 4 is when the virus reaches its target organs and causes major symptoms. Phase 5 is the outcome - either the host clears the virus (resolution) or it becomes chronic (persistence). Point to the diagram and explain how this represents the temporal progression of infection. Emphasize that not all viruses go through all phases - some stay localized, others become systemic.
+:::
+
+## Mechanisms of viral spread
+
+**Viremia**
+- Direct entry into bloodstream from infection site
+- Low viral levels
+- Examples: *Poliovirus*, *HBV*
+
+**Lymphatic spread**
+- Through lymph vessels and nodes
+- Common for many viruses
+- Can lead to lymphadenopathy
+- Examples: *HSV*, *Poliovirus*
+
+::: {.notes}
+Viremia is when viruses get directly into the bloodstream from the initial infection site. This can happen early in infection and allows rapid systemic spread. Lymphatic spread is more gradual - viruses enter lymph vessels, travel to lymph nodes, and can cause swelling (lymphadenopathy). Many viruses use both routes.
+
+Explain that viremia can be primary (direct from infection site) or secondary (from lymph nodes back into blood). The lymphatic system acts like a highway for viruses to reach the bloodstream. Use poliovirus as an example since it uses both routes - it can cause paralysis by spreading through both blood and nerves.
+:::
+
+
+## Factors affecting viral spread {.smaller}
+
+**Viral factors:**
+
+- **Tropism**: preference for specific tissues
+- **Virulence**: ability to cause disease
+- **Viral dose**: higher dose = more severe disease
+- **Stability**: survival in different environments
+- **Immune evasion**: ability to avoid host defenses
+
+**Host factors:**
+
+- **Age**: children and elderly more susceptible
+- **Immune status**: immunocompromised at higher risk
+- **Genetic factors**: host susceptibility genes
+- **General health**: nutrition, other diseases
+- **Behavioral factors**: exposure patterns
+
+::: {.notes}
+This slide emphasizes that viral spread depends on both virus characteristics and host factors. For viral factors: tropism determines which tissues the virus prefers (like HIV for CD4+ T cells). Virulence is the virus's ability to cause damage. Higher viral dose usually means more severe disease. Stability affects how long viruses survive outside the host. Immune evasion helps viruses avoid detection.
+
+Host factors are equally important: age affects immunity (children and elderly are more vulnerable). Immunocompromised people can't fight infections well. Genetic factors can make some people more susceptible. General health and nutrition play roles. Behavioral factors like hygiene and exposure patterns are crucial for prevention.
+
+Emphasize that understanding these factors helps predict disease severity and design prevention strategies.
+:::
+
+## Major target organs and systems
+
+**Respiratory system**
+Upper Respiratory Tract
+- Rhinitis, pharyngitis, laryngitis
+- Viruses: *Rhinovirus*, *Coronavirus*, *Adenovirus*, *Influenza*
+
+Lower Respiratory Tract
+- Bronchitis, pneumonia
+- Viruses: *Influenza*, *RSV*, *Parainfluenza*, *SARS-CoV-2*
+
+**Nervous system**
+Central Nervous System
+- Meningitis: inflammation of meninges (*Enteroviruses*, *HSV*)
+- Encephalitis: brain inflammation (*HSV*, *Varicella-zoster virus (VZV)*, *Arboviruses*)
+- Myelitis: spinal cord inflammation (*Poliovirus*, *Enteroviruses*)
+
+::: {.notes}
+Start with the respiratory system since it's the most common target. Explain the difference between upper and lower respiratory tract infections. Upper tract infections are usually milder (common cold), while lower tract can be serious (pneumonia). Mention how the COVID-19 pandemic highlighted how respiratory viruses can cause severe disease.
+
+For the nervous system, explain the different levels of involvement: meningitis affects the membranes around the brain, encephalitis affects brain tissue itself, and myelitis affects the spinal cord. Use polio as an example of myelitis - it destroys motor neurons in the spinal cord, causing paralysis. Emphasize that nervous system infections are often serious because the brain has limited ability to regenerate.
+:::
+
+## Major target organs and systems (cont.)
+
+**Gastrointestinal system**
+Gastroenteritis
+- Diarrhea, vomiting, malabsorption
+- Viruses: *Rotavirus*, *Norovirus*, *Adenovirus*
+
+**Hepatitis**
+- Liver inflammation and damage
+- Viruses: *HBV*, *HCV*, *EBV*
+
+::: {.notes}
+Gastrointestinal infections are extremely common, especially in children. Rotavirus was a major cause of severe diarrhea worldwide before vaccination. Norovirus causes epidemics in closed settings like cruise ships. Emphasize how dehydration from diarrhea can be life-threatening, especially in developing countries.
+
+Hepatitis viruses cause liver inflammation. HBV and HCV can lead to chronic infection and cirrhosis. EBV usually causes mild hepatitis but can be serious in immunocompromised people. Explain that the liver is particularly vulnerable because it's the main site of metabolism and has high blood flow, making it easy for viruses to reach.
+:::
+
+## Major target organs and systems (cont.)
+
+**Eyes**
+- **Conjunctivitis**: *Adenovirus*, *Enterovirus*
+- **Keratitis**: *HSV*, *VZV*
+- **Retinitis**: *Cytomegalovirus* (in immunocompromised)
+
+**Cardiovascular system**
+- **Myocarditis**: *Coxsackievirus B*, *Influenza*
+- **Pericarditis**: *Coxsackievirus*, *EBV*
+
+**Endocrine system**
+- **Pancreas**: *Coxsackievirus* (type 1 diabetes association)
+
+![](images/image8.jpeg){ width=40% }
+![](images/image9.jpg){ width=40% }
+
+::: {.notes}
+Eye infections can range from mild conjunctivitis (pink eye) to serious conditions like retinitis in immunocompromised patients. HSV keratitis is a leading cause of corneal blindness. Mention that adenovirus conjunctivitis is highly contagious and can cause outbreaks.
+
+Cardiovascular infections are less common but serious. Myocarditis is heart muscle inflammation and can lead to heart failure. Coxsackieviruses are common causes. Emphasize that viral heart infections can have long-term consequences.
+
+For endocrine system, mention the association between coxsackievirus and type 1 diabetes - the virus may trigger autoimmune destruction of pancreatic beta cells. Point to the images and explain what they show - likely examples of organ pathology or viral effects.
+:::
+
+
+## Major viral pathogenicity factors{.smaller}
+**Structural factors**: viral proteins and surface components
+
+- Bind to specific cellular receptors
+- Examples: 
+  - Influenza HA protein → respiratory epithelium
+  - HIV gp120 → CD4+ T cells
+  - SARS-CoV-2 spike → ACE2 receptors
+
+**Functional factors**: viral enzymes and regulatory proteins
+
+- Change surface proteins to avoid recognition
+- Examples:
+  - Influenza antigenic 
+  - HIV envelope variability
+
+::: {.notes}
+Start by categorizing viral pathogenicity factors into three main types: structural, functional, and evasion factors. Then dive into attachment and entry - this is the first step of infection. Explain how viruses have evolved specific proteins to bind to particular receptors on host cells. Use influenza as an example: the hemagglutinin protein binds to sialic acid receptors on respiratory cells.
+
+For antigenic variation, explain how viruses change their surface proteins to escape immune recognition. Influenza does this through antigenic drift and shift. HIV has extremely high variability in its envelope proteins. Emphasize that this is why we need new flu vaccines every year and why HIV vaccine development is so challenging.
+:::
+
+## Major viral pathogenicity factors (cont.){.smaller}
+**Evasion factors**: mechanisms to avoid host immunity
+
+- Direct cell killing through:
+  - Membrane damage
+  - Protein synthesis inhibition
+  - DNA/RNA degradation
+  - Apoptosis induction
+
+##
+<iframe width="1200" height="650" src="https://www.youtube.com/embed/m-bTWGPZqhk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Host defenses
+
+::: {.columns}
+::: {.column width="50%"}
+- Prevent viral entry
+- Limite virual replication
+- Eliminate infected cells
+- Clear virus from body
+- Establish immunological memory 
+:::
+::: {.column width="50%"}
+**Three lines of defense:**
+
+1. **Physical and chemical barriers** (First line)
+2. **Innate immunity** (Second line)
+3. **Adaptive immunity** (Third line)
+:::
+:::
+
+::: {.notes}
+Now we shift from viral strategies to host defenses. The human body has three lines of defense against viruses. The first line are physical and chemical barriers that prevent viruses from even entering. The second line is innate immunity - rapid, non-specific responses that kick in immediately. The third line is adaptive immunity - specific, learned responses that take time but provide long-term protection.
+
+The goals of host defense are comprehensive: prevent entry, limit replication if entry occurs, eliminate infected cells, clear virus from the body, and establish memory for future encounters. Emphasize that successful host defense requires coordination between all three lines.
+:::
+
+## First line: physical and chemical barriers {.smaller}
+
+**Skin**
+
+- Intact epidermis prevents viral entry
+- Sebaceous secretions have antimicrobial properties
+
+:::{.columns}
+::: {.column width="50%"}
+**Mucous membranes**
+
+- **Respiratory tract**: nasal turbinates, ciliary escalator
+- **Gastrointestinal**: peristalsis, mucus production
+- **Genitourinary**: urine flow, vaginal acidity
+:::
+::: {.column width="50%"}
+**Chemical barriers**
+
+**Secretions with antiviral activity**
+
+- **Tears**: lysozyme, lactoferrin, secretory IgA
+- **Saliva**: histatins, mucins, secretory IgA
+- **Gastric acid**: pH 1-2 inactivates many viruses
+- **Bile**: disrupts enveloped viruses
+:::
+:::
+
+::: {.notes}
+The first line of defense consists of physical and chemical barriers that viruses must overcome to infect. The skin is our largest barrier - intact epidermis prevents entry, sebaceous glands produce antimicrobial substances, and desquamation (shedding of dead skin cells) removes viruses from the surface.
+
+Mucous membranes line body cavities exposed to the environment. In the respiratory tract, nasal turbinates filter air and cilia sweep mucus upward. The gastrointestinal tract uses peristalsis and mucus. The genitourinary tract relies on urine flow and acidic vaginal secretions.
+
+Chemical barriers include antimicrobial substances in secretions. Tears contain lysozyme and lactoferrin. Saliva has histatins and mucins. Gastric acid at pH 1-2 destroys most viruses. Bile disrupts enveloped viruses. Emphasize that these barriers are the first and most important defense against infection.
+:::
+
+## Second line: innate immunity {.smaller}
+
+**Type I Interferons (IFN-α/β)**
+
+- **Trigger**: viral nucleic acid detection
+- **Effects**: 
+  - Antiviral state in neighboring cells
+  - Enhanced NK cell activity
+  - Increased Major Histocompatibility Complex (MHC) class I expression
+
+:::{.columns}
+::: {.column width="50%"}
+**Inflammatory response**
+
+- **Purpose**: recruit immune cells, limit spread
+- **Mediators**: complement, cytokines, chemokines
+- **Effects**: vasodilation, increased permeability, fever
+:::
+::: {.column width="50%"}
+**Cellular innate responses**
+
+**Natural Killer (NK) Cells**
+
+- **Function**: Kill virus-infected cells
+- **Recognition**: missing or altered MHC I
+- **Mechanisms**: perforin, granzymes, death receptors
+:::
+:::
+
+## Second line: innate immunity {.smaller}
+
+**Macrophages**
+
+- **Functions**: 
+  - Phagocytosis of viruses
+  - Antigen presentation
+  - Cytokine production
+- **Activation**: pattern recognition receptors (PRRs)
+
+**Dendritic cells**
+
+- **Function**: link innate and adaptive immunity
+- **Role**: present viral antigens to T cells
+- **Location**: tissues and lymphoid organs
+
+## Third line: adaptive immunity{.smaller}
+
+**Humoral immunity (B Cells and Antibodies)**
+
+- **Neutralization**: block viral attachment/entry
+- **Complement activation**: lyse enveloped viruses
+
+**Antibody Types**
+
+- **IgM**: early response, complement activation
+- **IgG**: long-term protection, neutralization
+- **IgA**: mucosal immunity, prevents entry
+
+**Memory B Cells**
+
+- Rapid antibody production upon re-exposure
+- Basis for vaccination success
+
+## Third line: adaptive immunity (cont.){.smaller}
+
+**Cell-mediated immunity (T cells)**
+
+:::{.columns}
+
+:::{.column width="50%"}
+**CD8+ T Cells (Cytotoxic T Lymphocytes)**
+
+- Function: kill virus-infected cells
+- Recognition: viral peptides presented on MHC class I
+- Mechanisms: perforin/granzyme pathway
+:::
+
+:::{.column width="50%"}
+**CD4+ T Helper Cells**
+
+- Th1: support CD8+ T cells and activate macrophages (cell-mediated immunity)
+- Th2: help B cells produce antibodies (humoral immunity)
+- Tfh: follicular helper cells that support germinal center reactions and high-affinity antibody generation
+:::
+
+:::
+
+## Immunological memory and vaccination{.smaller}
+
+**Memory response characteristics**
+
+- **Faster**: hours instead of days
+- **Stronger**: higher magnitude response
+- **More effective**: better quality antibodies and T cells
+- **Longer-lasting**: sustained protection
+
+**Vaccination principles**
+
+- **Goal**: establish immunological memory without disease
+- **Types**: live attenuated, inactivated, subunit, mRNA
+- **Success examples**: polio, measles, hepatitis B, COVID-19
+
+## Clinical outcomes of virus-host interactions{.smaller}
+
+**Successful Host Defense**
+
+- **Viral clearance**: complete elimination
+- **Recovery**: return to normal function
+- **Immunity**: protection against reinfection
+
+**Balanced infection**
+
+- **Chronic infection**: controlled but not eliminated
+- **Examples**: HBV, HCV, HIV with treatment
+
+**Failed Host Defense**
+
+- **Overwhelming infection**: severe disease or death
+- **Persistent infection**: continued viral replication
+- **Immunopathology**: excessive immune response causing damage
+
+<!-- ## Summary
+
+**The Learning Objectives Achieved:**
+
+- **Virus-Host Interaction**: Complex interplay determining disease outcome
+- **Transmission Routes**: Multiple pathways of viral entry
+- **Viral Spread**: Mechanisms of dissemination in the body
+- **Target Organs**: Tissue tropism and organ-specific infections
+- **Viral Pathogenicity**: Factors that enhance viral disease-causing ability
+- **Host Pathogenicity**: Host factors affecting susceptibility and severity
+- **Host Defense**: Multi-layered immune protection against viruses
+
+**Clinical Relevance:**
+- Understanding pathogenesis guides **treatment strategies**
+- Knowledge of transmission routes enables **prevention measures**
+- Recognition of risk factors helps **identify vulnerable populations**
+- Immune mechanisms inform **vaccine development** -->
+
+# Quiz
+
+## Which of the following is the primary mechanism by which _Influenza virus_ spreads systemically in the body?{.quiz-question}
+
+A) Direct cell-to-cell transmission  
+B) [Hematogenous spread through viremia]{.correct}  
+C) Neural pathway transmission  
+D) Lymphatic vessel spread  
+
+## Which viral factor is most important for tissue tropism (organ preference)?{.quiz-question}
+
+A) Viral genome size  
+B) [Viral attachment proteins that bind specific cellular receptors]{.correct}  
+C) Viral envelope composition  
+D) Viral replication rate  
+
+## What is the primary function of CD8+ T cells in antiviral immunity?{.quiz-question}
+
+A) Produce neutralizing antibodies  
+B) [Kill virus-infected cells]{.correct}  
+C) Present antigens to other immune cells  
+D) Produce complement proteins  
+
+## Which of the following represents vertical transmission?{.quiz-question}
+
+A) Respiratory droplet transmission  
+B) Contaminated food transmission  
+C) [Mother-to-child transmission during pregnancy]{.correct}  
+D) Sexual transmission between adults  
+
+## Which virus has the ability for vertical transmission?{.quiz-question}
+
+A) [_Zika virus_]{.correct}  
+B) _Influenza virus_  
+C) _Rhinovirus_  
+D) _Ebola virus_  
+
+## Assignment: Case study analysis {.smaller}
+
+**Analyze the following viruses considering these points:**
+
+- Transmission routes and spread mechanisms
+- Target organs and tissue tropism
+- Viral and host pathogenicity factors
+- Host defense responses and immune evasion
+- Clinical manifestations and outcomes
+
+**Viruses to analyze:**
+
+- *Smallpox virus* - Historical perspective on viral pathogenesis
+- *Human papillomavirus* (HPV) - Chronic infection and cancer
+- *Rotavirus* - Pediatric gastroenteritis
+- *Adenovirus* - Respiratory and other infections
+- *Human immunodeficiency virus* (HIV) - Immune system targeting
+- *Coronavirus* (SARS-CoV-2) - Pandemic respiratory virus
+
+## References
