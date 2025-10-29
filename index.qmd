@@ -11,11 +11,8 @@ date: ""
 # Introduction to virology
 
 <style>
-/* Also hide Quarto title metadata blocks */
 .quarto-title-meta, .quarto-title-meta-heading, .quarto-title-meta-contents, .quarto-title-meta-item { display: none !important; }
-/* Show only level-2 headings in the TOC (hide H1 entries) */
 .toc .toc-level-1, .toc li.toc-level-1, .toc .toc-item[data-level="1"] { display: none !important; }
-/* If Quarto TOC uses nested lists, hide the top-level (H1) link but keep the nested H2 list visible */
 #TOC > ul > li > a { display: none !important; }
 #TOC > ul > li > ul { display: block !important; }
 </style>
