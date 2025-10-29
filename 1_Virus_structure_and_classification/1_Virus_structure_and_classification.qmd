@@ -346,11 +346,3 @@ D) Geographic location and discovery date
 </div>
 
 ## References
-
-- Adapted from training material: Chhay Sokdalis (PharmD).
-- Flint SJ, Enquist LW, Racaniello VR, Skalka AM. Principles of Virology. 5th ed. ASM Press.
-- International Committee on Taxonomy of Viruses (ICTV). Virus Taxonomy: 2024 Release. https://ictv.global/ (accessed 2025-10-20).
-- ICTV discussion forum. https://talk.ictvonline.org/ (accessed 2025-10-20).
-- Images: Wikimedia Commons and Google (individual image pages for license/attribution). Wikimedia Commons: https://commons.wikimedia.org/ (accessed 2025-10-20).
-
-
