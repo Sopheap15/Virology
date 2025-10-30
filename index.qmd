@@ -23,7 +23,7 @@ date: ""
 - Year: 2025
 - Instructor: Sopheap Oeng
 - Email: sopheap15@gmail.com
-- GitHub: [sopheap15](https://github.com/sopheap15)
+- GitHub: [sopheap15/Virology](https://github.com/sopheap15/Virology)
 
 This course introduces viruses structure, replication, pathogenesis and diagnostic methods for clinical labroratory.
 

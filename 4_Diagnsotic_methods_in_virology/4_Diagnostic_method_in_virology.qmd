@@ -15,7 +15,7 @@ After this session the students should be able to:
 - Illustrate the principle of ELISA and PCR technique
 
 ##
-<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+<iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed'></iframe>
 
 ## Case Vignette
 A 28-year-old woman presents with fever, fatigue, and a rash. 
@@ -105,7 +105,7 @@ Electron microscopy provides direct visualization of viruses. It's particularly 
 :::
 
 ## Electron microscopy (cont.)
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/9DnnxvS6BBQ" title="https://www.youtube.com/embed/9DnnxvS6BBQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:block;margin:0 auto;max-width:100%;"></iframe>
+<iframe src="https://www.youtube.com/embed/9DnnxvS6BBQ" title="https://www.youtube.com/embed/9DnnxvS6BBQ"></iframe>
 
 ## Cell culture {.smaller}
 
@@ -150,7 +150,7 @@ Speaker tip: When discussing CPE, show 1–2 example images and explain how time
 ::::
 
 ##
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/R2SOETtw9YA" title="https://www.youtube.com/embed/R2SOETtw9YA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:block;margin:0 auto;max-width:100%;"></iframe>
+<iframe src="https://www.youtube.com/embed/R2SOETtw9YA" title="https://www.youtube.com/embed/R2SOETtw9YA"></iframe>
 
 
 ## Detection of viral proteins
@@ -194,21 +194,21 @@ Speaker note: Emphasize that molecular methods are frontline for many viruses—
 :::
 
 ## Electrophoresis
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/IeNcg9uK17M" title="Electrophoresis Animation" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/IeNcg9uK17M" title="Electrophoresis Animation"></iframe>
 
 ::: {.notes}
 Note: Use this short animation to explain how molecules separate by size and why that's useful for identifying viral proteins or genome segments.
 :::
 
 ## PCR Video
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/8GOKaZ8MRyM" title="PCR Animation" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/8GOKaZ8MRyM" title="PCR Animation"></iframe>
 
 ::: {.notes}
 Note: Pause on the denaturation/annealing/extension steps to explain primer design and the importance of controls.
 :::
 
 ## Western Blot Video
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/qT_AqI-MKJc" title="Western Blot Animation" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/qT_AqI-MKJc" title="Western Blot Animation"></iframe>
 
 ::: {.notes}
 Note: Point out how Western blot confirms protein identity and is often used to validate ELISA results.
@@ -223,7 +223,7 @@ Note: Point out how Western blot confirms protein identity and is often used to 
 indirect fluorescent antibody, latex agglutination, ELISA, and Western blot
 
 ## 
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/rudWavg0eRg" title="Immunofluorescence Animation" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/rudWavg0eRg" title="Immunofluorescence Animation"></iframe>
 
 ::: {.notes}
 Serology detects the host's immune response to viruses. It's useful for retrospective diagnosis and monitoring immunity.
@@ -231,7 +231,7 @@ Serology detects the host's immune response to viruses. It's useful for retrospe
 
 ## ELISA
 
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/ERk0hwqhyDw" title="Immunofluorescence Animation" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/ERk0hwqhyDw" title="Immunofluorescence Animation"></iframe>
 
 ::: {.notes}
 Note: Clarify direct vs indirect ELISA briefly and when ELISA is preferred (high-throughput antigen/antibody screening).
@@ -239,7 +239,7 @@ Note: Clarify direct vs indirect ELISA briefly and when ELISA is preferred (high
 
 ## Hemagglutination
 
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/su49ibJhdmw" title="Hemagglutination" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/su49ibJhdmw" title="Hemagglutination"></iframe>
 
 ::: {.notes}
 Note: Explain hemagglutination as a simple, low-cost assay for certain viruses (e.g., influenza); mention limitations in sensitivity.
@@ -259,7 +259,7 @@ Genome sequencing provides detailed information about viral genetic material, en
 
 ## Genome sequencing
 
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/EDVKxSNdSic" title="https://www.youtube.com/embed/EDVKxSNdSic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:block;margin:0 auto;max-width:100%;"></iframe>
+<iframe src="https://www.youtube.com/embed/EDVKxSNdSic" title="https://www.youtube.com/embed/EDVKxSNdSic"></iframe>
 
 <!-- ## Molecular Techniques
 
