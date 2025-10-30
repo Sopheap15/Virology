@@ -15,7 +15,7 @@ format:
 - Outline clinical manifestations and modes of [transmission]{.rn rn-color=orange rn-type=circle}
 - List key laboratory diagnostic methods and prevention and treatment strategies
 
-## Arbovirus genera
+## Arbovirus genera {.font14}
 <div style="text-align:center;">
 <pre>
                            Arboviruses
@@ -40,9 +40,9 @@ format:
 
 ## Arbovirus genera (cont.)
 
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/AKguPkfRuuM" title="https://www.youtube.com/embed/AKguPkfRuuM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:block;margin:0 auto;max-width:100%;"></iframe>
+<iframe src="https://www.youtube.com/embed/AKguPkfRuuM" title="https://www.youtube.com/embed/AKguPkfRuuM"></iframe>
 
-## Structure and replication Alphaviruses (_Togaviridae_) {.font14}
+## Structure and replication Alphaviruses (_Togaviridae_) {.smaller}
 
 :::{.columns}
 :::{.column width="60%"}
@@ -60,7 +60,7 @@ format:
 :::
 :::
 
-## Structure and replication Flaviviruses (_Flaviviridae_)
+## Structure and replication Flaviviruses  (_Flaviviridae_) {.font14}
 
 :::{.columns}
 :::{.column width="60%"}
@@ -75,7 +75,7 @@ format:
 :::
 :::
 
-## Arthropod vectors and transmission
+## Arthropod vectors and transmission{.font14}
 
 :::{.columns}
 :::{.column width="75%"}
@@ -104,7 +104,7 @@ format:
 - Build up immunity → inapparent infections
 - Antibodies to local arthropod-borne virus increase with age
 
-## Clinical manifestations
+## Clinical manifestations{.font14}
 - Alphavirus: usually asymptomatic or cause low-grade disease, such as flu-like symptoms (chills, fever, rash, and aches)
 - Flavivirus: relatively benign, but serious aseptic meningitis and encephalitic or hemorrhagic disease can occur
 - Dengue: major worldwide problem, 100 million cases/year
