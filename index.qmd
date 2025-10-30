@@ -43,7 +43,7 @@ Click a unit to open the associated HTML lesson.
 - Unit 4 — Diagnostic methods in virology — <a href="4_Diagnsotic_methods_in_virology/4_Diagnostic_method_in_virology.html" target="_blank" rel="noopener">Open</a>
 - Unit 5 — Herpesviridae — <a href="5_Hepes_virus/5_Herpesviridae.html" target="_blank" rel="noopener">Open</a>
 - Unit 6 — Hepatitis viruses — <a href="6_Hepatitis_virus/6_Hepatitis_viruses.html" target="_blank" rel="noopener">Open</a>
-- Unit 7 — Togaviruses & Flaviviruses — <a href="7_Togavirus_and_flavivirus/18-Togaviruses_and_Flaviviruses.html" target="_blank" rel="noopener">Open</a>
+- Unit 7 — Togaviruses & Flaviviruses — <a href="7_Togavirus_and_flavivirus/7_Togaviruses_and_Flaviviruses.html" target="_blank" rel="noopener">Open</a>
 - Unit 8 — Orthomyxoviruses — <a href="8_Orthomyxovirus/8_Orthomyxoviruses.html" target="_blank" rel="noopener">Open</a>
 
 ## Resources
