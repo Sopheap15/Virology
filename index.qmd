@@ -46,3 +46,5 @@ Click a unit to open the associated HTML lesson.
 - Unit 7 — Togaviruses & Flaviviruses — <a href="7_Togavirus_and_flavivirus/18-Togaviruses_and_Flaviviruses.html" target="_blank" rel="noopener">Open</a>
 - Unit 8 — Orthomyxoviruses — <a href="8_Orthomyxovirus/8_Orthomyxoviruses.html" target="_blank" rel="noopener">Open</a>
 
+## Resources
+Some textbooks can be found [here.](https://drive.google.com/drive/folders/1_VGpyYKYS5LQSiQijcrXu-48HWexPc-7?usp=sharing)
