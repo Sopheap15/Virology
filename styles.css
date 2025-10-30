@@ -18,11 +18,11 @@
 
 /* Text color classes */
 .blue-text {
-  color: #007bff; 
+  color: #007bff;
 }
 
 .red-text {
-  color: #dc3545; 
+  color: #dc3545;
 }
 
 /* Author positioning */
@@ -77,6 +77,9 @@ iframe {
   display: block !important;
   margin: 0 auto !important;
   border-radius: 10px;
+  width: 1200px;
+  height: 600px;
+
 }
 
 /* Link hover effects */
@@ -255,5 +258,3 @@ body:not(.night-mode) .reveal table tr:hover {
   margin-left: 0.5em !important;
   padding-left: 0.5em !important;
 }
-
-

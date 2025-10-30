@@ -17,20 +17,19 @@ By the end of this session, students will be able to:
 
 
 ##
-<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alvc2s92pgi3bz53bww5y8n8v83nn8sy/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
-
+<iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/alvc2s92pgi3bz53bww5y8n8v83nn8sy/embed'></iframe>
 
 ## Introduction
 - Host cells supply energy, substrates, and machinery for viral protein synthesis and genome replication
-- **[6-step replication cycle]{.highlight}**: attachment, penetration (entry), uncoating, expression and genome replication (transcription/translation), assembly (maturation), release
-- Each step is a potential **[antiviral target]{.highlight}** (e.g., neuraminidase inhibitors block influenza release)
-- Host **[susceptibility]{.highlight}** and **[permissiveness]{.highlight}** determine tissue tropism and infection outcome
+- **6-step replication cycle**: attachment, penetration (entry), uncoating, expression and genome replication (transcription/translation), assembly (maturation), release
+- Each step is a potential **antiviral target** (e.g., neuraminidase inhibitors block influenza release)
+- Host **susceptibility** and **permissiveness** determine tissue tropism and infection outcome
 
 ## Introduction (cont.)
 ![](images/image1.png){fig-alt="Viral replication cycle overview" width="100%" style="display: block; margin-left: auto; margin-right: auto;"}
 
 
-## One-Step viral growth curve
+## One-step viral growth curve
 
 - **Key factors**:
   - Susceptibility: ability of a cell to be infected
@@ -40,7 +39,7 @@ By the end of this session, students will be able to:
   - **Eclipse period**: from penetration to biosynthesis, ends with the appearance of new virions after assembly
   - **Latent period**: from penetration to release, no extracellular virions detected
 
-## One-Step viral growth curve (cont.)
+## One-step viral growth curve (cont.)
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -90,7 +89,7 @@ Discuss the different infection outcomes and their implications for disease prog
 
 
 ## Virus multiplication steps
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/fH1zS7hlW54" title="Viral Replication Cycle Animation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px;"></iframe>
+<iframe src="https://www.youtube.com/embed/fH1zS7hlW54" title="Viral Replication Cycle Animation"></iframe>
 
 
 ## Attachment
@@ -103,7 +102,7 @@ Discuss the different infection outcomes and their implications for disease prog
   - CD21 B cells → *Epstein-Barr virus*
   - Sialic acid → *Influenza virus*
 
-![](images/image6.png){ width=500px .absolute right=100 bottom=50 }
+![](images/image6.png){ width=400px .absolute right=20 bottom=40 }
 
 
 ## Penetration
@@ -129,7 +128,7 @@ Discuss the different infection outcomes and their implications for disease prog
   - *Influenza virus*: low pH in endosome triggers uncoating
 
 
-## Viral protein synthesis
+## Viral protein synthesis{.smaller}
 **DNA viruses**:
 
 - Transcription in the nucleus by host RNA polymerase
@@ -142,11 +141,12 @@ Discuss the different infection outcomes and their implications for disease prog
 - dsRNA: transcribed to mRNA by viral enzymes before translation
 
 **Retroviruses**:
+
 - Reverse transcribed to DNA by viral reverse transcriptase
 - DNA integrates into host genome for transcription and translation
 
 ## Viral protein synthesis (cont.)
-![](images/image_pro.png){fig-alt="Viral protein synthesis pathways" width="100%"}
+![](images/image_pro.png){fig-alt="Viral protein synthesis pathways" width="100%" style="display: block; margin-left: auto; margin-right: auto;"}
 
 
 ## Assembly
@@ -171,7 +171,7 @@ Discuss the different infection outcomes and their implications for disease prog
 
 ## Example of reverse transcriptase virus
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/PlSvywlLuNw" title="Reverse Transcriptase Mechanism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></iframe>
+<iframe src="https://www.youtube.com/embed/PlSvywlLuNw" title="Reverse Transcriptase Mechanism"></iframe>
 
 ::: {.notes}
 This video demonstrates how reverse transcriptase converts viral RNA into DNA, a crucial step in retroviral replication that also serves as an important antiviral drug target.
@@ -191,7 +191,7 @@ This video demonstrates how reverse transcriptase converts viral RNA into DNA, a
 
 - Abortive infection
 - Persistent productive infection
-- Latent infection {.correct}
+- [Latent infection]{.correct}
 - Lytic infection
 
 ## What is the primary function of reverse transcriptase in retroviruses? {.quiz-question}
@@ -235,10 +235,6 @@ This video demonstrates how reverse transcriptase converts viral RNA into DNA, a
 - [Host cell survival and release mechanism]{.correct}
 - Genome type
 - Attachment strategy
-
-# Q & A
-##
-<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alrxz1rk24tpsux1zhvaqpf59zh264dx/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
 
 ## Assignment
 

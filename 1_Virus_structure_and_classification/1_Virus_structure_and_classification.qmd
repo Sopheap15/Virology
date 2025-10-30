@@ -1,12 +1,12 @@
 ---
-title: "Structure and classification of [Viruses]{.animate__slideInDown .animate__faster}"
+title: "Structure and classification of Viruses"
 
 format:
   revealjs
 ---
 
 
-## Objectives
+## Objectives{.font14}
 
 After this session, students should be able to:
 
@@ -20,12 +20,12 @@ After this session, students should be able to:
 - List the main criteria for classifying viruses  
 
 ##
-<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+<iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed'></iframe>
 
 
 ## Introduction: What is a Virus?
 
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/lADC0C_WeH0" title="https://www.youtube.com/embed/lADC0C_WeH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:block;margin:0 auto;max-width:100%;"></iframe>
+<iframe src="https://www.youtube.com/embed/lADC0C_WeH0" title="https://www.youtube.com/embed/lADC0C_WeH0"></iframe>
 
 ## Introduction (cont.)
 - Viruses cause a wide range of diseases in humans, animals, and plants
@@ -57,7 +57,7 @@ After this session, students should be able to:
 :::: {.columns}
 ::: {.column width="70%"}
 - Intracellular parasites  
-- Contain **either DNA or RNA** (never both)  
+- Contain **either DNA or RNA** [(never both)]{.red-text} 
 - Unable to reproduce independently — require a host cell  
 - Too small to be seen under a light microscope range from **20-300 nm**
 :::
@@ -136,7 +136,7 @@ After this session, students should be able to:
 :::
 ::::
 
-## Consequences of Envelope
+## Consequences of envelope{.font14}
 **Envelop**
 
 - **Sensitive to heat, acid, and detergents**  
@@ -197,7 +197,7 @@ After this session, students should be able to:
 ## Shape & size
 
 - Spherical, rod-shaped, bullet-shaped, or complex  
-![](images/virus_size.png){width="60%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+![](images/shapeandsize.jpg){width="60%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
 
 ## Baltimore classification
 
@@ -220,7 +220,7 @@ After this session, students should be able to:
 | VI | ssRNA-RT | *HIV* |
 | VII | dsDNA-RT | *Hepatitis B* |
 
-- **HAPPY** (Herpes, Adeno, Papova, Pox, Y)
+- **dsDNA: HAPPY** (Herpes, Adeno, Papova, Pox, Y)
 - **+RNA(TOGA party I drink FLAVored CORONA and eat small PICORNA CALI soup.)** (Toga, Flavi, Corona, Picorna, Calici)
 
 :::
@@ -301,7 +301,7 @@ B) [Retroviridae; RNA]{.correct}
 C) Adenoviridae; DNA  
 D) Picornaviridae; RNA  
 
-## What is the characteristic feature of Coronaviridae family viruses?{.quiz-question}
+## What is the characteristic feature of _Coronaviridae_ family viruses?{.quiz-question}
 
 A) Icosahedral capsid without envelope  
 B) [Crown-like spike proteins on envelope surface]{.correct}  
@@ -322,14 +322,14 @@ B) Herpes simplex virus
 C) [Rotavirus]{.correct}  
 D) SARS-CoV-2  
 
-## What makes Parvovirus unique among DNA viruses?{.quiz-question}
+## What makes _Parvovirus_ unique among DNA viruses?{.quiz-question}
 
 A) It has the largest genome  
 B) [It contains single-stranded DNA]{.correct}  
 C) It only infects bacteria  
 D) It has complex symmetry  
 
-## How can we classify viruses? Which are the main classification criteria?{.quiz-question}
+## Classify viruses. Which are the main classification criteria?{.quiz-question}
 
 A) Size and color only  
 B) [Type of nucleic acid, capsid symmetry, and presence/absence of envelope]{.correct}  

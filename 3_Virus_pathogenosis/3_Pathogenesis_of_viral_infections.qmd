@@ -16,7 +16,7 @@ After this session the students should be able to:
 - Describe the host defense system
 
 ##
-<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alemd3a3andpwho19varc928ymp9gnz2/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+<iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/alemd3a3andpwho19varc928ymp9gnz2/embed'></iframe>
 
 
 ## What is viral pathogenesis?
@@ -33,7 +33,7 @@ After this session the students should be able to:
 
 ## Viral pathogenesis
 
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/VURzDTCEovE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/VURzDTCEovE" title="https://www.youtube.com/embed/VURzDTCEovE"></iframe>
 
 
 ## Virus-Host interaction outcomes {.smaller}
@@ -193,7 +193,8 @@ Explain that viremia can be primary (direct from infection site) or secondary (f
 
 
 ## Factors affecting viral spread {.smaller}
-
+:::{.columns}
+:::{.column width="50%"}
 **Viral factors:**
 
 - **Tropism**: preference for specific tissues
@@ -201,7 +202,8 @@ Explain that viremia can be primary (direct from infection site) or secondary (f
 - **Viral dose**: higher dose = more severe disease
 - **Stability**: survival in different environments
 - **Immune evasion**: ability to avoid host defenses
-
+:::
+:::{.column width="50%"}
 **Host factors:**
 
 - **Age**: children and elderly more susceptible
@@ -209,6 +211,8 @@ Explain that viremia can be primary (direct from infection site) or secondary (f
 - **Genetic factors**: host susceptibility genes
 - **General health**: nutrition, other diseases
 - **Behavioral factors**: exposure patterns
+:::
+:::
 
 ::: {.notes}
 This slide emphasizes that viral spread depends on both virus characteristics and host factors. For viral factors: tropism determines which tissues the virus prefers (like HIV for CD4+ T cells). Virulence is the virus's ability to cause damage. Higher viral dose usually means more severe disease. Stability affects how long viruses survive outside the host. Immune evasion helps viruses avoid detection.
@@ -218,19 +222,29 @@ Host factors are equally important: age affects immunity (children and elderly a
 Emphasize that understanding these factors helps predict disease severity and design prevention strategies.
 :::
 
-## Major target organs and systems
+## Major target organs and systems {.smaller}
 
-**Respiratory system**
-Upper Respiratory Tract
+### Respiratory system
+
+::: {.columns}
+::: {.column width="50%"}
+**Upper respiratory tract**
+
 - Rhinitis, pharyngitis, laryngitis
 - Viruses: *Rhinovirus*, *Coronavirus*, *Adenovirus*, *Influenza*
+:::
+::: {.column width="50%"}
+**Lower respiratory tract**
 
-Lower Respiratory Tract
 - Bronchitis, pneumonia
 - Viruses: *Influenza*, *RSV*, *Parainfluenza*, *SARS-CoV-2*
+:::
+:::
 
-**Nervous system**
-Central Nervous System
+### Nervous system
+
+**Central nervous system**
+
 - Meningitis: inflammation of meninges (*Enteroviruses*, *HSV*)
 - Encephalitis: brain inflammation (*HSV*, *Varicella-zoster virus (VZV)*, *Arboviruses*)
 - Myelitis: spinal cord inflammation (*Poliovirus*, *Enteroviruses*)
@@ -245,10 +259,12 @@ For the nervous system, explain the different levels of involvement: meningitis 
 
 **Gastrointestinal system**
 Gastroenteritis
+
 - Diarrhea, vomiting, malabsorption
 - Viruses: *Rotavirus*, *Norovirus*, *Adenovirus*
 
 **Hepatitis**
+
 - Liver inflammation and damage
 - Viruses: *HBV*, *HCV*, *EBV*
 
@@ -258,22 +274,27 @@ Gastrointestinal infections are extremely common, especially in children. Rotavi
 Hepatitis viruses cause liver inflammation. HBV and HCV can lead to chronic infection and cirrhosis. EBV usually causes mild hepatitis but can be serious in immunocompromised people. Explain that the liver is particularly vulnerable because it's the main site of metabolism and has high blood flow, making it easy for viruses to reach.
 :::
 
-## Major target organs and systems (cont.)
+## Major target organs and systems (cont.){.smaller}
 
 **Eyes**
+
 - **Conjunctivitis**: *Adenovirus*, *Enterovirus*
 - **Keratitis**: *HSV*, *VZV*
 - **Retinitis**: *Cytomegalovirus* (in immunocompromised)
 
 **Cardiovascular system**
+
 - **Myocarditis**: *Coxsackievirus B*, *Influenza*
 - **Pericarditis**: *Coxsackievirus*, *EBV*
 
 **Endocrine system**
+
 - **Pancreas**: *Coxsackievirus* (type 1 diabetes association)
 
-![](images/image8.jpeg){ width=40% }
-![](images/image9.jpg){ width=40% }
+![](images/image9.jpg){.absolute top="100px" right="100px" width="300px"}
+
+<!-- ![](images/image8.jpeg){ width=40% }
+![](images/image9.jpg){ width=40% } -->
 
 ::: {.notes}
 Eye infections can range from mild conjunctivitis (pink eye) to serious conditions like retinitis in immunocompromised patients. HSV keratitis is a leading cause of corneal blindness. Mention that adenovirus conjunctivitis is highly contagious and can cause outbreaks.
