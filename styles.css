@@ -1,6 +1,6 @@
 /* Full screen background for all slides */
 .reveal {
-  background-image: url('slide_background.png');
+  background-image: url('resources/slide_background.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -106,6 +106,11 @@ body.night-mode {
 
 body.night-mode .reveal {
   background-color: #1e1e2e !important;
+  color: #cdd6f4 !important;
+}
+
+body.night-mode .reveal * {
+  color: #cdd6f4 !important;
 }
 
 body.night-mode .reveal h1,
@@ -258,4 +263,39 @@ body:not(.night-mode) .reveal table tr:hover {
 .reveal ul li {
   margin-left: 0.5em !important;
   padding-left: 0.5em !important;
+}
+
+/* Text selection styling */
+.reveal ::selection {
+  background-color: rgb(196, 196, 27);
+  color: black;
+}
+
+/* Text selection in night mode */
+body.night-mode .reveal ::selection {
+  background-color: #f5c2e7;
+  color: #1e1e2e;
+}
+
+/* Enable text selection */
+.reveal {
+  user-select: text;
+}
+
+/* Cursor styling for text selection */
+.reveal p,
+.reveal li,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6,
+.reveal span {
+  cursor: text;
+}
+
+/* Rounded corners for all images */
+.reveal img {
+  border-radius: 10px;
 }

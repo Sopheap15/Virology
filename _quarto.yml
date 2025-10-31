@@ -10,7 +10,7 @@ date:
   value: today
   format: "DD MMM YYYY"
 
-bibliography: reference.bib
+bibliography: resources/reference.bib
 nocite: '@*'
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/vancouver.csl
 
@@ -50,8 +50,8 @@ format:
 
     verticator:
       themetag: 'h1'
-      color: ''
-      inversecolor: ''
+      color: '#2b8cbe' 
+      inversecolor: '#ffffff'
       skipuncounted: false
       clickable: true
       position: 'auto'
@@ -68,16 +68,16 @@ format:
       tailLength: 15
 
     css: ["styles.css"]
-    include-after-body: ["scripts.js"]
-  # include-in-header was moved to project-level to ensure global inclusion across formats
 
-# Ensure project-level resources are discoverable by Quarto (helps preview/server)
 resources:
   - styles.css
-  - scripts.js
+  - resources/toggle.html
 
 # Global header includes (inserted into every page head)
 include-in-header: "_extensions/cursor-tail/cursor-tail.html"
+
+# Global body includes (inserted after body)
+include-after-body: "resources/toggle.html"
 
 revealjs-plugins:
   - quiz

@@ -115,10 +115,9 @@ After this session, students should be able to:
 
 ![](images/virus_str1.png){width="80%" style="display:block; margin-left:auto; margin-right:100px; border-radius:10px;"}
 
-![](images/virus_str.png){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+![](images/virus_str.png){width="80%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
 :::
 ::::
-
 
 ## Envelope
 ::::{.columns}

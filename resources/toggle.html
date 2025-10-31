@@ -1,0 +1,54 @@
+<script>
+    // Simple night mode toggle
+    (function () {
+        'use strict';
+
+        function createToggle() {
+            if (document.getElementById('night-mode-toggle')) return;
+
+            const btn = document.createElement('button');
+            btn.id = 'night-mode-toggle';
+            btn.innerHTML = '🌙';
+            btn.title = 'Toggle Night Mode';
+            btn.style.cssText = 'position:fixed;top:10px;right:10px;width:50px;height:50px;border-radius:50%;background:#007bff;color:white;border:3px solid white;font-size:20px;cursor:pointer;z-index:100000;';
+
+            btn.onclick = function () {
+                document.body.classList.toggle('night-mode');
+                btn.innerHTML = document.body.classList.contains('night-mode') ? '☀️' : '🌙';
+            };
+
+            document.body.appendChild(btn);
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', createToggle);
+        } else {
+            createToggle();
+        }
+    })();
+</script>
+<!-- 
+<script>
+    // Display current slide title in header
+    Reveal.on('ready', function (event) {
+        updateSlideTitle(event.currentSlide);
+    });
+
+    Reveal.on('slidechanged', function (event) {
+        updateSlideTitle(event.currentSlide);
+    });
+
+    function updateSlideTitle(slide) {
+        var title = slide.querySelector('h1, h2, h3');
+        if (title) {
+            var header = document.getElementById('slide-title-header');
+            if (!header) {
+                header = document.createElement('div');
+                header.id = 'slide-title-header';
+                header.style.cssText = 'position:fixed;top:10px;left:50%;transform:translateX(-50%);font-size:0.8em;color:#333;background:rgba(255,255,255,0.9);padding:5px 15px;border-radius:5px;z-index:999;';
+                document.body.appendChild(header);
+            }
+            header.textContent = title.textContent.trim();
+        }
+    }
+</script> -->
