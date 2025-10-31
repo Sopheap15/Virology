@@ -1,14 +1,20 @@
 ---
 format: html
 toc: true
-toc-location: left
+toc-location: right
 toc-depth: 2
+resources:
+  - styles.css
+  - resources/toggle.html
 bibliography: []
 authors: []
 date: ""
 ---
 
 # Introduction to virology
+
+<!-- Ensure site styles are loaded for index (makes night-mode CSS available) -->
+<link rel="stylesheet" href="styles.css">
 
 <style>
 .quarto-title-meta, .quarto-title-meta-heading, .quarto-title-meta-contents, .quarto-title-meta-item { display: none !important; }

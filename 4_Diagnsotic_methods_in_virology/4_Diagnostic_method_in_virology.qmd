@@ -27,7 +27,7 @@ Work in groups to diagnose the possible illness and suggest appropriate laborato
 Prompt discussion on differential diagnosis: Ask students to consider possible viral causes (e.g., dengue, measles, Zika, chikungunya, rubella). Guide them to think about which laboratory tests would be most appropriate based on symptoms, travel history, and timing—such as PCR for viral genome detection, serology for antibody response, and antigen detection assays. Emphasize the importance of specimen collection timing and clinical context in selecting diagnostic methods.
 :::
 
-## Introduction {.smaller}
+## Introduction {.font14}
 
 - Why diagnostics matter:
   - Enable timely, targeted treatment and infection control
@@ -43,6 +43,8 @@ Prompt discussion on differential diagnosis: Ask students to consider possible v
 - Key challenges in viral diagnosis:
   - Timing of specimen collection and specimen quality affect sensitivity
   - Viral diversity and low loads can reduce detection rates
+
+![](images/rubbish-in-rubbish-out.jpg){ width=70% style="display: block; margin-left: auto; margin-right: auto;" }
 
 ## Specimen collection:
 
@@ -76,12 +78,12 @@ Here we see the four main groups of diagnostic techniques: morphological, immuno
 
 Key laboratory procedures:
 
-- Cytologic examination
 - Electron microscopy
 - Virus isolation and culture
+- Cytologic examination
 - Antigen/protein detection (immunoassays)
-- Genome detection (PCR / sequencing)
 - Serology (antibodies / antigens)
+- Genome detection (PCR / sequencing)
 
 ::: {.notes}
 Introduce the four broad approaches—morphology, culture, immunologic and molecular—then mention trade-offs (speed vs sensitivity vs specificity) and when each is preferred.

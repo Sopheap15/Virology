@@ -93,15 +93,19 @@ After this session the students should be able to:
 ## Pathogenesis (cont.)
 
 :::: {.columns}
-::: {.column width="60%"}
-- **Sites of Latency:**
-  - HSV-1: trigeminal ganglion
+::: {.column width="50%"}
+**Sites of Latency:**
+
+- HSV-1: trigeminal ganglion
+
+![](images/image8.png){ width=400px .absolute left=150}
+:::
+::: {.column width="50%"}
+<br>
+
   - HSV-2: sacral ganglion
 
-![](images/image9.png){ width=30% .absolute right=10}
-:::
-::: {.column width="40%"}
-![](images/image8.png){ width=20% .absolute right=10}
+![](images/image9.png){ width=400px .absolute right=50}
 :::
 ::::
 
@@ -158,12 +162,11 @@ After this session the students should be able to:
 ## Clinical manifestations: Ocular {.smaller}
 :::: {.columns}
 ::: {.column width="60%"}
-- **Ocular infection:**  
-  - Primarily caused by HSV-1 (except in neonates, where HSV-2 may be involved)
-  - Keratoconjunctivitis: infection of the cornea and conjunctiva
-  - Symptoms: pre-auricular lymphadenopathy, photophobia, eyelid edema, tearing (lacrimation)
-  - Retinitis: may develop years after initial infection
-  - HSV is a leading cause of infectious blindness due to corneal or retinal involvement
+- Primarily caused by HSV-1 (except in neonates, where HSV-2 may be involved)
+- Keratoconjunctivitis: infection of the cornea and conjunctiva
+- Symptoms: pre-auricular lymphadenopathy, photophobia, eyelid edema, tearing (lacrimation)
+- Retinitis: may develop years after initial infection
+- HSV is a leading cause of infectious blindness due to corneal or retinal involvement
 :::
 ::: {.column width="40%"}
 ![](images/image17.jpeg){ width=100% style="display: block; margin-left: auto; margin-right: auto; margin-top:70px; border-radius: 10px;"}
@@ -172,10 +175,9 @@ After this session the students should be able to:
 
 ## Clinical manifestations: CNS Involvement
 :::: {.columns}
-::: {.column width="60%"}
-- **Central nervous system (CNS):**  
-  - HSV encephalitis: severe, potentially fatal if untreated
-  - Presents with fever, altered mental status, seizures, and focal neurological deficits
+::: {.column width="60%"} 
+- HSV encephalitis: severe, potentially fatal if untreated
+- Presents with fever, altered mental status, seizures, and focal neurological deficits
 :::
 ::: {.column width="40%"}
 ![](images/image18.jpeg){ width=100% style="display: block; margin-left: auto; margin-right: auto; margin-top:35px; border-radius: 10px;"}
@@ -194,7 +196,7 @@ After this session the students should be able to:
 - **Sample:** collect from active lesions (vesicle fluid, swab)
 - **Cell lines:** Vero cells, human fibroblasts
 - **Cytopathic effects:** syncytia, ballooning cytoplasm, Cowdry type A inclusions
-- **Limitations:** needs specialized lab and viable virus
+- **Limitations:** needs specialized lab, time-consuming (2–7 days), less sensitive in latent/recurrent infections
 
 ## Additional diagnostic methods
 

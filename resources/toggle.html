@@ -1,30 +1,75 @@
 <script>
-    // Simple night mode toggle
+    // Robust night mode toggle for index and site pages
     (function () {
         'use strict';
+        if (typeof window === 'undefined') return;
+        if (window.__quartoNightModeToggleInstalled) return;
+        window.__quartoNightModeToggleInstalled = true;
+
+        const NIGHT_KEY = 'quarto-night-mode';
+        const NIGHT_BG = '#1e1e2e';
+        const NIGHT_FG = '#cdd6f4';
+
+        function applyNight(isNight) {
+            try {
+                if (isNight) {
+                    document.body.classList.add('night-mode');
+                    // enforce basic page colors in case theme CSS overrides them
+                    document.documentElement.style.backgroundColor = NIGHT_BG;
+                    document.body.style.backgroundColor = NIGHT_BG;
+                    document.body.style.color = NIGHT_FG;
+                } else {
+                    document.body.classList.remove('night-mode');
+                    document.documentElement.style.backgroundColor = '';
+                    document.body.style.backgroundColor = '';
+                    document.body.style.color = '';
+                }
+            } catch (e) { console.error(e); }
+        }
 
         function createToggle() {
-            if (document.getElementById('night-mode-toggle')) return;
+            try {
+                if (document.getElementById('night-mode-toggle')) return document.getElementById('night-mode-toggle');
 
-            const btn = document.createElement('button');
-            btn.id = 'night-mode-toggle';
-            btn.innerHTML = '🌙';
-            btn.title = 'Toggle Night Mode';
-            btn.style.cssText = 'position:fixed;top:10px;right:10px;width:50px;height:50px;border-radius:50%;background:#007bff;color:white;border:3px solid white;font-size:20px;cursor:pointer;z-index:100000;';
+                const btn = document.createElement('button');
+                btn.id = 'night-mode-toggle';
+                btn.setAttribute('aria-label', 'Toggle Night Mode');
+                btn.title = 'Toggle Night Mode';
+                btn.innerHTML = '🌙';
+                btn.style.cssText = 'position:fixed;top:10px;right:10px;width:48px;height:48px;border-radius:50%;background:#007bff;color:white;border:3px solid white;font-size:20px;cursor:pointer;z-index:2147483647;pointer-events:auto;';
 
-            btn.onclick = function () {
-                document.body.classList.toggle('night-mode');
-                btn.innerHTML = document.body.classList.contains('night-mode') ? '☀️' : '🌙';
-            };
+                btn.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    const isNight = document.body.classList.toggle('night-mode');
+                    applyNight(isNight);
+                    try { localStorage.setItem(NIGHT_KEY, isNight ? 'dark' : 'light'); } catch (err) {}
+                    try { btn.innerHTML = isNight ? '☀️' : '🌙'; } catch (err) {}
+                }, { passive: false });
 
-            document.body.appendChild(btn);
+                document.body.appendChild(btn);
+                return btn;
+            } catch (err) { console.error('createToggle error', err); }
         }
 
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', createToggle);
-        } else {
-            createToggle();
+        function init() {
+            try {
+                // restore persisted mode
+                let stored = null;
+                try { stored = localStorage.getItem(NIGHT_KEY); } catch (e) { stored = null; }
+                if (stored === 'dark') applyNight(true);
+                else if (stored === 'light') applyNight(false);
+
+                const btn = createToggle();
+                if (btn) btn.innerHTML = document.body.classList.contains('night-mode') ? '☀️' : '🌙';
+
+                // in case other scripts modify the DOM, retry creation
+                setTimeout(() => { const b = createToggle(); if (b) b.innerHTML = document.body.classList.contains('night-mode') ? '☀️' : '🌙'; }, 400);
+                setTimeout(() => { const b = createToggle(); if (b) b.innerHTML = document.body.classList.contains('night-mode') ? '☀️' : '🌙'; }, 1200);
+            } catch (err) { console.error('toggle init error', err); }
         }
+
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
     })();
 </script>
 <!-- 
