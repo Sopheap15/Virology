@@ -31,7 +31,7 @@ date: ""
 - Email: sopheap15@gmail.com
 - GitHub: [sopheap15/Virology](https://github.com/sopheap15/Virology)
 
-This course introduces viruses structure, replication, pathogenesis and diagnostic methods for clinical labroratory.
+This course introduces viruses structure, replication, pathogenesis and diagnostic methods in clinical labroratory. It also covers important human viruses including _Herpesviridae_, _Hepatitis viruses_, _Togaviruses_, _Flaviviruses_ and _Orthomyxoviruses_.
 
 ## Course learning outcomes
 

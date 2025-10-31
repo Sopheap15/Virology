@@ -44,7 +44,7 @@ After this session, students should be able to:
 
 ![](images/tabacco_mosaic_virus_infection.jpg){.absolute top=5px right=5px width="200" height="200"}
 
-![](images/tabacco_mosaic_virus.png)
+![](images/tabacco_mosaic_virus.png){style="display:block; margin-left:auto; margin-right:auto;"}
 
 
 ## Discovery of viruses (cont.)
