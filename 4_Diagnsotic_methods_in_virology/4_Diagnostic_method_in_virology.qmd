@@ -14,12 +14,14 @@ After this session the students should be able to:
 - Describe the techniques that detect viral protein to identify virus in medical laboratory
 - Illustrate the principle of ELISA and PCR technique
 
-##
-<iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed'></iframe>
+## Case vignette
 
-## Case Vignette
-A 28-year-old woman presents with fever, fatigue, and a rash. 
-She recently returned from a tropical vacation. What diagnostic tests would you consider?
+A 28-year-old woman presents with fever, fatigue, and a rash. These symptoms appeared two days ago.
+She recently returned from a tropical vacation.
+
+👉 **Task**:
+Work in groups to diagnose the possible illness and suggest appropriate laboratory tests to confirm the diagnosis.
+
 
 ::: {.notes}
 Prompt discussion on differential diagnosis: Ask students to consider possible viral causes (e.g., dengue, measles, Zika, chikungunya, rubella). Guide them to think about which laboratory tests would be most appropriate based on symptoms, travel history, and timing—such as PCR for viral genome detection, serology for antibody response, and antigen detection assays. Emphasize the importance of specimen collection timing and clinical context in selecting diagnostic methods.
@@ -84,6 +86,7 @@ Key laboratory procedures:
 ::: {.notes}
 Introduce the four broad approaches—morphology, culture, immunologic and molecular—then mention trade-offs (speed vs sensitivity vs specificity) and when each is preferred.
 :::
+
 
 ## Electron microscopy
 
@@ -200,14 +203,15 @@ Speaker note: Emphasize that molecular methods are frontline for many viruses—
 Note: Use this short animation to explain how molecules separate by size and why that's useful for identifying viral proteins or genome segments.
 :::
 
-## PCR Video
+## PCR
 <iframe src="https://www.youtube.com/embed/8GOKaZ8MRyM" title="PCR Animation"></iframe>
+further reading [here](https://cancerbiologyresearch.com/dna-extraction)
 
 ::: {.notes}
 Note: Pause on the denaturation/annealing/extension steps to explain primer design and the importance of controls.
 :::
 
-## Western Blot Video
+## Western Blot
 <iframe src="https://www.youtube.com/embed/qT_AqI-MKJc" title="Western Blot Animation"></iframe>
 
 ::: {.notes}
@@ -269,8 +273,25 @@ Genome sequencing provides detailed information about viral genetic material, en
 
 ![](images/image31.png){ width=70% } -->
 
+
+## Summary of diagnostic methods {.smaller}
+
+| Method              | Pros                                                                 | Cons                                                                 |
+|---------------------|----------------------------------------------------------------------|----------------------------------------------------------------------|
+| **PCR**            | High sensitivity/specificity; detects low loads; rapid; quantitative | Equipment needed; contamination risk; detects dead virus            |
+| **Serology**       | Detects past infection/immunity; inexpensive; easy                   | No current vs past distinction; cross-reactivity; delayed response   |
+| **Genome sequencing** | Identifies strains/variants; comprehensive; surveillance             | Expensive; slow; expertise required|
+| **ELISA**          | Sensitive antigen/antibody detection; automated; high throughput    | False positives/negatives; needs specific antibodies                 |
+| **Virus culture**  | Isolates live virus         | Slow (days/weeks); biosafety; not all viruses grow                   |
+| **Electron microscopy** | Direct visualization; identifies unknowns                           | Low sensitivity; expensive; not quantitative; limited use            |
+
+::: {.notes}
+This table summarizes the key pros and cons of common viral diagnostic methods. Use it to guide students in selecting appropriate tests based on clinical context, timing, and resources.
+:::
+
+
 # Quiz
-## Which laboratory technique is most useful for detecting non-culturable viruses such as *Rotavirus* (RV)?{.quiz-question}
+## Which laboratory technique is most useful but less sensitive for detecting non-culturable viruses such as *Rotavirus*?{.quiz-question}
   A) Cell culture
   B) [Electron microscopy]{.correct}
   C) ELISA

@@ -8,12 +8,15 @@ format:
 
 ## Objectives
 
-- List major arbovirus genera (e.g., Alphavirus, Flavivirus)
+- List major arbovirus genera (e.g., _Alphavirus_, _Flavivirus_)
 - Summarize structure and replication of alphaviruses and flaviviruses
 - Explain why arthropod vectors are required for transmission
 - Describe pathogenesis and host immune responses to infection
 - Outline clinical manifestations and modes of [transmission]{.rn rn-color=orange rn-type=circle}
 - List key laboratory diagnostic methods and prevention and treatment strategies
+
+##
+<iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/aluigjmcswmg12od3c8owbud129qj33s/embed'></iframe>
 
 ## Arbovirus genera {.font14}
 <div style="text-align:center;">
@@ -189,20 +192,9 @@ format:
 - ELISA
 
 # Case study 
-## {.smaller}
-
-**Patient vignette**
+## Instruction {.smaller}
 
 28‑year‑old with 3 days of high fever (39.5°C), severe myalgia, retro‑orbital pain, headache, nausea, maculopapular rash, early petechiae. BP 100/70, pulse 100.
-
-**Group instructions**
-
-- Groups of 4 people
-- Assign: clinician, scribe, presenter, timekeeper
-- 25 minutes discussion + 5 minutes presentation
-- Deliverable: 1 slide or 2‑minute summary
-
-**Guide questions**
 
  1. Which arthropod is the most likely vector? (consider biting behaviour and breeding sites)
  2. How would you control the vector at household and community level?

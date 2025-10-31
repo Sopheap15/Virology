@@ -16,6 +16,9 @@ After this session the students should be able to:
 - Summarize the clinical manifestations of HSV infection
 - Outline diagnostic techniques and treatment options for HSV
 
+##
+<iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/alwudzmhyqruex5vugii3ohbww7ibdix/embed'></iframe>
+
 
 ## Characteristics of HSV
 
@@ -31,7 +34,7 @@ After this session the students should be able to:
 ![](images/image2.png){ width=30% .absolute left=10}
 ![](images/image3.png){ width=40% .absolute left=500}
 
-## Multiplication
+## Multiplication {.font14}
 
 - In vitro: HSV infects permissive cells (human diploid, monkey kidney, amniotic fluid)
 - In vivo: lytic infection in fibroblasts/epithelial cells; latent infection in neurons
@@ -39,7 +42,7 @@ After this session the students should be able to:
 - Viral gene expression occurs in 3 phases:
   - Immediate early (α): gene regulation
   - Early (β): replication proteins
-  - Late (γ): structural proteins
+  - Late (γ): structural proveins
 
 <!-- ## Multiplication (cont.)
 ![](images/image4.png){ width=70% }
@@ -54,7 +57,7 @@ After this session the students should be able to:
 
 ## HSV multiplication 
 
-<iframe width="1200" height="600" src="https://www.youtube.com/embed/7RBRKQzOle8" title="HSV Multiplication" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/7RBRKQzOle8" title="HSV Multiplication"></iframe>
 
 ## Epidemiology {.smaller}
 
@@ -139,16 +142,16 @@ After this session the students should be able to:
 
 ## Clinical manifestations: HSV-2
 :::: {.columns}
-::: {.column width="60%"}
+::: {.column width="70%"}
 - **Genital herpes:** painful vesiculo-ulcerative lesions on external genitalia, perineum, or anus
 - **Lesion progression:** vesicles → pustules → ulcers
 - **Systemic symptoms:** fever, malaise, myalgia
 - **Other findings:** dysuria, inguinal lymphadenopathy
 
 :::
-::: {.column width="40%"}
-![](images/image16.png){ width=70% }
-![](images/image15.jpeg){ width=70% }
+::: {.column width="30%"}
+![](images/image16.png){ width=200px style="display:block; margin:auto;"}
+![](images/image15.jpeg){ width=300px style="display:block; margin:auto;"}
 :::
 ::::
 
@@ -163,7 +166,7 @@ After this session the students should be able to:
   - HSV is a leading cause of infectious blindness due to corneal or retinal involvement
 :::
 ::: {.column width="40%"}
-![](images/image17.jpeg){ width=100% }
+![](images/image17.jpeg){ width=100% style="display: block; margin-left: auto; margin-right: auto; margin-top:70px; border-radius: 10px;"}
 :::
 ::::
 
@@ -175,14 +178,14 @@ After this session the students should be able to:
   - Presents with fever, altered mental status, seizures, and focal neurological deficits
 :::
 ::: {.column width="40%"}
-![](images/image18.jpeg){ width=100% }
+![](images/image18.jpeg){ width=100% style="display: block; margin-left: auto; margin-right: auto; margin-top:35px; border-radius: 10px;"}
 :::
 ::::
 
 
 ## Clinical manifestations
 
-![](images/image19.png){ width=70% }
+![](images/image19.png){ width=100% style="display: block; margin-left: auto; margin-right: auto;"}
 
 
 ## Diagnostic virus isolation
@@ -193,7 +196,7 @@ After this session the students should be able to:
 - **Cytopathic effects:** syncytia, ballooning cytoplasm, Cowdry type A inclusions
 - **Limitations:** needs specialized lab and viable virus
 
-## Additional diagnostic methods {.smaller}
+## Additional diagnostic methods
 
 - **Immunological tests:** detect viral antigens (immunofluorescence, EIA); rapid but less sensitive than PCR
 - **Serology:** detects IgM (recent) and IgG (past) antibodies; differentiates HSV-1/HSV-2; useful for primary infection and epidemiology
@@ -201,7 +204,7 @@ After this session the students should be able to:
 
 ## Diagnostic virology
 
-![](images/image24.png){ width=70% }
+![](images/image24.png){ width=100% style="display: block; margin-left: auto; margin-right: auto;"}
 
 ## Diagnostic virology summary {.smaller}
 
@@ -213,14 +216,20 @@ After this session the students should be able to:
 
 *PCR is preferred for neurological/ocular cases; serology helps differentiate HSV-1 vs. HSV-2.*
 
-## Treatment
-
+## Treatment {.smaller}
+:::{.columns}
+:::{.column width="60%"}
 - **Acyclovir (acycloguanosine):** a guanine analog that selectively inhibits HSV DNA synthesis
 - **Other antivirals:** valacyclovir and famciclovir are oral prodrugs with improved bioavailability, used for HSV infections
 - **Mechanism:** these drugs block viral DNA polymerase, preventing viral replication and spread
 - **Resistance:** may occur in immunocompromised patients due to mutations in thymidine kinase or DNA polymerase
+:::
 
-![](images/image25.png){ width=70% }
+:::{.column width="40%"}
+![](images/image25.png){ width=100% style="display:block; margin-left:auto; margin-right:0;" }
+
+:::
+:::
 
 ## Treatment guidelines
 
@@ -239,7 +248,7 @@ After this session the students should be able to:
 - Practice safe sex (condoms)
 - Do not share personal items
 - Screen pregnant women; give antivirals if needed
-- Treat at-risk newborns with acyclovir
+- Treat at-risk newborns with Acyclovir
 
 # Quiz
 ## What type of genome does Herpes Simplex Virus (HSV) have?{.quiz-question}

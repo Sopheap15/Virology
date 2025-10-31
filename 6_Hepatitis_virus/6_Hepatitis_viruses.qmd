@@ -15,18 +15,38 @@ format:
 - List diagnostic methods
 - Summarize treatment options
 
+## 
+<iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/al9yxb9xihe1asymcbwqexs1a9wipw9c/embed'></iframe>
+
+## Case vignette
+
+- 32-year-old man: 7 days of fatigue, nausea, dark urine, jaundice, mild fever, abdominal discomfort
+- Recent travel to area with poor sanitation
+- Lab: elevated ALT and AST, HBsAg +
+
+**Questions:**
+
+- Typical transmission mode?
+- Tests used for diagnosis? Alternatives?
+- Prevention methods?
+
+::: {.notes}
+This case suggests acute Hepatitis B. Transmission: blood/sexual/perinatal. Tests: HBsAg, HBV DNA.
+Prevention: vaccination, safe practices.
+:::
+
 ## Introduction
+[Watch video: https://www.youtube.com/watch?v=NvJk8KzI7eQ](https://www.youtube.com/watch?v=NvJk8KzI7eQ)
+
 
 - Hepatitis: viral liver inflammation (A-E and G)
-- Key signs: jaundice, fatigue, nausea, dark urine; ↑ liver enzymes
 - Transmission: fecal–oral (A, E); blood/sexual/perinatal (B, C, D, G)
 - Outcomes: A/E usually acute; B/C/D often chronic → cirrhosis and HCC risk
 - Diagnosis: liver tests, serology/PCR
 - Prevention: vaccines (A, B)
-- Treatment: antivirals (B, C), supportive care
 
-## Introduction (cont.)
-<iframe width="1200" height="650" src="https://www.youtube.com/embed/NvJk8KzI7eQ" title="https://www.youtube.com/embed/NvJk8KzI7eQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!-- <iframe src="https://www.youtube.com/embed/NvJk8KzI7eQ" title="https://www.youtube.com/embed/NvJk8KzI7eQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 ## Comparative features of hepatitis viruses
 
@@ -40,27 +60,27 @@ format:
 
 ## Overview
 
-- Acute hepatitis by HAV (Picornaviridae, Hepatovirus)
+- Acute hepatitis by HAV (_Picornaviridae_, Hepatovirus)
 - Fecal–oral spread: contaminated food/water, shellfish, close contact
 - Incubation 15–50 days (≈25); children often asymptomatic
 - Dx: anti‑HAV IgM (acute); IgG = past infection/vaccine
 - 99% of healthy adults self-limiting, develop lifelong immunity
 - Prevention: hygiene, immune globulin post‑exposure, inactivated vaccine
 
-## Structure
+## Structure{.font14}
 :::{.columns}
-:::{.column width="60%"}
+:::{.column width="65%"}
 - Virion: non-enveloped, icosahedral, ~27 nm
 - Genome: +ssRNA (~7.5 kb) with VPg at 5′ and poly(A) tail at 3′
 - Expression: single ORF → polyprotein, cleaved into structural (VP1–VP4) and nonstructural proteins
 - Environmental stability: acid- and solvent-resistant; persists in water/food; inactivated by chlorination, adequate heat (>60 °C), formalin, or UV
 :::
-:::{.column width="40%"}
+:::{.column width="35%"}
 ![](images/image5.png){ width=100% }
 :::
 :::
 
-## Replication
+## Replication {.font14}
 
 :::{.columns}
 :::{.column width="60%"}
@@ -72,13 +92,13 @@ format:
 - Tropism: hepatocytes
 :::
 :::{.column width="40%"}
-![](images/image6.gif){ width=70% }
+![](images/image6.gif){ width=100% }
 :::
 :::
 
 ## Pathogenesis
 
-![](images/image7.png){ width=70% }
+![](images/image7.png){ width=100% style="display: block; margin-left: auto; margin-right: auto; border-radius: 8px;"}
 
 ## Pathogenesis and immunity
 - Entry: ingestion → replicates in oropharyngeal/intestine → primary viremia → hepatocytes/Kupffer cells
@@ -145,17 +165,17 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
 
 :::{.columns}
 :::{.column width="60%"}
-- Genome: dsDNA ≈3.2 kb; repairs to cccDNA in nucleus 
+- Genome: dsDNA ≈3.2 kb; repairs to cccDNA
 - Particles
   - Dane (envelop + core + DNA): infectious enveloped virion (~42 nm)
   - Subviral (envelop only): noninfectious HBsAg spheres/filaments (abundant)
 
 - Proteins
-  - HBsAg (S/M/L): envelope, attachment, vaccine target
+  - HBsAg (S/M/L): envelope, attachment
   - HBcAg: capsid
   - HBeAg: secreted marker of active replication
   - Polymerase (P): primer + reverse transcriptase + RNase H
-  - HBx: regulatory, linked to pathogenesis/oncogenesis
+  - HBx: linked to pathogenesis/oncogenesis
 :::
 :::{.column width="40%"}
 ![](images/image_dane.png){ width=80% }
@@ -193,7 +213,7 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
 ![](images/image15.png){ width=320px .absolute right=300px}
 
 
-## Pathogenesis and immunity
+## Pathogenesis and immunity {.font14}
 
 - Outcomes: asymptomatic, acute, or chronic disease
 - Transmission: blood, sexual, perinatal; virus present in various body fluids
@@ -202,7 +222,7 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
 - Clearance requires strong multispecific CD4+/CD8+ responses + anti‑HBs; weak/tolerant responses → chronicity
 - Chronic sequelae: fibrosis, cirrhosis, HCC; HBeAg/HBsAg indicate high replication
 
-## Pathogenesis and immunity
+## Pathogenesis and immunity {.font14}
 
 - Acute: hepatocellular swelling
 - Infiltrate: lymphocytes with Kupffer cell activation
@@ -252,7 +272,7 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
 
 ![](images/image21.png){ width=70% } -->
 
-## Laboratory diagnosis
+## Laboratory diagnosis{.font14}
 
 - Initial evaluation
   - Clinical assessment + LFTs ALT AST ALP total bilirubin
@@ -297,14 +317,14 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
 ## Treatment prevention and control (cont.) {.font14}
 
 - Prevention and public health
-  - Universal infant vaccination with timely birth dose within 24 hours
-  - HBIG plus vaccine for infants of HBsAg positive mothers
-  - Screening of blood organ donors and pregnant women
-  - Safe injection practices needle exchange harm reduction and safe sex counseling
+  - 💉 Infant vaccination with timely birth dose within 24 hours
+  - 🩸 Screening of blood, organ donors, and pregnant women
+  - Safe injection practices, needle exchange, harm reduction, safe sex counseling
+
+<br>
 
 - Patient counselling
-  - Explain transmission routes alcohol avoidance and adherence to monitoring and therapy
-  - Refer to hepatology or infectious diseases for treatment and long term follow up
+  - 💬 Explain transmission routes, alcohol avoidance, adherence to monitoring/therapy
 
 
 # HEPATITIS C VIRUSES
@@ -317,7 +337,7 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
 - Chronic infection → cirrhosis and hepatocellular carcinoma
 - Incubation 6–12 weeks
 
-## Structure
+## Structure{.font14}
 :::{.columns}
 :::{.column width="60%"}
 - Genus Hepacivirus
@@ -337,11 +357,11 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
 
 :::{.columns}
 :::{.column width="65%"}
-- Host: humans and chimpanzees; tropism: hepatocytes
+- Host: humans and chimpanzees
 - Entry: receptor-mediated endocytosis and endosomal fusion
 - Genome: +ssRNA functions as mRNA → translated → polyprotein 
 - Replication: (+)RNA → dsRNA replicative intermediate → new (+) genomes
-- Assembly/release: buds into ER as lipoviroparticles, secreted via VLDL pathway
+- Assembly/release: buds into ER as lipoviroparticles
 - Immune evasion: inhibits IFN signaling and apoptosis (PKR, TNF pathways)
 :::
 :::{.column width="35%"}
@@ -373,12 +393,10 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
 - Chronic: ~70–80% progress to chronic infection with risk of cirrhosis and HCC
 - Common symptom: persistent fatigue
 
-## Diagnosis
+## Diagnosis, treatment and prevention
 
 - Anti‑HCV antibody screening, confirm with HCV RNA by RT-PCR
 - Use viral load for treatment monitoring
-
-## Treatment and prevention
 
 - Direct‑acting antivirals (E.g Glecaprevir) achieve cure in >90% of cases
 - Prevent: blood screening, harm reduction (needle programs), safe tattooing, avoid alcohol
@@ -521,7 +539,7 @@ Name GBV-C: George Bush Hospital
 - Single-stranded DNA  
 - [Double-stranded DNA]{.correct}
 
-## Which Hepatitis virus is classified in the Flaviviridae family?{.quiz-question}
+## Which Hepatitis virus is classified in the _Flaviviridae_ family?{.quiz-question}
 
 - Hepatitis A  
 - Hepatitis B  
@@ -529,10 +547,3 @@ Name GBV-C: George Bush Hospital
 - Hepatitis D 
 
 ## References
-
-- Adapted from training material: Chhay Sokdalis (PharmD).
-- Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 7th ed. Elsevier; 2013.
-- Ryan KJ, Ray CG, editors. Sherris Medical Microbiology. 6th ed. McGraw-Hill; 2014.
-- Riedel S, Morse S, Mietzner T, Miller S, editors. Jawetz, Melnick & Adelberg’s Medical Microbiology. McGraw-Hill; 2019.
-- Mishra B. Textbook of Medical Virology. 2nd ed. CBS Publishers & Distributors; 2022.
-
