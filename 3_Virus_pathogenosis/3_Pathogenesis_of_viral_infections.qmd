@@ -3,8 +3,8 @@ title: "Pathogenesis of viral infections"
 format:
   revealjs
 ---
-
 ## Objectives
+<!-- 4.5h for this session -->
 
 After this session the students should be able to:
 
@@ -17,6 +17,18 @@ After this session the students should be able to:
 
 ##
 <iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/alemd3a3andpwho19varc928ymp9gnz2/embed'></iframe>
+
+
+## Group discussion {.smaller}
+
+**Analyze these viruses considering the following points:**
+*Hepatitis B virus*, *Human papillomavirus* (HPV), *Rotavirus*, *Adenovirus*, *Human immunodeficiency virus* (HIV), *Coronavirus* (SARS-CoV-2)
+
+- Transmission routes and spread mechanisms
+- Target organs and tissue tropism
+- Viral and host pathogenicity factors
+- Host defense responses and immune evasion
+- Clinical manifestations and outcomes
 
 
 ## What is viral pathogenesis?
@@ -339,7 +351,7 @@ For antigenic variation, explain how viruses change their surface proteins to es
 ##
 <iframe width="1200" height="650" src="https://www.youtube.com/embed/m-bTWGPZqhk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Host defenses
+## Host defenses {.smaller}
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -357,6 +369,7 @@ For antigenic variation, explain how viruses change their surface proteins to es
 3. **Adaptive immunity** (Third line)
 :::
 :::
+![](images/innate_adaptive.png){ width="100%" style="display: block; margin-left: auto; margin-right: auto;" }
 
 ::: {.notes}
 Now we shift from viral strategies to host defenses. The human body has three lines of defense against viruses. The first line are physical and chemical barriers that prevent viruses from even entering. The second line is innate immunity - rapid, non-specific responses that kick in immediately. The third line is adaptive immunity - specific, learned responses that take time but provide long-term protection.
@@ -501,6 +514,12 @@ Chemical barriers include antimicrobial substances in secretions. Tears contain 
 - **Types**: live attenuated, inactivated, subunit, mRNA
 - **Success examples**: polio, measles, hepatitis B, COVID-19
 
+## Herd immunity {.smaller}
+
+- Definition: indirect protection when a sufficient share of the population is immune, reducing transmission
+![](images/herdimmunity.png){ width=70% style="display: block; margin-left: auto; margin-right: auto; max-width: none;" }
+
+
 ## Clinical outcomes of virus-host interactions{.smaller}
 
 **Successful Host Defense**
@@ -575,23 +594,6 @@ B) _Influenza virus_
 C) _Rhinovirus_  
 D) _Ebola virus_  
 
-## Assignment: Case study analysis {.smaller}
 
-**Analyze the following viruses considering these points:**
-
-- Transmission routes and spread mechanisms
-- Target organs and tissue tropism
-- Viral and host pathogenicity factors
-- Host defense responses and immune evasion
-- Clinical manifestations and outcomes
-
-**Viruses to analyze:**
-
-- *Smallpox virus* - Historical perspective on viral pathogenesis
-- *Human papillomavirus* (HPV) - Chronic infection and cancer
-- *Rotavirus* - Pediatric gastroenteritis
-- *Adenovirus* - Respiratory and other infections
-- *Human immunodeficiency virus* (HIV) - Immune system targeting
-- *Coronavirus* (SARS-CoV-2) - Pandemic respiratory virus
 
 ## References

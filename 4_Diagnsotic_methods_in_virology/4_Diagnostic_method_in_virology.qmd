@@ -3,8 +3,8 @@ title: "Diagnostic Methods in Virology"
 format:
   revealjs
 ---
-
 ## Objectives
+<!-- 3h for this session -->
 
 After this session the students should be able to:
 
@@ -14,18 +14,43 @@ After this session the students should be able to:
 - Describe the techniques that detect viral protein to identify virus in medical laboratory
 - Illustrate the principle of ELISA and PCR technique
 
-## Case vignette
+##
+<iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/al6ccz3omiymnh2gqksqcew4xcju8k9u/embed'></iframe>
+
+:::{.notes}
+1. Possible virus: Dengue virus (Other differentials: Zika virus, Chikungunya virus, measles—depending on clinical details and exposure.)
+
+2. Specimen(s) to collect:
+Serum or plasma (for serology and molecular tests)
+Whole blood (for RT-PCR)
+Urine (especially for Zika virus detection)
+
+3. Diagnostic test(s):
+RT-PCR for viral RNA detection (within first 5–7 days of illness)
+IgM and IgG ELISA (for serological confirmation in later stages)
+
+:::
+
+<!-- ## Case vignette
 
 A 28-year-old woman presents with fever, fatigue, and a rash. These symptoms appeared two days ago.
 She recently returned from a tropical vacation.
 
 👉 **Task**:
-Work in groups to diagnose the possible illness and suggest appropriate laboratory tests to confirm the diagnosis.
+Work in groups to diagnose the possible illness and suggest appropriate laboratory tests to confirm the diagnosis and why? -->
 
+## Group discussion
 
-::: {.notes}
-Prompt discussion on differential diagnosis: Ask students to consider possible viral causes (e.g., dengue, measles, Zika, chikungunya, rubella). Guide them to think about which laboratory tests would be most appropriate based on symptoms, travel history, and timing—such as PCR for viral genome detection, serology for antibody response, and antigen detection assays. Emphasize the importance of specimen collection timing and clinical context in selecting diagnostic methods.
-:::
+How to diagnose these viruses and explain the principle of the tests:
+
+- *Smallpox virus* (SPV)
+- *Human papillomavirus* (HPV)
+- *Rotavirus* (RV)
+- *Adenovirus*
+- *Human immunodeficiency virus* (HIV)
+- *Coronavirus* (SARS-CoV-2)
+- *Dengue virus* (DENV)
+
 
 ## Introduction {.font14}
 
@@ -324,16 +349,6 @@ This table summarizes the key pros and cons of common viral diagnostic methods. 
   D) The amount of antibody produced
 
 
-## Assignment
 
-Diagnostic of:
-
-- *Smallpox virus* (SPV)
-- *Human papillomavirus* (HPV)
-- *Rotavirus* (RV)
-- *Adenovirus*
-- *Human immunodeficiency virus* (HIV)
-- *Coronavirus* (SARS-CoV-2)
-- *Rhabdovirus*
 
 ## References

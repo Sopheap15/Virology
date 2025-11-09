@@ -3,8 +3,8 @@ title: "Multiplication of Virus"
 format:
   revealjs
 ---
-
 ## Objectives
+<!-- 3h for this session -->
 
 By the end of this session, students will be able to:
 
@@ -18,6 +18,18 @@ By the end of this session, students will be able to:
 
 ##
 <iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/alvc2s92pgi3bz53bww5y8n8v83nn8sy/embed'></iframe>
+
+## Group discussion
+- Describe the replication cycle of the following viruses:
+
+  - *Smallpox virus*
+  - *Human papillomavirus*
+  - *Rotavirus*
+  - *Adenovirus*
+  - *HIV*
+  - *Coronavirus*
+  - *Rhabdovirus*
+
 
 ## Introduction
 - Host cells supply energy, substrates, and machinery for viral protein synthesis and genome replication
@@ -92,17 +104,13 @@ Discuss the different infection outcomes and their implications for disease prog
 <iframe src="https://www.youtube.com/embed/fH1zS7hlW54" title="Viral Replication Cycle Animation"></iframe>
 
 
-## Attachment
+## Attachment {.smaller}
 
 - **Mechanism** interaction between viral structures and host cell receptors:
   - **Naked viruses**: use capsid proteins to bind host receptors
   - **Enveloped viruses**: use glycoprotein spikes to bind host receptors
 - **Examples**:
-  - CD4 T cells → *HIV* (gp120)
-  - CD21 B cells → *Epstein-Barr virus*
-  - Sialic acid → *Influenza virus*
-
-![](images/image6.png){ width=400px .absolute right=20 bottom=40 }
+![](images/virus_receptor.png){ width="900px" style="display: block; margin-left: auto; margin-right: auto;"}
 
 
 ## Penetration
@@ -236,7 +244,7 @@ This video demonstrates how reverse transcriptase converts viral RNA into DNA, a
 - Genome type
 - Attachment strategy
 
-## Assignment
+<!-- ## Assignment
 
 Describe the replication cycle of the following viruses:
 
@@ -246,6 +254,6 @@ Describe the replication cycle of the following viruses:
   - *Adenovirus*
   - *HIV*
   - *Coronavirus*
-  - *Rhabdovirus*
+  - *Rhabdovirus* -->
 
 ## References {.smaller}

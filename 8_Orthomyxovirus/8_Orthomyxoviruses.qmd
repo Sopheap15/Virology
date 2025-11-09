@@ -5,8 +5,8 @@ format:
   revealjs
 
 ---
-
 ## Objectives
+<!-- 3h for this session -->
 
 - Illustrate structure and replication of _Orthomyxovirus_
 - Describe the pathogenesis of the virus infection

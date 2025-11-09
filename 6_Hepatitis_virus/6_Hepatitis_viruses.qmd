@@ -3,8 +3,8 @@ title: "Hepatitis Viruses"
 format:
   revealjs
 ---
-
 ## Objectives
+<!-- 3h for this session -->
 
 - Describe hepatitis virus morphology
 - Summarize key characteristics
@@ -18,21 +18,42 @@ format:
 ## 
 <iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/al9yxb9xihe1asymcbwqexs1a9wipw9c/embed'></iframe>
 
-## Case vignette
+## Group discussion
 
-- 32-year-old man: 7 days of fatigue, nausea, dark urine, jaundice, mild fever, abdominal discomfort
+- 32-year-old man: 7 days of fatigue, nausea, dark urine, jaundice, mild fever, abdominal discomfort 
 - Recent travel to area with poor sanitation
-- Lab: elevated ALT and AST, HBsAg +
+- Labs: ALT 420 U/L, AST 360 U/L (markedly elevated)
 
-**Questions:**
+**Task**
+Each group choose one hepatitis virus (A, B, C, D, E, or G).
+Find arguments for and against the case matching your assigned virus.
+What test(s) would you order to confirm or refute your diagnosis?
+After presentations, the class will vote on the most likely diagnosis.
 
-- Typical transmission mode?
-- Tests used for diagnosis? Alternatives?
-- Prevention methods?
 
 ::: {.notes}
-This case suggests acute Hepatitis B. Transmission: blood/sexual/perinatal. Tests: HBsAg, HBV DNA.
-Prevention: vaccination, safe practices.
+- Most likely: acute HBV.
+  - Strong for HBV:
+    - High ALT/AST → consistent with acute viral hepatitis.
+    - Incubation (weeks–months) fits the timeline.
+  - Weak/against HBV:
+    - Recent travel/poor sanitation favors fecal–oral viruses (HAV/HEV).
+    - HBsAg might reflect chronic carrier state, not new infection.
+
+- Other possibilities (short):
+  - HAV: fits travel/poor sanitation — test anti‑HAV IgM.
+  - HEV: fits travel, severe in pregnancy — test anti‑HEV IgM or HEV RNA.
+  - HCV/GBV‑C: less likely (usually chronic/asymptomatic) — test HCV RNA.
+  - HDV: only with HBV coinfection — test anti‑HDV IgM/HDV RNA if HBV+.
+
+- Single best tests to confirm/refute:
+  - HBV: anti‑HBc IgM (± HBV DNA)
+  - HAV: anti‑HAV IgM
+  - HEV: anti‑HEV IgM or HEV RNA
+  - HCV: HCV RNA
+  - HDV: anti‑HDV IgM or HDV RNA
+
+- Immediate actions: supportive care, monitor LFTs/INR/bilirubin; refer to hepatology if severe; vaccinate or give HBIG to contacts as indicated.
 :::
 
 ## Introduction
@@ -182,8 +203,9 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
 :::
 :::
 
-
-
+## Structure (cont.)
+![](images/image12.png){ width=35% .absolute left=100px top=100px }
+![](images/image13.png){ width=45% .absolute right=20px top=100px }
 
 <!-- ## Structure
 
@@ -193,9 +215,9 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
 
 ![](images/image11.png){ width=70% }
 
-![](images/image12.png){ width=70% }
+-->
 
-![](images/image13.png){ width=70% } -->
+
 
 ## Replication
 

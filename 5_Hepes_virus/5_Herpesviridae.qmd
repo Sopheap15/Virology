@@ -4,7 +4,7 @@ title: "Herpes Simplex Virus (HSV)"
 format:
   revealjs
 ---
-
+<!-- 1.5h for this session -->
 ## Objectives
 
 After this session the students should be able to:
@@ -31,8 +31,8 @@ After this session the students should be able to:
 
 ## Characteristics of HSV
 
-![](images/image2.png){ width=30% .absolute left=10}
-![](images/image3.png){ width=40% .absolute left=500}
+![](images/image2.png){ width=30% .absolute left=30}
+![](images/image3.png){ width=43% .absolute right=30}
 
 ## Multiplication {.font14}
 

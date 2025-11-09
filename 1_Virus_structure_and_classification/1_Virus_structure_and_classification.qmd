@@ -7,6 +7,7 @@ format:
 
 
 ## Objectives{.font14}
+<!-- Session Duration: 3 hours -->
 
 After this session, students should be able to:
 
@@ -23,9 +24,30 @@ After this session, students should be able to:
 <iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed'></iframe>
 
 
+## Group discussion
+1. Why are viruses considered obligate intracellular patho-
+gens?
+2. How does viral replication differ from cell replication?
+3. What is the function of the capsid? 
+4. What viral properties are used to classify viruses?
+5. Explain the terms: Virion, Capsid, Capsomer, Nucleocapsid, Envelope, naked, Helical, Icosahedral, Complex, Baltimore classification, negative-sense, positive-sense, single-stranded, double-stranded, transcription, replication, translation, reverse transcription
+
+
+
 ## Introduction: What is a Virus?
 
 <iframe src="https://www.youtube.com/embed/lADC0C_WeH0" title="https://www.youtube.com/embed/lADC0C_WeH0"></iframe>
+
+<!-- ## Discussion Question
+1. Why are viruses considered obligate intracellular patho-
+gens?
+2. How does viral replication differ from cell replication?
+3. What is the function of the capsid? 
+4. What viral properties are used to classify viruses?
+
+words:
+Virion, Capsid, Capsomer, Nucleocapsid, Envelope, naked, Helical, Icosahedral, Complex, Baltimore classification, negative-sense, positive-sense, single-stranded, double-stranded, transcription, replication, translation, reverse transcription
+ -->
 
 ## Introduction (cont.)
 - Viruses cause a wide range of diseases in humans, animals, and plants
@@ -44,7 +66,7 @@ After this session, students should be able to:
 
 ![](images/tabacco_mosaic_virus_infection.jpg){.absolute top=5px right=5px width="200" height="200"}
 
-![](images/tabacco_mosaic_virus.png){style="display:block; margin-left:auto; margin-right:auto;"}
+![](images/tabacco_mosaic_virus.png){style="display:block; margin-left:auto; margin-right:auto;" .lightbox}
 
 
 ## Discovery of viruses (cont.)
@@ -66,7 +88,7 @@ After this session, students should be able to:
 
 ![](images/1200px-Ebola_virus_em.jpg){width="50%" style="border-radius:10px;"}
 
-![](images/virus_size.png){width="100%" style="border-radius:10px;"}
+![](images/virus_size.png){width="100%" style="border-radius:10px;" .lightbox}
 :::
 
 ::::

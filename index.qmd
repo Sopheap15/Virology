@@ -4,7 +4,7 @@ toc: true
 toc-location: right
 toc-depth: 2
 resources:
-  - styles.css
+  - _extensions/custom-theme/styles.css
   - resources/toggle.html
 bibliography: []
 authors: []
@@ -14,7 +14,7 @@ date: ""
 # Introduction to virology
 
 <!-- Ensure site styles are loaded for index (makes night-mode CSS available) -->
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="_extensions/custom-theme/styles.css">
 
 <style>
 .quarto-title-meta, .quarto-title-meta-heading, .quarto-title-meta-contents, .quarto-title-meta-item { display: none !important; }
@@ -41,16 +41,19 @@ This course introduces viruses structure, replication, pathogenesis and diagnost
 - Describe control, prevention and treatment strategies
 
 ## Course outline
+
 Click a unit to open the associated HTML lesson.
 
-- Unit 1 — Structure & classification of viruses — <a href="1_Virus_structure_and_classification/1_Virus_structure_and_classification.html" target="_blank" rel="noopener">Open</a>
-- Unit 2 — Virus multiplication — <a href="2_Virus_multiplication/2_Multiplication_of_virus.html" target="_blank" rel="noopener">Open</a>
-- Unit 3 — Pathogenesis of viral infections — <a href="3_Virus_pathogenosis/3_Pathogenesis_of_viral_infections.html" target="_blank" rel="noopener">Open</a>
-- Unit 4 — Diagnostic methods in virology — <a href="4_Diagnsotic_methods_in_virology/4_Diagnostic_method_in_virology.html" target="_blank" rel="noopener">Open</a>
-- Unit 5 — Herpesviridae — <a href="5_Hepes_virus/5_Herpesviridae.html" target="_blank" rel="noopener">Open</a>
-- Unit 6 — Hepatitis viruses — <a href="6_Hepatitis_virus/6_Hepatitis_viruses.html" target="_blank" rel="noopener">Open</a>
-- Unit 7 — Togaviruses & Flaviviruses — <a href="7_Togavirus_and_flavivirus/7_Togaviruses_and_Flaviviruses.html" target="_blank" rel="noopener">Open</a>
-- Unit 8 — Orthomyxoviruses — <a href="8_Orthomyxovirus/8_Orthomyxoviruses.html" target="_blank" rel="noopener">Open</a>
+| Unit | Topic | Hours | Lesson |
+|------|-------|:-----:|--------|
+| 1 | Structure & classification of viruses | 3h | <a href="1_Virus_structure_and_classification/1_Virus_structure_and_classification.html" target="_blank" rel="noopener">Open</a> |
+| 2 | Virus multiplication | 3h | <a href="2_Virus_multiplication/2_Multiplication_of_virus.html" target="_blank" rel="noopener">Open</a> |
+| 3 | Pathogenesis of viral infections | 4.5h | <a href="3_Virus_pathogenosis/3_Pathogenesis_of_viral_infections.html" target="_blank" rel="noopener">Open</a> |
+| 4 | Diagnostic methods in virology | 3h | <a href="4_Diagnsotic_methods_in_virology/4_Diagnostic_method_in_virology.html" target="_blank" rel="noopener">Open</a> |
+| 5 | Herpesviridae | 1.5h | <a href="5_Hepes_virus/5_Herpesviridae.html" target="_blank" rel="noopener">Open</a> |
+| 6 | Hepatitis viruses | 3h | <a href="6_Hepatitis_virus/6_Hepatitis_viruses.html" target="_blank" rel="noopener">Open</a> |
+| 7 | Togaviruses & Flaviviruses | 3h | <a href="7_Togavirus_and_flavivirus/7_Togaviruses_and_Flaviviruses.html" target="_blank" rel="noopener">Open</a> |
+| 8 | Orthomyxoviruses | 3h | <a href="8_Orthomyxovirus/8_Orthomyxoviruses.html" target="_blank" rel="noopener">Open</a> |
 
 ## Resources
 Some textbooks can be found [here.](https://drive.google.com/drive/folders/1_VGpyYKYS5LQSiQijcrXu-48HWexPc-7?usp=sharing)

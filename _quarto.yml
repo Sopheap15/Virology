@@ -14,6 +14,8 @@ bibliography: resources/reference.bib
 nocite: '@*'
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/vancouver.csl
 
+light-box: true
+
 format:
   revealjs:
     theme: simple
@@ -67,11 +69,11 @@ format:
       alwaysVisible: false
       tailLength: 15
 
-    css: ["styles.css"]
+    css: ["../_extensions/custom-theme/styles.css"]
 
 resources:
-  - styles.css
-  - resources/toggle.html
+  - ../_extensions/custom-theme/styles.css
+  - ../resources/toggle.html
 
 # Global header includes (inserted into every page head)
 include-in-header: "_extensions/cursor-tail/cursor-tail.html"
