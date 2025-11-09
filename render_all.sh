@@ -8,7 +8,7 @@ for dir in */; do
         for file in [0-9]*_*.qmd; do
             if [ -f "$file" ]; then
                 echo "Rendering $file..."
-                quarto render "$file" --to html
+                quarto render "$file"
             fi
         done
         cd .. || exit

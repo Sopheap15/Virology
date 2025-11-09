@@ -3,6 +3,7 @@ title: "Pathogenesis of viral infections"
 format:
   revealjs
 ---
+
 ## Objectives
 <!-- 4.5h for this session -->
 
@@ -19,7 +20,7 @@ After this session the students should be able to:
 <iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/alemd3a3andpwho19varc928ymp9gnz2/embed'></iframe>
 
 
-## Group discussion {.smaller}
+## Group discussion {.font14}
 
 **Analyze these viruses considering the following points:**
 *Hepatitis B virus*, *Human papillomavirus* (HPV), *Rotavirus*, *Adenovirus*, *Human immunodeficiency virus* (HIV), *Coronavirus* (SARS-CoV-2)

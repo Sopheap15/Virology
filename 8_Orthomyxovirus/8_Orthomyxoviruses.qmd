@@ -16,8 +16,19 @@ format:
 - List the techniques for dignostic
 - Describe the treatment
 
-## 
-<iframe sandbox='allow-scripts allow-same-origin allow-presentation'  src='https://www.mentimeter.com/app/presentation/alv92iirw132398v4yb6atfaj4ij2pzf/embed'></iframe>
+##
+<iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/alv92iirw132398v4yb6atfaj4ij2pzf/embed'></iframe>
+
+
+## Group Discussion
+Divide in 5 groups and each group work on a bullet point below:
+
+- Illustrate the structure and replication of _Orthomyxovirus_.
+- Describe the pathogenesis of the virus infection.
+- Describe the immune response against _Orthomyxovirus_.
+- Explain how _Orthomyxovirus_ is transmitted and describe the clinical manifestations.
+- List the techniques for diagnosis and describe the treatment options.
+
 
 ## Introduction{.font14}
 

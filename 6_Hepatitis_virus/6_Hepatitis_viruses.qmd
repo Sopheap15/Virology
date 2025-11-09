@@ -30,7 +30,6 @@ Find arguments for and against the case matching your assigned virus.
 What test(s) would you order to confirm or refute your diagnosis?
 After presentations, the class will vote on the most likely diagnosis.
 
-
 ::: {.notes}
 - Most likely: acute HBV.
   - Strong for HBV:

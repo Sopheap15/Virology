@@ -3,6 +3,7 @@ title: "Multiplication of Virus"
 format:
   revealjs
 ---
+
 ## Objectives
 <!-- 3h for this session -->
 
@@ -20,7 +21,7 @@ By the end of this session, students will be able to:
 <iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/alvc2s92pgi3bz53bww5y8n8v83nn8sy/embed'></iframe>
 
 ## Group discussion
-- Describe the replication cycle of the following viruses:
+- Describe the multiplication of the following viruses:
 
   - *Smallpox virus*
   - *Human papillomavirus*

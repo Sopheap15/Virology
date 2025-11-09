@@ -24,14 +24,15 @@ After this session, students should be able to:
 <iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed'></iframe>
 
 
-## Group discussion
+## Group discussion{.font14}
 1. Why are viruses considered obligate intracellular patho-
 gens?
 2. How does viral replication differ from cell replication?
-3. What is the function of the capsid? 
-4. What viral properties are used to classify viruses?
-5. Explain the terms: Virion, Capsid, Capsomer, Nucleocapsid, Envelope, naked, Helical, Icosahedral, Complex, Baltimore classification, negative-sense, positive-sense, single-stranded, double-stranded, transcription, replication, translation, reverse transcription
-
+3. What is the function of the capsid?
+4. What is the significance of the viral envelope?
+5. What viral properties are used to classify viruses?
+6. How is the Baltimore classification system organized?
+7. Explain the terms: Virion, Capsid, Capsomer, Nucleocapsid, Envelope, naked, Helical, Icosahedral, Complex, Baltimore classification, negative-sense, positive-sense, single-stranded, double-stranded, transcription, replication, translation, reverse transcription
 
 
 ## Introduction: What is a Virus?

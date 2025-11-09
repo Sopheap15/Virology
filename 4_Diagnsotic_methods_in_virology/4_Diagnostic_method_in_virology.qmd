@@ -3,6 +3,7 @@ title: "Diagnostic Methods in Virology"
 format:
   revealjs
 ---
+
 ## Objectives
 <!-- 3h for this session -->
 
@@ -16,6 +17,46 @@ After this session the students should be able to:
 
 ##
 <iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/al6ccz3omiymnh2gqksqcew4xcju8k9u/embed'></iframe>
+
+:::{.notes}
+What is a key challenge in viral diagnostics that can lead to false negatives?
+A) Overly sensitive tests
+B) Low viral load and timing of specimen collection
+C) Excessive lab automation
+D) Patient age
+
+Correct Answer: B (Low viral load and poor timing can reduce detection rates.)
+Name a diagnostic method that directly detects viral genetic material in a sample.
+Expected Answer: PCR (or nucleic acid amplification tests like RT-PCR).
+
+What is the primary advantage of using cell culture for viral diagnosis?
+A) It's the cheapest method
+B) It allows virus isolation and further characterization
+C) It only detects antibodies
+D) It requires no special equipment
+
+Correct Answer: B (Cell culture grows the virus for identification and study.)
+
+Which diagnostic technique is best for detecting viral antigens in a patient's blood?
+Expected Answer: ELISA (or immunoassays that detect antigens).
+
+Which diagnostic approach measures the host's immune response to a virus?
+A) Direct antigen detection
+B) Nucleic acid amplification
+C) Serology (antibody testing)
+D) Virus isolation
+
+Correct Answer: C (Serology tests for antibodies produced by the immune system.)
+:::
+
+## Case study {.font14}
+A 28-year-old woman presents with fever, fatigue, and a rash. These symptoms appeared two days ago. She recently returned from a tropical vacation.
+
+1. What viral infection could most likely be responsible for her illness?
+2. What specimen(s) would you collect for laboratory diagnosis?
+3. When is the best time to collect the specimen — at symptom onset or later — and why does timing matter?
+4. What laboratory test(s) can be performed to confirm the suspected viral infection?
+
 
 :::{.notes}
 1. Possible virus: Dengue virus (Other differentials: Zika virus, Chikungunya virus, measles—depending on clinical details and exposure.)
