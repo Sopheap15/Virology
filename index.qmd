@@ -29,7 +29,6 @@ date: ""
 - Year: 2025
 - Instructor: Sopheap Oeng
 - Email: sopheap15@gmail.com
-- GitHub: [sopheap15/Virology](https://github.com/sopheap15/Virology)
 
 This course introduces viruses structure, replication, pathogenesis and diagnostic methods in clinical labroratory. It also covers important human viruses including _Herpesviridae_, _Hepatitis viruses_, _Togaviruses_, _Flaviviruses_ and _Orthomyxoviruses_.
 
@@ -54,6 +53,16 @@ Click a unit to open the associated HTML lesson.
 | 6 | Hepatitis viruses | 3h | <a href="6_Hepatitis_virus/6_Hepatitis_viruses.html" target="_blank" rel="noopener">Open</a> |
 | 7 | Togaviruses & Flaviviruses | 3h | <a href="7_Togavirus_and_flavivirus/7_Togaviruses_and_Flaviviruses.html" target="_blank" rel="noopener">Open</a> |
 | 8 | Orthomyxoviruses | 3h | <a href="8_Orthomyxovirus/8_Orthomyxoviruses.html" target="_blank" rel="noopener">Open</a> |
+| 9 |  Midterm exam | 1h? | UPOP- MCQ, Matching, Short answer |
+| 10 | Final exam | 1h? | UPOP- MCQ, Matching, Short answer |
 
-## Resources
+## Grading policy
+-  Midterm exam: 40%
+-  Final exam: 60%
+- Passing score (Midterm + Final): >60%
+
+## Other policies
+Refer to the course syllabus general bacteriology and virology 2025.
+
+## Learning resources
 Some textbooks can be found [here.](https://drive.google.com/drive/folders/1_VGpyYKYS5LQSiQijcrXu-48HWexPc-7?usp=sharing)

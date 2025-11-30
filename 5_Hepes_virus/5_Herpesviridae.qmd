@@ -44,20 +44,11 @@ After this session the students should be able to:
   - Early (β): replication proteins
   - Late (γ): structural proveins
 
-<!-- ## Multiplication (cont.)
-![](images/image4.png){ width=70% }
-
-## Multiplication
-
-- Assembly and release
-
-![](images/image5.png){ width=70% }
-
-![](images/image6.png){ width=70% } -->
 
 ## HSV multiplication 
 
 <iframe src="https://www.youtube.com/embed/7RBRKQzOle8" title="HSV Multiplication"></iframe>
+https://www.youtube.com/embed/7RBRKQzOle8
 
 ## Epidemiology {.smaller}
 

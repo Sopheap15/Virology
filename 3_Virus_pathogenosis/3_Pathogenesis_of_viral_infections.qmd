@@ -47,6 +47,7 @@ After this session the students should be able to:
 ## Viral pathogenesis
 
 <iframe src="https://www.youtube.com/embed/VURzDTCEovE" title="https://www.youtube.com/embed/VURzDTCEovE"></iframe>
+https://www.youtube.com/embed/VURzDTCEovE
 
 
 ## Virus-Host interaction outcomes {.smaller}
@@ -351,6 +352,7 @@ For antigenic variation, explain how viruses change their surface proteins to es
 
 ##
 <iframe width="1200" height="650" src="https://www.youtube.com/embed/m-bTWGPZqhk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/m-bTWGPZqhk
 
 ## Host defenses {.smaller}
 
@@ -540,24 +542,6 @@ Chemical barriers include antimicrobial substances in secretions. Tears contain 
 - **Persistent infection**: continued viral replication
 - **Immunopathology**: excessive immune response causing damage
 
-<!-- ## Summary
-
-**The Learning Objectives Achieved:**
-
-- **Virus-Host Interaction**: Complex interplay determining disease outcome
-- **Transmission Routes**: Multiple pathways of viral entry
-- **Viral Spread**: Mechanisms of dissemination in the body
-- **Target Organs**: Tissue tropism and organ-specific infections
-- **Viral Pathogenicity**: Factors that enhance viral disease-causing ability
-- **Host Pathogenicity**: Host factors affecting susceptibility and severity
-- **Host Defense**: Multi-layered immune protection against viruses
-
-**Clinical Relevance:**
-- Understanding pathogenesis guides **treatment strategies**
-- Knowledge of transmission routes enables **prevention measures**
-- Recognition of risk factors helps **identify vulnerable populations**
-- Immune mechanisms inform **vaccine development** -->
-
 # Quiz
 
 ## Which of the following is the primary mechanism by which _Influenza virus_ spreads systemically in the body?{.quiz-question}
@@ -594,7 +578,6 @@ A) [_Zika virus_]{.correct}
 B) _Influenza virus_  
 C) _Rhinovirus_  
 D) _Ebola virus_  
-
 
 
 ## References

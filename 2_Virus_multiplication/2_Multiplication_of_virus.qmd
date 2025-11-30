@@ -103,6 +103,7 @@ Discuss the different infection outcomes and their implications for disease prog
 
 ## Virus multiplication steps
 <iframe src="https://www.youtube.com/embed/fH1zS7hlW54" title="Viral Replication Cycle Animation"></iframe>
+https://www.youtube.com/embed/fH1zS7hlW54
 
 
 ## Attachment {.smaller}
@@ -181,6 +182,7 @@ Discuss the different infection outcomes and their implications for disease prog
 ## Example of reverse transcriptase virus
 
 <iframe src="https://www.youtube.com/embed/PlSvywlLuNw" title="Reverse Transcriptase Mechanism"></iframe>
+https://www.youtube.com/embed/PlSvywlLuNw
 
 ::: {.notes}
 This video demonstrates how reverse transcriptase converts viral RNA into DNA, a crucial step in retroviral replication that also serves as an important antiviral drug target.
@@ -244,17 +246,5 @@ This video demonstrates how reverse transcriptase converts viral RNA into DNA, a
 - [Host cell survival and release mechanism]{.correct}
 - Genome type
 - Attachment strategy
-
-<!-- ## Assignment
-
-Describe the replication cycle of the following viruses:
-
-  - *Smallpox virus*
-  - *Human papillomavirus*
-  - *Rotavirus*
-  - *Adenovirus*
-  - *HIV*
-  - *Coronavirus*
-  - *Rhabdovirus* -->
 
 ## References {.smaller}

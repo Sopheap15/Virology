@@ -85,6 +85,7 @@ format:
 ## Arbovirus genera (cont.)
 
 <iframe src="https://www.youtube.com/embed/AKguPkfRuuM" title="https://www.youtube.com/embed/AKguPkfRuuM"></iframe>
+https://www.youtube.com/embed/AKguPkfRuuM
 
 ## Structure and replication Alphaviruses (_Togaviridae_) {.smaller}
 
@@ -158,6 +159,7 @@ format:
 
 ## Clinical manifestations (cont.)
 <iframe src="https://www.youtube.com/embed/_mo-vJDBm8Y" title="https://www.youtube.com/embed/_mo-vJDBm8Y"></iframe>
+https://www.youtube.com/embed/_mo-vJDBm8Y
 
 ## Techniques for detection
 

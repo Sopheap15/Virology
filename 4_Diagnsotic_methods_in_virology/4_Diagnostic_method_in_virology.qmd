@@ -177,6 +177,7 @@ Electron microscopy provides direct visualization of viruses. It's particularly 
 
 ## Electron microscopy (cont.)
 <iframe src="https://www.youtube.com/embed/9DnnxvS6BBQ" title="https://www.youtube.com/embed/9DnnxvS6BBQ"></iframe>
+https://www.youtube.com/embed/9DnnxvS6BBQ
 
 ## Cell culture {.smaller}
 
@@ -222,7 +223,7 @@ Speaker tip: When discussing CPE, show 1–2 example images and explain how time
 
 ##
 <iframe src="https://www.youtube.com/embed/R2SOETtw9YA" title="https://www.youtube.com/embed/R2SOETtw9YA"></iframe>
-
+https://www.youtube.com/embed/R2SOETtw9YA
 
 ## Detection of viral proteins
 
@@ -266,6 +267,7 @@ Speaker note: Emphasize that molecular methods are frontline for many viruses—
 
 ## Electrophoresis
 <iframe src="https://www.youtube.com/embed/IeNcg9uK17M" title="Electrophoresis Animation"></iframe>
+https://www.youtube.com/embed/IeNcg9uK17M
 
 ::: {.notes}
 Note: Use this short animation to explain how molecules separate by size and why that's useful for identifying viral proteins or genome segments.
@@ -273,6 +275,7 @@ Note: Use this short animation to explain how molecules separate by size and why
 
 ## PCR
 <iframe src="https://www.youtube.com/embed/8GOKaZ8MRyM" title="PCR Animation"></iframe>
+https://www.youtube.com/embed/8GOKaZ8MRyM
 further reading [here](https://cancerbiologyresearch.com/dna-extraction)
 
 ::: {.notes}
@@ -281,6 +284,7 @@ Note: Pause on the denaturation/annealing/extension steps to explain primer desi
 
 ## Western Blot
 <iframe src="https://www.youtube.com/embed/qT_AqI-MKJc" title="Western Blot Animation"></iframe>
+https://www.youtube.com/embed/qT_AqI-MKJc
 
 ::: {.notes}
 Note: Point out how Western blot confirms protein identity and is often used to validate ELISA results.
@@ -296,6 +300,7 @@ indirect fluorescent antibody, latex agglutination, ELISA, and Western blot
 
 ## 
 <iframe src="https://www.youtube.com/embed/rudWavg0eRg" title="Immunofluorescence Animation"></iframe>
+https://www.youtube.com/embed/rudWavg0eRg
 
 ::: {.notes}
 Serology detects the host's immune response to viruses. It's useful for retrospective diagnosis and monitoring immunity.
@@ -304,6 +309,7 @@ Serology detects the host's immune response to viruses. It's useful for retrospe
 ## ELISA
 
 <iframe src="https://www.youtube.com/embed/ERk0hwqhyDw" title="Immunofluorescence Animation"></iframe>
+https://www.youtube.com/embed/ERk0hwqhyDw
 
 ::: {.notes}
 Note: Clarify direct vs indirect ELISA briefly and when ELISA is preferred (high-throughput antigen/antibody screening).
@@ -312,6 +318,7 @@ Note: Clarify direct vs indirect ELISA briefly and when ELISA is preferred (high
 ## Hemagglutination
 
 <iframe src="https://www.youtube.com/embed/su49ibJhdmw" title="Hemagglutination"></iframe>
+https://www.youtube.com/embed/su49ibJhdmw
 
 ::: {.notes}
 Note: Explain hemagglutination as a simple, low-cost assay for certain viruses (e.g., influenza); mention limitations in sensitivity.
@@ -332,14 +339,7 @@ Genome sequencing provides detailed information about viral genetic material, en
 ## Genome sequencing
 
 <iframe src="https://www.youtube.com/embed/EDVKxSNdSic" title="https://www.youtube.com/embed/EDVKxSNdSic"></iframe>
-
-<!-- ## Molecular Techniques
-
-![](images/image30.png){ width=70% }
-
-## Selected Immunologic Techniques
-
-![](images/image31.png){ width=70% } -->
+https://www.youtube.com/embed/EDVKxSNdSic
 
 
 ## Summary of diagnostic methods {.smaller}
@@ -388,8 +388,6 @@ This table summarizes the key pros and cons of common viral diagnostic methods. 
   B) The dilution lethal to 50% of animals
   C) The number of viral genomes
   D) The amount of antibody produced
-
-
 
 
 ## References

@@ -66,8 +66,6 @@ After presentations, the class will vote on the most likely diagnosis.
 - Prevention: vaccines (A, B)
 
 
-<!-- <iframe src="https://www.youtube.com/embed/NvJk8KzI7eQ" title="https://www.youtube.com/embed/NvJk8KzI7eQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-
 ## Comparative features of hepatitis viruses
 
 ![](images/image3.png){ width=100% style="display: block; margin-left: auto; margin-right: auto; border-radius: 8px;" }
@@ -206,17 +204,6 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
 ![](images/image12.png){ width=35% .absolute left=100px top=100px }
 ![](images/image13.png){ width=45% .absolute right=20px top=100px }
 
-<!-- ## Structure
-
-![](images/image9.png){ width=70% }
-
-![](images/image10.png){ width=70% }
-
-![](images/image11.png){ width=70% }
-
--->
-
-
 
 ## Replication
 
@@ -285,18 +272,10 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
 ![](images/image_a_and_c.png){ width=100% style="display: block; margin-left: auto; margin-right: auto; border-radius: 8px;" }
 
 
-<!-- ![](images/image18.png){ width=70% }
-
-![](images/image19.png){ width=70% }
-
-![](images/image20.png){ width=70% }
-
-![](images/image21.png){ width=70% } -->
-
 ## Laboratory diagnosis{.font14}
 
 - Initial evaluation
-  - Clinical assessment + LFTs ALT AST ALP total bilirubin
+  - Clinical assessment + LFTs: ALT AST ALP total bilirubin
   - CBC and coagulation INR if severe
 
 - Staging and specimens
@@ -313,9 +292,12 @@ Global burden: >250 million chronic infections and ~1 million deaths/year
   - HBeAg — high replication and infectivity
   - Anti-HBs — immunity from recovery or vaccine
   - Anti-HBc IgM — recent infection
-  - Anti-HBc total — prior or current infection not from vaccine
+  - Anti-HBc IgG — past or chronic infection not from vaccine
 
 ![](images/image22.png){ width=100% style="display: block; margin-left: auto; margin-right: auto; border-radius: 8px;" }
+
+## Laboratory diagnosis (cont.)
+Why does the presence of anti‑HBc indicate natural infection rather than vaccination?
 
 :::{.notes}
 - HBeAg: secreted during active replication; indicates high infectivity

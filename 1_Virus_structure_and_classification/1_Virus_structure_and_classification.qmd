@@ -15,16 +15,16 @@ After this session, students should be able to:
 - Define what a virus is  
 - Define capsomer, capsid, genome, nucleocapsid, and envelope  
 - Differentiate the 3 structural components of viruses  
-- Mention 3 types of capsid symmetry  
 - Describe the nature of the viral envelope  
 - Explain the epidemiological consequences of having an envelope  
 - List the main criteria for classifying viruses  
 
 ##
-<iframe sandbox='allow-scripts allow-same-origin allow-presentation' src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed'></iframe>
+<iframe sandbox='allow-scripts allow-same-origin allow-presentation' 
+src='https://www.mentimeter.com/app/presentation/ale1c8aj5b79by1ucxsxqcxcounadjzy/embed'></iframe>
 
 
-## Group discussion{.font14}
+## Group discussion{.smaller}
 1. Why are viruses considered obligate intracellular patho-
 gens?
 2. How does viral replication differ from cell replication?
@@ -34,21 +34,17 @@ gens?
 6. How is the Baltimore classification system organized?
 7. Explain the terms: Virion, Capsid, Capsomer, Nucleocapsid, Envelope, naked, Helical, Icosahedral, Complex, Baltimore classification, negative-sense, positive-sense, single-stranded, double-stranded, transcription, replication, translation, reverse transcription
 
+- 50 mins preparation
+- 2 groups: 10 minutes presentation + 5 mins questions + 5 min quiz
+- Presenters are evaluated on reliable sources, accuracy, presentation skills, slide and time management, and handling questions
+- The group of audiences are evaluated based on their quiz results
+
 
 ## Introduction: What is a Virus?
 
 <iframe src="https://www.youtube.com/embed/lADC0C_WeH0" title="https://www.youtube.com/embed/lADC0C_WeH0"></iframe>
+https://www.youtube.com/watch?v=lADC0C_WeH0
 
-<!-- ## Discussion Question
-1. Why are viruses considered obligate intracellular patho-
-gens?
-2. How does viral replication differ from cell replication?
-3. What is the function of the capsid? 
-4. What viral properties are used to classify viruses?
-
-words:
-Virion, Capsid, Capsomer, Nucleocapsid, Envelope, naked, Helical, Icosahedral, Complex, Baltimore classification, negative-sense, positive-sense, single-stranded, double-stranded, transcription, replication, translation, reverse transcription
- -->
 
 ## Introduction (cont.)
 - Viruses cause a wide range of diseases in humans, animals, and plants
@@ -56,7 +52,7 @@ Virion, Capsid, Capsomer, Nucleocapsid, Envelope, naked, Helical, Icosahedral, C
 - Other viruses: cause severe diseases (e.g., *HIV*, *Ebola*, *SARS-CoV-2*)
 
 ## Virus vs Cells
-![](images/virus_cell.png){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+![](images/virus_cell.png){width="100%" style="display:block; margin-left:auto; margin-right:auto;"}
 
 ## Discovery of viruses
 
@@ -87,15 +83,15 @@ Virion, Capsid, Capsomer, Nucleocapsid, Envelope, naked, Helical, Icosahedral, C
 
 ::: {.column width="30%"}
 
-![](images/1200px-Ebola_virus_em.jpg){width="50%" style="border-radius:10px;"}
+![](images/1200px-Ebola_virus_em.jpg){width="50%""}
 
-![](images/virus_size.png){width="100%" style="border-radius:10px;" .lightbox}
+![](images/virus_size.png){width="100%" .lightbox}
 :::
 
 ::::
 
 ## 
-![](images/image13.png){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
+![](images/image13.png){width="100%" style="display:block; margin-left:auto; margin-right:auto;"}
 
 ## General structure of viruses
 
@@ -106,13 +102,16 @@ Virion, Capsid, Capsomer, Nucleocapsid, Envelope, naked, Helical, Icosahedral, C
 ![](images/gen_str.jpg){width="100%" style="display:block; margin-left:auto; margin-right:auto; border-radius:10px;"}
 
 
-## Genome
+## Genome {.font14}
 
 - Made of **DNA or RNA**
 - May be **single-stranded (ss)** or **double-stranded (ds)**  
 - Can be **linear, circular, or segmented**
 
-![](images/virus_genome.png){width="70%" fig-align="center"}
+![](images/virus_genome.png){width="600" .absolute bottom="20" left="100"}
+
+
+![](images/coronavirus.jpeg){width="25%" .absolute bottom="100" right="200"}
 
 
 ## Capsomer & Capsid {.smaller}
